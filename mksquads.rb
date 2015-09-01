@@ -34,14 +34,32 @@ CLUB_KEY = {
   'FC Augsburg'          => 'augsburg',
   'FC Ingolstadt 04'     => 'ingolstadt',
   'FC Schalke 04'        => 'schalke',
-  'Hamburger SV'         => 'hsv',   ## change to hamburg!!
+  'Hamburger SV'         => 'hamburg',   ## change to hamburg!!
   'Hannover 96'          => 'hannover',
   'Hertha BSC'           => 'herthabsc',
   'SV Darmstadt 98'      => 'darmstadt',
   'TSG Hoffenheim'       => 'hoffenheim',
   'VfB Stuttgart'        => 'stuttgart',
   'VfL Wolfsburg'        => 'wolfsburg',
-  'Werder Bremen'        => 'bremen'
+  'Werder Bremen'        => 'bremen',
+  'VfL Bochum'           => 'bochum'
+  'SC Freiburg'          => 'freiburg'
+  '1. FC Heidenheim'     => 'heidenheim'
+  'FC St. Pauli'         => 'pauli'
+   'RasenBallsport Leipzig' => 'leipzig'
+  '1. FC Kaiserslautern' => 'kaiserslautern'
+  'SV Sandhausen'        => 'sandhausen'
+  'Eintracht Braunschweig' => 'braunschweig'
+  'FSV Frankfurt'        => 'fsvfrankfurt'
+  '1. FC Nürnberg'       => 'nuernberg'
+  'Arminia Bielefeld'    => 'bielefeld'
+  'Karlsruher SC'        => 'karlsruhe'
+  'SpVgg Greuther Fürth' => 'fuerth'
+  '1. FC Union Berlin'   => 'unionberlin'
+  'SC Paderborn 07'      => 'paderborn'
+  '1860 München'         => '1860muenchen'
+  'MSV Duisburg'         => 'duisburg'
+  'Fortuna Düsseldorf'   => 'duesseldorf'
 }
 
 
