@@ -115,8 +115,8 @@ SORT_POSITION = {
 ###
 ## missing nummber is xx  -- what to do? set to ? or empty string ???
 
-out_root = './build/de-deutschland'
-
+## out_root = './build/de-deutschland'
+out_root = '../../openfootball/de-deutschland/2015-16/squads'
 
 clubs.each_with_index do |(k,v), i|
   club       = k
