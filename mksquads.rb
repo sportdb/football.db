@@ -1,79 +1,27 @@
 # encoding: utf-8
 
+## stdlibs
 require 'json'
 require 'pp'
 
+## 3rd party libs/gems
 require 'textutils'
 
-text = File.read_utf8( './squads.json' )
+## our own code
+require './countries'
+
+
+
+################################
+# note: for now "hard-coded" for de-deutschland/2015-16
+#   make more "generic" as more import data gets used
+
+
+text = File.read_utf8( './de-deutschland/2015-16/1-bundesliga-squads.json' )
 
 clubs = JSON.parse( text )
 
 ## pp h
-
-COUNTRY_CODE = {
-  ## europe
-  'Deutschland' => 'GER',
-  'Österreich'  => 'AUT',
-  'Dänemark'    => 'DEN',
-  'Slowenien'   => 'SVN',
-  'Slowakei'    => 'SVK',
-  'Polen'       => 'POL',
-  'Albanien'    => 'ALB',
-  'Serbien'     => 'SRB',
-  'Norwegen'    => 'NOR',
-  'Frankreich'  => 'FRA',
-  ## asia
-  'Japan'       => 'JPN',
-
- "Italien"=>"ITA",
- "Chile"=>"CHI",
- "Nigeria"=>"NGA",
- "Portugal"=>"POR",
- "Schweden"=>"SWE",
- "Spanien"=>"ESP",
- "Kolumbien"=>"COL",
- "Schweiz"=>"SUI",
- "Bulgarien"=>"BUL",
- "Argentinien"=>"ARG",
- "USA"=>"USA",
- "Kroatien"=>"CRO",
- "Brasilien"=>"BRA",
- "Griechenland"=>"GRE",
- "Türkei"=>"TUR",
- "Südkorea"=>"KOR",
- "Ukraine"=>"UKR",
- "Mexiko"=>"MEX",
- "Marokko"=>"MAR",
- "Niederlande"=>"NED",
- "Belgien"=>"BEL",
- "Guinea"=>"GUI",
- "Armenien"=>"ARM",
- "Gabun"=>"GAB",
- "Finnland"=>"FIN",
- "Aserbaidschan"=>"AZE",
- "Peru"=>"PER",
- "Elfenbeinküste"=>"CIV",
- "Tschechien"=>"CZE",
- "Ghana"=>"GHA",
- "Estland"=>"EST",
- "Paraguay"=>"PAR",
- "Kasachstan"=>"KAZ",
- "Kamerun"=>"CMR",
- "Israel"=>"ISR",
- "Australien"=>"AUS",
- "Bosnien-Herzegowina"=>"BIH",
- "Mosambik"=>"MOZ",
- "Ungarn"=>"HUN",
- "Lettland"=>"LTU",
- "Senegal"=>"SEN",
- "Tunesien"=>"TUN",
- "Costa Rica"=>"CRC",
- "Ecuador"=>"ECU",
- "Rumänien"=>"ROU",
- "DR Kongo"=>"COD",
-}
-
 
 CLUB_KEY = {
   '1. FC Köln'           => 'koeln',
@@ -99,6 +47,7 @@ CLUB_KEY = {
 
 MISSING_COUNTRIES = {}
 
+
 def gen_squad( club, h )
   buf = ''
   buf << "###########################\n"
@@ -112,15 +61,25 @@ def gen_squad( club, h )
     name      = k
     position  = v['position']
     country   = v['country']
-    cc  = COUNTRY_CODE[country]
-    if cc.nil?
-      puts "*** warn: no country code found for #{country}"
-      if MISSING_COUNTRIES[country].nil?
-        MISSING_COUNTRIES[country] = ''
-      end
-      cc = '???'
-    end
+    since     = v['since']
 
+    if num == 'xx'
+      num = ''   # convert unknown number eg. xx to empty string
+    end
+    
+
+    if country =~ /^[A-Z]{3}$/   ## three letter code use as is
+      cc = country
+    else
+      cc  = COUNTRY_CODE[country]
+      if cc.nil?
+        puts "*** warn: no country code found for #{country}"
+        if MISSING_COUNTRIES[country].nil?
+          MISSING_COUNTRIES[country] = ''
+        end
+        cc = '???'
+      end
+    end
 
     if last_position != position
       buf << "\n"
@@ -133,7 +92,8 @@ def gen_squad( club, h )
       buf << "%-33s  " % ("#{name} (#{cc})")
     end
 
-    buf << "%s    " % position
+    buf << "%s  " % position
+    buf << "%s-       " % since
     buf << "# %s"  % birthdate
     buf << "\n"
     
@@ -155,9 +115,12 @@ SORT_POSITION = {
 ###
 ## missing nummber is xx  -- what to do? set to ? or empty string ???
 
+out_root = './build/de-deutschland'
+
 
 clubs.each_with_index do |(k,v), i|
   club       = k
+  club_key   = CLUB_KEY[ k ]
   players    = v
 
   players = players.sort do |l,r|
@@ -175,9 +138,21 @@ clubs.each_with_index do |(k,v), i|
   ##  pp players
   
   puts "*** #{club}"
-  
+    
+  out_path = "#{out_root}/#{club_key}.txt"
+  out_dir  = File.dirname( out_path )
+
+  puts "#{club_key} - #{out_path}"
   txt = gen_squad( club, players )
   puts txt
+
+  ## make sure out_path exists
+  ## make sure dest folder exists
+  FileUtils.mkdir_p( out_dir ) unless Dir.exists?( out_dir )
+  
+  File.open( out_path, 'w' ) do |f|
+    f.write txt
+  end
 end
 
 pp MISSING_COUNTRIES
