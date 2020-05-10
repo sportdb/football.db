@@ -1,0 +1,10 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+config/leagues.txt
+lib/footballdb/leagues.rb
+lib/footballdb/leagues/auto.rb
+lib/footballdb/leagues/version.rb
+test/helper.rb
+test/test_league.rb
