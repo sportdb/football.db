@@ -1,8 +1,8 @@
 # footballdb-clubs - the world's top football clubs
 
 
-* home  :: [github.com/sportdb/sport.db](https://github.com/sportdb/sport.db)
-* bugs  :: [github.com/sportdb/sport.db/issues](https://github.com/sportdb/sport.db/issues)
+* home  :: [github.com/sportdb/football.db](https://github.com/sportdb/football.db)
+* bugs  :: [github.com/sportdb/football.db/issues](https://github.com/sportdb/football.db/issues)
 * gem   :: [rubygems.org/gems/footballdb-clubs](https://rubygems.org/gems/footballdb-clubs)
 * rdoc  :: [rubydoc.info/gems/footballdb-clubs](http://rubydoc.info/gems/footballdb-clubs)
 * forum :: [opensport](http://groups.google.com/group/opensport)

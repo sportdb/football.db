@@ -8,7 +8,7 @@ CLUBS_DIR = '../../../openfootball/clubs'    ## source repo directory path
 
 
 
-datafiles = Datafile.find_clubs( CLUBS_DIR )
+datafiles = SportDb::Package.find_clubs( CLUBS_DIR )
 pp datafiles
 
 Datafile.write_bundle( './config/clubs.txt',
@@ -22,7 +22,7 @@ Datafile.write_bundle( './config/clubs.txt',
 TXT
 
 
-datafiles = Datafile.find_clubs_wiki( CLUBS_DIR )
+datafiles = SportDb::Package.find_clubs_wiki( CLUBS_DIR )
 pp datafiles
 
 Datafile.write_bundle( './config/clubs.wiki.txt',

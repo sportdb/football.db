@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile clubs.wiki.txt bundle
-#    on 2020-04-14 16:45:09 +0200 from 5 datafile(s)
+#    on 2020-05-10 19:34:14 +0200 from 5 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/clubs - updates welcome!
 
@@ -53,6 +53,8 @@ Urawa Red Diamonds
 Vegalta Sendai
 Vissel Kobe
 Yokohama F. Marinos
+
+
 ===================================
 =  Albania
 
@@ -585,6 +587,8 @@ Yeni Malatyaspor
 Cardiff City F.C.
 Swansea City A.F.C.
 Newport County A.F.C.
+
+
 =================================
 =  Israel
 
@@ -602,6 +606,8 @@ Maccabi Haifa F.C.
 Maccabi Netanya F.C.
 Maccabi Petah Tikva F.C.
 Maccabi Tel Aviv F.C.
+
+
 ============================
 =  Canada
 
@@ -662,6 +668,8 @@ Sporting Kansas City
 Chivas USA
 Miami Fusion
 Tampa Bay Mutiny
+
+
 ===========================
 =  Argentina
 
@@ -736,3 +744,5 @@ Cuiabá Esporte Clube
 América Futebol Clube (MG)
 Sport Club do Recife
 Grêmio Esportivo Brasil
+
+

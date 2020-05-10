@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile clubs.txt bundle
-#    on 2020-04-14 16:45:08 +0200 from 98 datafile(s)
+#    on 2020-05-10 19:34:12 +0200 from 98 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/clubs - updates welcome!
 
@@ -10,6 +10,8 @@
 AS Vita Club,   Kinshasa
   | AS V. Club | Vita Club | Association Sportive Vita Club
  
+
+
 ========================================
 =  Egypt
 
@@ -70,6 +72,8 @@ Aswan SC, Aswan
   | Aswan FC
 Al Masry SC,  Port Said
   | Al-Masry Club | Al Masry Sporting Club
+
+
 ===================================
 =  Morocco
 
@@ -77,6 +81,8 @@ Raja Casablanca,  Casablanca
   | Raja Club Athletic
 
 Wydad Casabl.,    Casablanca
+
+
 
 = South Africa
 
@@ -120,6 +126,8 @@ Golden Arrows,  Durban (Lamontville)
 
 
 
+
+
 = Tunisia
 
 Espérance Sportive de Tunis,  Tunis 
@@ -127,6 +135,8 @@ Espérance Sportive de Tunis,  Tunis
   
 JS Kairouanaise,  Kairouan
   | JSK | Jeunesse Sportive Kairouanaise 
+
+
 ===========================
 =  China
 
@@ -196,6 +206,8 @@ Yanbian Funde,              Yanji
   | Yanbian
 Zhejiang Yiteng FC,       Harbin    ## todo check city (from 2014) moved (and renamed)?
   | Zhejiang Yiteng | Harbin Yiteng
+
+
 ==================================
 =   Japan
 
@@ -258,6 +270,8 @@ Montedio Yamagata     # All cities/towns in Yamagata
 
 Tokushima Vortis      # All cities/towns in Tokushima
   | Tokushima
+
+
 ==================================
 =   Kazakhstan
 
@@ -280,9 +294,11 @@ FC Shakhter Karagandy
   | Shakhter
   | Shakhter Karagandy    # champs (2): 2014..2012 (2)
   | Shakter Karaganda
+  | Shakhtyor Karaganda
 
 FC Tobol Kostanay
-  | Tobol
+  | Tobol 
+  | Tobol Kustanai
   | Tobyl Kostanay
   
 FC Irtysh Pavlodar
@@ -290,7 +306,8 @@ FC Irtysh Pavlodar
   | Irtysh Pavlodar   # champs (1): 2003/04
 
 FC Ordabasy Shymkent
-  | Ordabasy
+  | Ordabasy | Ordabasy Shymkent
+
 FC Atyrau
   | Atyrau
 FC Zhetysu Taldykorgan
@@ -299,7 +316,7 @@ FC Okzhetpes Kokshetau
   | Okzhetpes
 
 FC Kairat Almaty,  1954,  Almaty
-  | Kairat
+  | Kairat | Kairat Almaty
   | FK Kairat
 
 FC Alma-Ata (2000-2008),  Almaty
@@ -309,18 +326,24 @@ FC Kaysar Kyzylorda
   | Kaysar
 FC Taraz
 
+
+
 ===============================
 =  Saudi Arabia
 
 
 Al-Ittihad
 Al-Hilal Riyad
+
+
 = Singapore
 
 Balestier Khalsa
   | Balestier Khalsa FC
 Albirex Niigata FC
   | Albirex Niigata Singapore FC
+
+
 
 =============================================
 =  South Korea
@@ -354,10 +377,14 @@ Suwon Bluewings,          Suwon
   | Suwon Samsung Bluewings | Suwon Samsung Bluewings FC
 Ulsan Hyundai,            Ulsan
   | Ulsan Hyundai FC
+
+
 = Thailand =
 
 Buriram United FC
 FC PTT Rayong
+
+
 ======================================
 =  Anguilla
 
@@ -378,6 +405,8 @@ Salsa Ballers FC,    George Hill
 Up Rising FC 
   | Up Rising
   
+
+
 =====================
 =  Haiti
 
@@ -385,11 +414,15 @@ Tempête FC,      Saint-Marc
   | Tempête | Tempête Football Club
 Valencia FC,     Léogâne
   | Valencia
+
+
 ============================
 =  Puerto Rico
 
 Puerto Rico Islanders,      Bayamón
   | Puerto Rico Islanders FC
+
+
 ===================================
 =  Trinidad and Tobago
 
@@ -397,6 +430,8 @@ Caledonia AIA       # Malabar is a residential district incorporated into the bo
   | Caledonia
 W Connection
   | WC FC
+
+
 ===========================
 =  Costa Rica
 
@@ -430,6 +465,8 @@ AD San Carlos, 1965,  Ciudad Quesada › San Carlos
 
 ADR Jicaral, 1981
   | Asociación Deportiva y Recreativa Jicaral
+
+
 ==============================
 =  El Salvador
 
@@ -443,6 +480,8 @@ Alianza FC,    city:sansalvador
   | Alianza | Alianza Fútbol Club
 Luis Ángel Firpo
   | L.A. Firpo | CD Luis Ángel Firpo
+
+
 ========================
 =  Guatemala
 
@@ -484,6 +523,8 @@ Santa Lucía Cotzumalguapa
 
 Deportivo Siquinalá,   Siquinalá  ## Escuintla Department
   | Siquinalá 
+
+
 =========================
 =  Honduras
 
@@ -497,11 +538,15 @@ CD Motagua,      city:tegucigalpa
   | Motagua
 CD Victoria
   | Victoria
+
+
 =========================
 =  Nicaragua
 
 Real Estelí,      city:esteli
   | R. Estelí | Real Estelí FC
+
+
 ============================
 =  Panama
 
@@ -515,6 +560,8 @@ San Francisco FC,   city:lachorrera
   | San Francisco | San Francisco Fútbol Club de La Chorrera
 Sporting San Miguelito
   | Sporting SM
+
+
 ===================================
 =  Albania
 
@@ -522,8 +569,12 @@ Sporting San Miguelito
 KF Tirana,           Tirana
   | Tirana | Klubi i Futbollit Tirana
   | KF Tiranë
+  | SK Tirana
+  | 17 Nëntori Tirana
+
 FK Partizani Tirana, Tirana
   | Partizani | FK Partizani
+  | Partizani Tirana
 FK Dinamo Tirana,    Tirana
   | Dinamo Tirana    # champs (6): 2010/11 2008/09 2002/03 1990/91 1986/87 1980/81
 
@@ -537,20 +588,25 @@ KS Flamurtari, 1923,   Vlorë
   | Flamurtari FC
 
 KF Vllaznia,  1919,   Shkodër
-  | Vllaznia | KF Vllaznia Shkodër
+  | Vllaznia | Vllaznia Shkodër | KF Vllaznia Shkodër
   | FK Vllaznia
 
+
 KS Besa
+  | Besa Kavajë
 KS Teuta
-  | Teuta
+  | Teuta | Teuta Durrës
   | KF Teuta | KF Teuta Durrës
+
 KF Laçi
   | Laç | Laçi
 FK Kukësi
   | Kukës | Kukësi
+
 KS Luftëtari
   | Luftëtari
-  | Luftëtari Gjirokastër FC
+  | Luftëtari Gjirokastër | Luftëtari Gjirokastër FC
+
 FC Kamza
   | Kamza
 KS Kastrioti
@@ -562,7 +618,7 @@ FK Bylis,  1972,  Ballsh
   | KS Bylis
 
 KF Elbasani, 1923,   Elbasan
-  | Klubi i Futbollit Elbasani 
+  | Klubi i Futbollit Elbasani
   | KS Elbasani | Klubi Sportiv Elbasani
 
 KF Tomori, 1923,  Berat
@@ -570,7 +626,9 @@ KF Tomori, 1923,  Berat
 
 KF Apolonia, 1925,  Fier
   | KF Apolonia Fier
-  
+
+
+
 
 ==============================
 =  Andorra
@@ -580,8 +638,8 @@ UE Sant Julià
 FC Santa Coloma
 UE Santa Coloma
 FC Lusitans
-  | Lusitanos    # champs (2): 2014..2012 (2)
-  | FC Lusitanos
+  | Lusitans
+  | Lusitanos | FC Lusitanos   # champs (2): 2014..2012 (2)
 
 
 UE Engordany
@@ -606,11 +664,13 @@ Constellació Esportiva (1998-2000),   Andorra La Vella
 CE Principat (1989-2015),   Andorra La Vella
   | Club Esportiu Principat
 
+
+
 ==============================
 =  Armenia
 
 
-FC Yerevan, 1995,  Yerevan 
+FC Yerevan, 1995,  Yerevan
   | Yerevan
   | FK Yerevan
 
@@ -618,12 +678,12 @@ FC Ararat Yerevan, 1935,  Yerevan
   | Ararat | FC Ararat
   | Ararat Yerevan
 # Note: For other football clubs named Ararat, see FC Ararat.
-  
+
 Ararat-Armenia FC, 2017,  Yerevan
   | Ararat-Armenia
-  | FC Ararat-Armenia 
+  | FC Ararat-Armenia
 
-Kilikia FC (1992-2011),  Yerevan 
+Kilikia FC (1992-2011),  Yerevan
   | FC Kilikia
 
 Zvartnots-AAL FC (1997-2003),  Yerevan
@@ -632,20 +692,27 @@ Zvartnots-AAL FC (1997-2003),  Yerevan
 
 FC Pyunik
   | Pyunik | Pyunik FC
+  | Pyunik Yerevan
 
 Ulisses FC
   | Ulisses     # champs (1): 2012/13
+  | Ulisses Yerevan
 
 FC Mika
+  | Mika Ashtarak
 FC Gandzasar
-  | Gandzasar
+  | Gandzasar | Gandzasar FC
+  | Gandzasar Kapan
 
 FC Urartu
   | Urartu
   | FC Banants | Banants  ## note: The club was known as FC Banants until 1 August 2019
+  | Banants Yerevan
+
 FC Shirak
   | Shirak
   | Shirak FC
+  | Shirak Gyumri
 
 Araks Ararat (-2005),  Ararat         # champs (2): 2001/02 1999/00
   | FC Araks Ararat
@@ -661,7 +728,9 @@ Artsakh FC
 
 FC Gandzasar Kapan,  2004,   Kapan
   | FC Gandzasar-Kapan
-  ========================
+
+
+========================
 = Österreich • Austria
 
 
@@ -670,14 +739,14 @@ FC Gandzasar Kapan,  2004,   Kapan
 SK Rapid Wien, 1899,    Wien (Hütteldorf)
   | Rapid | Rapid Wien
   | Rapid Vienna [en]
- Keisslergasse 3 // 1140 Wien 
+ Keisslergasse 3 // 1140 Wien
 ii) SK Rapid Wien II
   | Rapid Wien Am. | SK Rapid Amateure
 
 FK Austria Wien, 1911,  Wien (Favoriten)
   | Austria | Austria Wien
   | Austria Vienna [en]
- Fischhofgasse 12 // 1100 Wien 
+ Fischhofgasse 12 // 1100 Wien
 ii) Young Violets Austria Wien
   | Young Violets | Young Violets A. W.
   | FK Austria Wien II
@@ -714,7 +783,7 @@ SC Red Star Penzing
 
 SV Mattersburg,  1922,    Mattersburg
   | Mattersburg | Sportvereinigung Mattersburg
- Michael Koch Straße 50 // 7210 Mattersburg 
+ Michael Koch Straße 50 // 7210 Mattersburg
 ii) SV Mattersburg II
   | SV Mattersburg Am. | SV Mattersburg Amateure
 
@@ -741,22 +810,23 @@ SC Trausdorf
 == Niederösterreich ==
 
 FC Admira Wacker Mödling, 1905, Maria Enzersdorf (Südstadt)    ## Südstadt ist ein Ortsteil der Marktgemeinde Maria Enzersdorf
-  | Admira | Admira Wacker 
+  | Admira | Admira Wacker
   | FC Admira | FC Admira Wacker | Admira Wacker Mödling
   | Admira Wien        ## historic Admira Wien name add (-????) or something
   | SK Admira Wacker Wien
   | SK Admira Vienna [en]
- Johann Steinböck Strasse 5b // 2344 Maria Enzersdorf      ## Mödling 
+ Johann Steinböck Strasse 5b // 2344 Maria Enzersdorf      ## Mödling
 ii) FC Admira Wacker Mödling II
   | FC Admira Wacker II
   | Admira Amateure | Admira Juniors
 
 SC Wiener Neustadt, 1908,  Wr. Neustadt
   | Neustadt | Wr. Neustadt | SC Wr. Neustadt | Wiener Neustadt
- Giltschwertgasse 81 // 2700 Wr. Neustadt 
+ Giltschwertgasse 81 // 2700 Wr. Neustadt
 
 SKN St. Pölten, 2000,      St. Pölten
   | St. Pölten | Sportklub Niederösterreich St. Pölten
+  | SKN Sankt Pölten
 ii) SKN St. Pölten Juniors
 
 SV Horn,  1922,   Horn
@@ -799,7 +869,7 @@ SC Krems
 #  add Gebietsliga NW/Wald.  --  6-noe-nordwest-waldviertel
 SC Guntersdorf
   | Guntersdorf
-SC Echsenbach  
+SC Echsenbach
   | Echsenbach | SC $$Hartl Haus$$
 SC St. Martin
   | St. Martin
@@ -853,7 +923,7 @@ FC Stahl Linz,       Linz
 SV Ried,  1912,       Ried i. Innkreis
   | Ried
   | SV $$Josko$$ Ried | SV $$Josko Fenster$$ Ried     ## note: Josko is a sponsor
- Volksfestplatz 2 // 4910 Ried i. Innkreis 
+ Volksfestplatz 2 // 4910 Ried i. Innkreis
 ii) SV Ried II
 
 SK Vorwärts Steyr,   Steyr
@@ -882,7 +952,7 @@ SV Grün-Weiß Micheldorf
 
 SK Sturm Graz, 1909,       Graz
   | Sturm | Sturm Graz
- Sternäckerweg 118 // 8042 Graz 
+ Sternäckerweg 118 // 8042 Graz
 ii) SK Sturm Graz II
   | Sturm Graz Amat.
 
@@ -924,7 +994,7 @@ FC Lankowitz
 Wolfsberger AC, 1931, Wolfsberg
   | Wolfsberg | Wolfsberger | AC Wolfsberger | Wolfsberger Athletik Club
   | $$RZ Pellets$$ WAC           ## $$$ note: RZ Pellets is a sponsor name
- Don Bosco Weg 1 // 9400 Wolfsberg 
+ Don Bosco Weg 1 // 9400 Wolfsberg
 ii) Wolfsberger AC II
   | WAC Amateure
 
@@ -935,9 +1005,9 @@ Austria Klagenfurt, Klagenfurt
   | SK Austria Klagenfurt | SG Austria Klagenfurt
   | FC Kärnten     ## todo: keep as separate club - why? why not?
 
-SK Austria Kärnten (2007-2010), Klagenfurt
- 
- 
+Austria Kärnten (2007-2010), Klagenfurt
+  | SK Austria Kärnten
+
 SAK Klagenfurt, Klagenfurt
   | Slovenski atletski klub | Slowenischer AK
   | SAK Celovec/Klagenfurt
@@ -960,7 +1030,7 @@ VST Völkermarkt
 
 FC RB Salzburg, 1933,      Salzburg (Wals-Siezenheim)         ## use Wals-Siezenheim ??
   | Salzburg | FC Salzburg | RB Salzburg | Red Bull Salzburg | FC Red Bull Salzburg
- Stadionstraße 2/3 // 5071 Wals-Siezenheim   ## Salzburg 
+ Stadionstraße 2/3 // 5071 Wals-Siezenheim   ## Salzburg
 ii) FC RB Salzburg II        ## check for old name until season 2011/12 - now "independent" Liefering?
   | RB Salzburg II | FC Red Bull Salzburg II
   | FC RB Juniors Salzburg
@@ -976,7 +1046,7 @@ SAK 1914,     1914, Salzburg
 SV Grödig,  1948,           Grödig
   | Grödig
  Prötschhofstrasse 26 // 5082 Grödig
- 
+
 SV Seekirchen
   | SV Seekirchen 1945
 FC Pinzgau Saalfelden
@@ -997,7 +1067,7 @@ SC Golling
 
 FC Wacker Innsbruck, 1913, Innsbruck
   | Innsbruck | FC Wacker | Wacker Innsbruck
-  | FC Tirol              ## note: FC Tirol old name - add year
+  | FC Tirol | FC Tirol Innsbruck              ## note: FC Tirol old name - add year
   | SSW Innsbruck | Spielgemeinschaft $$Swarovski$$ Wacker Innsbruck   # champs (7): 2002..2000 (2) 1977/78 1975/76 1974...1971 (3)
  Stadionstraße 1b // 6020 Innsbruck
 ii) FC Wacker Innsbruck II
@@ -1006,7 +1076,7 @@ ii) FC Wacker Innsbruck II
 SV Innsbruck, Innsbruck   ## Tiroler Liga
 
 WSG Tirol, 1930,   Wattens
-  | Tirol 
+  | Tirol
   | WSG $$Swarovski$$ Tirol | WSG $$Swarovs.$$ Tirol | Wattener Sportgemeinschaft Tirol
   | Wattens | WSG Wattens | WSG $$Swarovski$$ Wattens        ## $$$ note: Swarovski is a sponsor
 
@@ -1031,7 +1101,7 @@ SV Reutte
 SCR Altach, 1929,          Altach
   | Altach
   | Rheindorf Altach | SC Rheindorf Altach | Sportclub Rheindorf Altach
- Schnabelholz 1 // 6844 Altach 
+ Schnabelholz 1 // 6844 Altach
 ii) SCR Altach Juniors
   | Altach Amateure
 
@@ -1067,6 +1137,8 @@ FC Lauterach
 RW Rankweil
 SC Röthis
   | SC $$Röfix$$ Röthis           ## $$$ note: Röfix is a sponsor
+
+
 ======================================
 =  Azerbaijan
 
@@ -1076,16 +1148,18 @@ Bakı FK,   Baku
 
 İnter Bakı PİK,  Baku
   | Inter Baku PIK    # champs (2): 2010/11 2008/09
+  | Inter Baku
 
-FK Shafa Baku (1997-2005),  Baku  
+FK Shafa Baku (1997-2005),  Baku
   | Shafa Baku | Safa Baku
   | FK Şäfa
- 
-Neftçi PFK,   Baku  
+
+Neftçi PFK,   Baku
   | Neftçi
   | Neftchi PFC Baku   # champs (6): 2014...2011 (3) 2006..2004 (2) 1997/98
+  | Neftchi Baku
 
-Zirä FK,    Baku  
+Zirä FK,    Baku
   | Zira FK
   | PFC Zire
 
@@ -1099,36 +1173,42 @@ FK Şämkir (1954-2017), Şəmkir
 
 Qarabağ FK
   | Qarabağ | Qarabağ Ağdam
+  | Garabag Agdam
+
 Xäzär Länkäran FK
   | Khazar Lankaran   # champs (1): 2007/08
 
 Olimpik-Şüvälan PFK
 
 Simurq PFK (2005-2015),  Zaqatala
-  | Simurq PFC 
+  | Simurq PFC
   | Simurq PIK
   | Simurq Zaqatala PFK
-  
+
 Gabala SC
-  | Gabala 
+  | Gabala
   | Gabala FK
+  | Qäbälä
 
 Keşla FK
   | Keşla
-  | Keşlə FK   ## todo/fix: auto-create variants ş=>ş (with cedilla? and comma?) 
+  | Keşlə FK   ## todo/fix: auto-create variants ş=>ş (with cedilla? and comma?)
 
 Käpäz PFK, 1959,    Ganja
   | Käpäz   # champs (2): 2000..1998 (2)
   | FK Käpäz
+  | Kapaz Ganja
   | Kapaz Professional Football Club
 
 Sabail
+  | Səbail FK
+
 Sumqayıt FK
   | Sumqayıt
 Sabah
 
 PFK Turan Tovuz, 1954,  Tovuz
-  | Turan PFK  
+  | Turan PFK
   | Turan-T İK
   | Turan-Tovuz İK
   | Turan İK | Turan İdman Klubu
@@ -1143,6 +1223,8 @@ Karvan FK (2004-2014),   Yevlakh
 
 Khazri Buzovna (1994-1998),  Buzovna
   |  FK Khazri Buzovna
+
+
 
 =========================================
 =  Belarus
@@ -1174,6 +1256,7 @@ FC Shakhtyor Soligorsk
   | Shakhtyor
   | Shakhter Soligorsk
   | Shakhtyor Soligorsk   # champs (1): 2006/07
+  | Shakhtior Saligorsk
 
 FC Naftan Novopolotsk
   | Naftan
@@ -1184,10 +1267,10 @@ FC Torpedo Zhodino
 
 FC Dinamo Brest
   | Dinamo Brest
-  | FC Dynamo Brest
-  
+  | Dynamo Brest | FC Dynamo Brest
+
 FC Neman Grodno
-  | Neman
+  | Neman | Neman Grodno
 
 FC Isloch
   | Isloch
@@ -1202,7 +1285,8 @@ FC Slavia-Mozyr
   | FK Slaviya Mozyr
 
 FC Vitebsk
-  | Vitebsk
+  | Vitebsk | FK Vitebsk
+
 FC Zvezda-BGU Minsk
   | Zvezda
   | FC BGU Minsk
@@ -1216,6 +1300,8 @@ FC Torpedo-SKA Minsk
 FC Belshina Bobruisk, 1976,   Bobruisk
   | Belshina Bobruisk
   | FK Belshyna Babruisk
+
+
 ==================================
 =  Belgium
 
@@ -1234,15 +1320,15 @@ RWD Molenbeek,  Brussels (Molenbeek)
   | R. Racing White Bruxelles
   | Racing White Brussels
 ##  keep Molenbeek clubs separte? from wikipedia:
-## This R.W.D.M. Brussels F.C. article is about the club dissolved in 2014. 
-# For the predecessor club dissolved in 2002, see R.W.D. Molenbeek. 
+## This R.W.D.M. Brussels F.C. article is about the club dissolved in 2014.
+# For the predecessor club dissolved in 2002, see R.W.D. Molenbeek.
 # For the club continuing its traditions founded in 2015, see RWDM47.
 
 
 Saint-Gilloise,  Brussels (Saint-Gilles)
   | R. Union Saint-Gilloise
   | Union St. Gilloise
- 
+
 
 == Antwerpen › Vlaanderen ==
 
@@ -1253,26 +1339,27 @@ Royal Antwerp FC,    Antwerpen › Antwerpen › Vlaanderen
 
 
 K Beerschot VA, 1899,  Antwerpen › Antwerpen › Vlaanderen               ## in 2019 renamed to K. Beerschot V.A.)
-  | Koninklijke Beerschot Voetbalclub Antwerpen 
-  | KFCO Wilrijk 
+  | Koninklijke Beerschot Voetbalclub Antwerpen
+  | KFCO Wilrijk
 # In 2013, KFCO Wilrijk decided to integrate the identity of
 #   Beerschot AC
-# In June 2013 K.FC.O. Wilrijk unofficially integrated 
+# In June 2013 K.FC.O. Wilrijk unofficially integrated
 # Beerschot AC's identity into theirs to become
 # FCO Beerschot Wilrijk
 
 Germinal Beerschot (1920-2013),  Antwerpen › Antwerpen › Vlaanderen       ## officially declared bankrupt on 21 May 2013
-  | Germinal
+  | Germinal | Germinal Ekeren
   | Beerschot AC
-  | KFC Germinal Beerschot Antwerpen 
+  | KFC Germinal Beerschot Antwerpen
   | Koninklijke Beerschot Antwerpen Club
 # Note: Not to be confused with  Beerschot V.A.C., or K Beerschot VA.
 # 1920 (Germinal Ekeren)
 # 1999 (merger; as Germinal Beerschot)
 
-Beerschot VAC (1899-1999), Antwerpen 
+Beerschot VAC (1899-1999), Antwerpen
   | Koninklijke Beerschot Voetbal en Atletiek Club
   | K. Beerschot VAC
+  | Beerschot VAV
 # Note: Not to be confused with K. Beerschot AC
 
 
@@ -1291,12 +1378,16 @@ K Lierse SK,    Lier     › Antwerpen › Vlaanderen
 KRC Genk, 1988,    Genk         › Limburg › Vlaanderen
   | Genk | Racing Genk | Koninklijke Racing Club Genk
   | KFC Winterslag    ## todo: keep as separate club - why? why not?
-# in 1988 formed by the merger of 
+# in 1988 formed by the merger of
 #  Waterschei Thor with KFC Winterslag
+
+Waterschei Thor (1919-1988),  Genk
+  | K. Waterschei S.V. Thor Genk
+  | Thor Waterschei
 
 
 Sint-Truidense VV, 1924,  Sint-Truiden › Limburg › Vlaanderen
-  | St Truiden | St. Truiden VV 
+  | St Truiden | St. Truiden VV
   | Sint-Truiden | Sint-Truidense | K. Sint-Truidense VV
   | Koninklijke Sint-Truidense Voetbalvereniging
 
@@ -1308,10 +1399,13 @@ Lommel United, Lommel
 
 KAA Gent, 1864,     Gent        › Oost-Vlaanderen › Vlaanderen
   | Gent | Koninklijke Atletiek Associatie Gent
+  | AA Gent
 
 KSC Lokeren OV, 1923,   Lokeren     › Oost-Vlaanderen › Vlaanderen
-  | Lokeren | Sporting Lokeren | KSC Lokeren Oost-Vlaanderen
+  | Lokeren | KSC Lokeren | KSC Lokeren Oost-Vlaanderen
+  | Sporting Lokeren
   | Koninklijke Sporting Club Lokeren Oost-Vlaanderen
+
 
 SC Eendracht Aalst,  1919,  Aalst       › Oost-Vlaanderen › Vlaanderen
   | Aalst | Eendracht Aalst
@@ -1321,20 +1415,21 @@ FCV Dender EH,       Denderleeuw › Oost-Vlaanderen › Vlaanderen
   | Dender
 
 Waasland-Beveren, 1936,   Beveren › Oost-Vlaanderen › Vlaanderen   ## KVRS Waasland - SK Beveren
-  | Waasland-Bev 
+  | Waasland-Bev
   | Red Star Waasland
 # In the summer of 2010 Red Star Waasland changed its name to Waasland-Beveren
-# and moved to the bigger stadium of Beveren  
-  
+# and moved to the bigger stadium of Beveren
+
 KSK Beveren,       Beveren › Oost-Vlaanderen › Vlaanderen
   | Beveren
+  | SK Beveren
 
 
 == West-Vlaanderen › Vlaanderen ==
 
 Club Brugge, 1891,    Brugge › West-Vlaanderen › Vlaanderen
   | Club Brugge KV | Club Brugge Koninklijke Voetbalvereniging
-  | Club Brügge [de] 
+  | Club Brügge [de]
 Cercle Brugge, 1899,  Brugge › West-Vlaanderen › Vlaanderen
   | Cercle Brugge KSV | Cercle Brugge Koninklijke Sportvereniging
   | Cercle Brügge KSV [de]
@@ -1349,7 +1444,7 @@ SV Zulte Waregem, 1950,   Waregem  › West-Vlaanderen › Vlaanderen
   | Waregem | Zulte Waregem | Sportvereniging Zulte Waregem
 
 KSV Waregem (1925-2001),   Waregem
-  | Koninklijke Sportvereniging Waregem 
+  | Koninklijke Sportvereniging Waregem
 
 
 == Hainaut › Wallonie ==
@@ -1363,11 +1458,12 @@ Royal Excel Mouscron, 2010,    Mouscron  › Hainaut › Wallonie     ## Moeskro
   | R. Mouscron-Péruwelz | Royal Mouscron-Péruwelz
   | R. Excelsior Mouscron
   | Excelsior Mouscron
+  | Royal Excel Mouscron Péruwelz
 
 RAEC Mons,             Mons      › Hainaut › Wallonie     ##  Bergen [nl]
-  | Bergen
+  | Mons | Bergen
 
-== Luxembourg › Wallonie == 
+== Luxembourg › Wallonie ==
 
 Excelsior Virton, Virton
   | R.E. Virton
@@ -1386,6 +1482,7 @@ Standard Liège, 1898,   Liège     › Liège   › Wallonie    ## [fr]
 RFC Liège,  1892,  Liège
   | RC Liégeois
   | RFC de Liège | Royal Football Club de Liège
+  | FC Liège
 
 
 == ??? ==
@@ -1402,13 +1499,15 @@ RAA Louviéroise, La Louvière
   | Louvieroise
   | RAA La Louviéroise
 KSV Roeselare, Roeselare
-  | Roeselare
+  | Roeselare | SV Roeselare
 RFC Seraing, Seraing
   | Seraing
 AFC Tubize, Tubize
   | Tubize
 Oud-Heverlee Leuven, 2002,   Leuven   ## Flemish Brabant > Flanders
-  | Leuven | OH Leuven
+  | Leuven | OH Leuven | Oud-Heverlee
+
+
 ========================================
 =  Bosnia and Herzegovina
 
@@ -1424,9 +1523,13 @@ FK Željezničar
   | Željezničar Sarajevo     # champs (6): 2014..2012 (2) 2010/11 2003..2001 (2) 1972/73
   | FK Željezničar Sarajevo
 
-HŠK Zrinjski
+HŠK Zrinjski,  Mostar
   | Zrinjski | Zrinjs. Mostar | Zrinjski Mostar
   | HŠK Zrinjski Mostar    # champs (3): 2014/15 2009/10 2005/06
+
+Velež Mostar, 1922, Mostar
+  | FK Velež Mostar | Fudbalski Klub Velež Mostar
+
 
 NK Široki Brijeg
   | Široki Brijeg
@@ -1438,9 +1541,9 @@ FK Modriča
 
 FK Sloboda Tuzla
   | Sloboda | Sloboda Tuzla
-  
+
 FK Radnik Bijeljina
-  | Radnik Bijelji | Radnik Bijeljina
+  | Radnik | Radnik Bijelji | Radnik Bijeljina
 
 Sloga Simin Han
 NK Čelik Zenica
@@ -1453,16 +1556,18 @@ Zvijezda 09
 
 NK Brotnjo, Čitluk   # champs (1): 2000/01
   | Nogometni Klub Brotnjo
-  
+
 FK Leotar,  1925,  Trebinje
   | Leotar | Leotar Trebinje
 
 FK Budućnost Banovići, 1947, Banovići
 
-HNK Orašje, 1996,   Orašje 
+HNK Orašje, 1996,   Orašje
   | NK Orašje
 
 NK Žepče (1919-2010),  Žepče
+
+
 ==============================
 =  Bulgaria
 
@@ -1472,8 +1577,10 @@ PFC CSKA Sofia, 1948,       Sofia      ## CDNA Sofia old name - add year?
   | ZSKA Sofia [de]
 PFC Levski Sofia, 1914,     Sofia
   | Levski Sofia | Levski | Professional Football Club Levski Sofia
+  | Levski-Spartak Sofia
   | Vitosha Sofia   # champs (1): 1988/89
-# Vitosha Sofia 1985-1989  
+# Vitosha Sofia 1985-1989
+# Levski Spartak 1969-1985
 
 PFC Slavia Sofia, 1913,     Sofia
   | Slavia Sofia | Professional Football Club Slavia Sofia
@@ -1483,8 +1590,10 @@ Tsarsko Selo Sofia, 2015,   Sofia
   | FC Tsarsko Selo Sofia
 
 PFC Akademik Sofia, 1947,  Sofia
-  | Akademik | Akademik Sofia 
+  | Akademik | Akademik Sofia
 
+Tsarsko Selo
+  | FC Tsarsko Selo Sofia 2015
 
 
 PFC Botev Plovdiv, 1912,       Plovdiv
@@ -1501,20 +1610,30 @@ Spartak Plovdiv, 1947,  Plovdiv      # champs (1): 1963/64
 
 
 PFC Litex Lovech, 1921,        Lovech
-  | Litex | Professional Football Club Litex Lovech
+  | Litex | Litex Lovech
+  | Professional Football Club Litex Lovech
+
+
 PFC Cherno More Varna, 1913,   Varna
   | Cherno More
   | Cherno More Varna
+
+FC Spartak Varna,  1918,  Varna
+  | Spartak Varna
+
+
 PFC Ludogorets Razgrad, 1945,  Razgrad
   | Ludogorets | Ludog. Razgrad | Ludogorets Razgrad
   | Professional Football Club Ludogorets Razgrad
   | PFC Ludogorets 1945
-  | PFK Ludogorets Razgrad 
+  | PFK Ludogorets Razgrad
+  | PFC Ludogorets 1945 Razgrad
 
 PFC Beroe Stara Zagora, 1916,   Stara Zagora
   | Beroe | Professional Football Club Beroe
   | Beroe Stara Zag.
   | PFC Beroe     # champs (1): 1986/87
+  | FC Beroe Stara Zagora
 
 PFC Lokomotiv Stara Zagora (1934-2009),   Stara Zagora
   | FC Beroe 2000 Kazanlak
@@ -1529,7 +1648,8 @@ FC Pirin Blagoevgrad, 1922,   Blagoevgrad   ## note: merged two clubs in 2009; P
   | Pirin Blagoevgrad
 
 FC Dunav Ruse, 1949,   Ruse
-  | Dunav | FC Dunav | FC Dunav 2010
+  | Dunav | Dunav Ruse
+  | FC Dunav | FC Dunav 2010
   | PFC Dunav Ruse
 
 POFC Botev Vratsa,  1921, Vratsa
@@ -1543,30 +1663,51 @@ SFC Etar Veliko Tarnovo,  Veliko Tarnovo
   | Etar Tarnovo   # champs (1): 1991/92
 
 Arda
+  |  FC Arda Kardzhali
+
 
 FC Etar Veliko Tarnovo
   | Etar
-Tsarsko Selo
 Vitosha Bistritsa,   Bistritsa    # in Sofia City Province
-  | FC Vitosha | FC Vitosha Bistritsa 
+  | FC Vitosha | FC Vitosha Bistritsa
   | Vitosha Bistrica
 
 
 OFC Sliven 2000, 2000, Sliven
-  | Sliven 
+  | Sliven
   | OFC Sliven
+#  founded on February 29, 2000
+#   after the bankruptcy of FC Sliven
 
-PFC Marek Dupnitsa,   1919, Dupnitsa 
-  | FC Marek | FC Marek Dupnitsa 
+FC Sliven (-2000), Sliven
+
+
+
+PFC Marek Dupnitsa,   1919, Dupnitsa
+  | FC Marek | FC Marek Dupnitsa
   | Marek Dupnitza
+  | Marek Dupnitsa
 
-PFC Naftex Burgas (1986-2009),  Burgas
-# Note: For the new club claimed as the successor, see PFC Neftochimic Burgas. 
 
-FC Shumen 1929 (-2016),  Shumen 
+Neftochimik Burgas, 1962,  Burgas
+  | Neftochimic Burgas 1962
+  | PFC Neftochimic Burgas | Profesionalen Futbolen Klub Neftochimik 1962 Burgas
+  | FK Neftochimik
+  | PFC Naftex Burgas
+# name history:
+#  1962–1964 Stroitel
+#  1964–1986 Neftochimik
+#  1986–1990 DSF Neftochimik
+#  1990–2002 Neftochimik
+#  2002–2009 PFC Naftex
+#  2009– Neftochimik
+
+FC Shumen 1929 (-2016),  Shumen
   | FC Shumen
 # in the summer of 2013 founded as an alternative to the other local club PFC Shumen 2010, which had been struggling financially for a number of years.
 # Note: Not to be confused with PFC Shumen 2010
+
+
 
 ===================================
 =  Croatia
@@ -1575,9 +1716,23 @@ FC Shumen 1929 (-2016),  Shumen
 GNK Dinamo Zagreb, Zagreb
   | Dinamo Zagreb | NK Dinamo Zagreb
 NK Lokomotiva Zagreb, Zagreb
-  | Lok Zagreb | Lokomotiva Zagreb
+  | Lokomotiva | Lok Zagreb | Lokomotiva Zagreb
 
 NK Zagreb, Zagreb     # champs (1): 2002/03
+
+NK Trešnjevka Zagreb, 1926,  Zagreb
+  | NK Trešnjevka
+
+NK Lučko Zagreb,  1931, Zagreb
+  | Lučko | NK Lučko
+
+NK Hrvatski Dragovoljac, 1975, Zagreb (Novi Zagreb)
+  | Hrvatski Dragovoljac
+
+NK Rudeš,  Zagreb (Rudeš)
+
+NK Croatia Sesvete (1957-2012), Zagreb (Sesvete)
+  | Croatia Sesvete
 
 
 HNK Hajduk Split,  Split
@@ -1585,17 +1740,19 @@ HNK Hajduk Split,  Split
 RNK Split, Split
 
 
-NK Slaven Belupo, 1907,     Koprivnica 
-  | Slaven | Slaven Belupo 
+NK Slaven Belupo, 1907,     Koprivnica
+  | Slaven | Slaven Belupo
   | Slaven Koprivnica | NK Slaven Koprivnica
   | Nogometni Klub Slaven
 
 NK Varaždin
   | Varaždin
+  | Varteks Varaždin
+  | NK Varaždin ŠN
 
 
 HNK Rijeka
-  | Rijeka
+  | Rijeka | NK Rijeka
 NK Osijek
   | Osijek
 HNK Cibalia
@@ -1606,10 +1763,21 @@ HNK Gorica
 NK Istra 1961
   | Istra 1961
 NK Inter Zaprešić
-  | Inter Zaprešić
-  
+  | Zaprešić | Inter Zaprešić
+
+
+NK Karlovac,  Karlovac
+  | Karlovac
+NK Zadar, Zadar
+
+NK Međimurje Čakovec,   Čakovec
+  | Međimurje | NK Međimurje
+  | Medimurje   ## todo/fix: auto-add variant!!!
+
 NK Kamen Ingrad (1929-2008),  Velika
   | Kamen Ingrad
+
+
 ================================
 =  Cyprus
 
@@ -1619,7 +1787,7 @@ AC Omonia Nicosia,      Nicosia
 APOEL Nicosia FC,       Nicosia
   | APOEL Nicosia | APOEL | APOEL FC
   | APOEL Nikosia [de]
-Olympiakos Nicosia FC,  Nicosia 
+Olympiakos Nicosia FC,  Nicosia
   | Olympiakos
   | Olympiakos Nicosia
   | Olympiakos Nikosia
@@ -1631,6 +1799,8 @@ Apollon Limassol FC,     Limassol
 Karmiotissa Pano Polemidia,  Limassol (Pano Polemidia)
   | Karmiotissa Pol. | Karmiotissa Polemidion
   | Karmiotissa FC
+  | Karmiotissa Pano Polemidion
+
 
 
 Anorthosis Famagusta FC, Larnaca         ## note: originally based in Famagusta, now based in Larnaca
@@ -1652,35 +1822,40 @@ Alki Larnaca FC (1948-2014), Larnaca
   | Alki Larnaca
 
 APOP/Kinyras Peyias FC
-  | APOP
+  | APOP | APOP / Kinyras
 Ermis Aradippou FC
-  | Ermis
+  | Ermis | Ermis Aradippou
 
 Ethnikos Achnas FC
   | Ethnikos Achnas
   | Ethnikos Achna
-  
+
 Pafos FC
   | Pafos | FC Pafos
 Doxa Katokopia FC,  Katokopia
   | Doxa | Doxa Katokopias FC
- 
+  | Doxa Katokopia
+
 Enosis Neon Paralimni FC
   | Paralimni
   | Enosis N. Paralimni | Enosis Neon Paralimni
+  | Enosis Paralimni
+
 Nea Salamis Famagusta FC
   | Nea Salamis
   | Nea Salamina Fama.
   | Salamis Famagusta
 
-Digenis Morphou, Morphou 
+Digenis Morphou, Morphou
   | Digenis Akritas Morphou FC
   | Dighenis Akritas Morphou FC
   | Dighenis Morphou
 
-Alki Oroklini,  Oroklini 
+Alki Oroklini,  Oroklini
   | Alki Oroklinis
- 
+
+
+
 ====================================
 =  Czech Republic
 
@@ -1694,7 +1869,7 @@ AC Sparta Praha, 1893, Praha       ## Prague [en]
 FK Dukla Praha, 1958,  Praha
   | Dukla
   | FK Dukla Prague [en]
-  | FK Dukla Prag [de] 
+  | FK Dukla Prag [de]
   | Dukla Praha     # champs (10): 1982/83 1979/80 1977/78 1966/67 1965....1961 (4) 1959..1957 (2)
 
 SK Slavia Praha, 1892, Praha
@@ -1716,7 +1891,7 @@ FK Mladá Boleslav, 1902, Mladá Boleslav   ## Central Bohemia
   | Mladá Boleslav | Fotbalový klub Mladá Boleslav
 
 1. FK Příbram, 1928, Příbram     ## Central Bohemia
-  | Příbram
+  | Příbram | FK Příbram
 
 Viktoria Plzeň, 1911,  Plzeň      ## Plzeň
   | Plzeň | FC Viktoria Plzeň | Football Club Viktoria Plzeň
@@ -1748,9 +1923,14 @@ FC Zlín, 1919,   Zlín     ## Zlín
 
 FC Vysočina Jihlava, 1948,  Jihlava  ## Vysočina
   | Jihlava | FC Jihlava
+  | Vysočina Jihlava
 
 FC Zbrojovka Brno, 1913,   Brno     ## South Moravia
   | Brno | Zbrojovka Brno
+
+FC LeRK Brno  (1910-1995),  Brno
+  | Spartak Brno KPS
+
 
 MFK Karviná
   | Karviná
@@ -1763,8 +1943,10 @@ SK Dynamo České Budějovice
   | SK Dynamo Budweis [de]
 
 FK Ústí nad Labem, Ústí nad Labem
+  | Ústí nad Labem
 
-FC Hradec Králové, Hradec Králové 
+FC Hradec Králové, Hradec Králové
+  | Hradec Králové
   | DSO Spartak Hradec Králové    # champs (1): 1960/61
 
 MFK Vítkovice,  1919,  Ostrava (Vítkovice)
@@ -1774,8 +1956,18 @@ MFK Vítkovice,  1919,  Ostrava (Vítkovice)
 # announced bankruptcy in 2011 and transformed to MFK Vítkovice
 
 
+1. SC Znojmo FK,   Znojmo
+  | Znojmo
+
+SK Kladno,  Kladno
+  | Kladno | Sportovní Klub Kladno
+
+
 FK Drnovice (1932-2006), Drnovice
   | 1. FK Drnovice
+  | Petra Drnovice
+
+
 
 ==========================
 =   Denmark
@@ -1784,12 +1976,12 @@ FK Drnovice (1932-2006), Drnovice
 == Hovedstaden ==
 FC København, 1992,    København         ## Copenhagen [en]
   | København | Football Club København
-  | FC Copenhagen [en]
+  | Copenhagen | FC Copenhagen [en]
   | FC Kopenhagen [de]
 
 B 1903 København (1903-1992),     København      # champs (3): 1977/78 1972..1970 (2)
-  | B 1903 | Boldklubben 1903    
-## In 1992 merged with Kjøbenhavns Boldklub (KB) 
+  | B 1903 | Boldklubben 1903
+## In 1992 merged with Kjøbenhavns Boldklub (KB)
 ##    to form the current club FC Copenhagen
 
 KB København (1876-1992),     København    # champs (4): 1981/82 1975/76 1969/70 1958/59
@@ -1798,8 +1990,12 @@ KB København (1876-1992),     København    # champs (4): 1981/82 1975/76 1969/
 # In 1991, KB and B 1903 merged their professional football teams
 #  and formed FC Copenhagen
 
+B93 København, 1893,  København (Østerbro)
+  | B.93 | Boldklubben 1893
+
 
 BK Fremad Amager,    København
+  | Fremad Amager
 Brønshøj BK,         København
   | Brønshøj Boldklub
   | Brönshöj BK [de]
@@ -1809,14 +2005,15 @@ Vanløse IF,          København
   | Vanlöse IF [de]
 
 BK Frem, 1886  København (Valby-Sydhavnen)
-  | Boldklubben Frem 
-  | BK Frem København
+  | Boldklubben Frem
+  | Frem København | BK Frem København
   | BK Frem Copenhagen
-  
 
-Akademisk Boldklub,  Gladsaxe   # north of Copenhagen 
+
+Akademisk Boldklub,  Gladsaxe   # north of Copenhagen
   | AB Gladsaxe |  Akademisk Boldklub Gladsaxe
   | Akademisk BK
+  | AB København
 
 Brøndby IF, 1964,    Brøndbyvester       ## use Brøndby ??
   | Brøndby | Brøndbyernes Idrætsforening
@@ -1833,7 +2030,8 @@ Lyngby BK, 1921, Lyngby
 
 == Nordjylland ==
 Aalborg BK, 1885,    Aalborg
-  | AaB | Aalborg | Aalborg Boldspilklub
+  | AaB | Aalborg | AaB Aalborg
+  | Aalborg Boldspilklub
 
 Hobro IK, 1913,     Hobro
   | Hobro | Hobro Idræts Klub
@@ -1846,13 +2044,13 @@ Vendsyssel FF, Hjørring
 FC Midtjylland, 1999,   Herning
   | Midtjylland | Football Club Midtjylland
 
-Ikast FS (1935-1999),  Ikast 
+Ikast FS (1935-1999),  Ikast
   | IFS | Ikast Forenede Sportsklubber
 # In 1999 merged with Herning Fremad to found FC Midtjylland.
 
 
 AGF Aarhus, 1880,   Aarhus
-  | AGF | Aarhus 
+  | AGF | Aarhus
   | Aarhus GF | Aarhus Gymnastikforening
 
 Viborg FF, 1896,    Viborg
@@ -1869,6 +2067,10 @@ Silkeborg IF, 1917,  Silkeborg
 Randers FC, 2003,   Randers
   | Randers | Randers Football Club
 
+Randers Freja,   Randers
+  | Randers Sportsklub Freja
+# In 2003 merged with five other local football clubs to form Randers FC.
+
 
 == Syddanmark ==
 Sønderjysk Elitesport, 2004,   Haderslev
@@ -1876,9 +2078,10 @@ Sønderjysk Elitesport, 2004,   Haderslev
 
 Odense BK, 1887,      Odense
   | OB | Odense | Odense Boldklub
+  | OB Odense
 
 B 1909 Odense, Odense    # champs (3): 1966..1964 (2) 1959/60
-  | B 1909 | Boldklubben 1909 
+  | B 1909 | Boldklubben 1909
 B 1913 Odense, Odense    # champs (1): 1961/62
   | B 1913 | Boldklubben 1913
 
@@ -1901,7 +2104,7 @@ HB Køge, 2009,             Køge (Herfølge)
 
 Herfølge BK (1921-2009),   Køge (Herfølge)
   | Herfølge Boldklub
-# In 2009 merged its professional football 
+# In 2009 merged its professional football
 #    with Køge BK to form HB Køge
 
 Køge BK (1927-2009),     Køge     # in Zealand
@@ -1909,7 +2112,7 @@ Køge BK (1927-2009),     Køge     # in Zealand
 # In March 2009 the first team merged
 #    with Herfølge Boldklub to form HB Køge.
 
-Holbæk B&I, 1931,     Holbæk   # on Zealand 
+Holbæk B&I, 1931,     Holbæk   # on Zealand
   | Holbæk Bold- & Idrætsforening
 
 
@@ -1921,6 +2124,7 @@ Hvidovre IF,    Hvidovre
 Nykøbing FC,    Nykøbing Falster
   | Nyköbing FC [de]
 Næstved BK,     Næstved
+  | Næstved IF
 
 Hillerød Fodbold,   Hillerød
   | Hilleröd Fodbold [de]
@@ -1932,8 +2136,10 @@ Viby IF,       Viby
 Hellerup IK,   Hellerup
   | HIK | HIK Hellerup
 
-B 1901 Nykøbing (1901-1994),  Nykøbing Falster   
+B 1901 Nykøbing (1901-1994),  Nykøbing Falster
   | B1901 Nyköbing
+
+
 ====================================
 =  England
 
@@ -2402,28 +2608,31 @@ Nuneaton Borough FC,    Nuneaton › Warwickshire
 
 Berwick Rangers,  Berwick-upon-Tweed       ## note: in England !!!
   | Berwick
+
+
 ==============================
 =  Estonia
 
 FC Levadia Tallinn
   | Levadia | Levadia Tallinn
   | FC Levadia Maardu
-  | FCI Levadia
-# Founded as Levadia in Maardu in 1998, 
+  | FCI Levadia | FCI Levadia Tallinn
+# Founded as Levadia in Maardu in 1998,
 # the club moved to Tallinn in 2004
 
 FC Flora Tallinn
   | Flora | FC Flora
   | Flora Tallinn     # champs (7): 2013..2011 (2) 2005...2002 (3) 2000..1998 (2)
-  
+
 
 FC TVMK Tallinn
   | TVMK | FC TVMK     # champs (1): 2006/07
-  
+
 
 FCI Tallinn
 JK Tallinna Kalev
   | Tallinna Kalev
+  | Talinna Kalev
 
 FC Norma Tallinn (1959-1997), Tallinn    # champs (2): 1994..1992 (2)
   | Norma Tallinn
@@ -2433,26 +2642,36 @@ FC Lantana Tallinn (1994-1999),  Tallinn
 
 
 JK Trans Narva
-  | Trans | JK Narva Trans
+  | Trans | Trans Narva
+  | Narva Trans | JK Narva Trans
+
 JK Nõmme Kalju
   | Kalju | Nõmme Kalju | Nõmme Kalju FC
+  | Kalju Nõmme
+  | Nõmme JK Kalju
+
 JK Sillamäe Kalev
+  | Sillamäe Kalev | Kalev Sillamäe
 
 FC Santos Tartu
+  | Santos Tartu
 JK Tammeka Tartu
   | Tammeka | Tammeka Tartu
 
 Paide Linnameeskond
   | Paide
 
-JK Tulevik Viljandi,   Viljandi   
+JK Tulevik Viljandi,   Viljandi
   | Tulevik | Viljandi Tulevik | Viljandi JK Tulevik
+  | Tulevik Viljandi
 
 
 FC Kuressaare
   | Kuressaare
 Maardu Esteve
   | Maardu
+
+
 ==================================
 =  Faroe Islands
 
@@ -2504,21 +2723,23 @@ VB Vágur (1905-2005),  Vágur
 B71 Sandoy,     Sandur
   | B71 | Bóltfelagið 1971
   | Sandoyar Ítróttarfelag B71
-  =================================
+  
+
+=================================
 =  Finland
 
 
 HJK Helsinki,     Helsinki
-  | HJK | Helsingin Jalkapalloklubi 
+  | HJK | Helsingin Jalkapalloklubi
 HIFK Helsinki,    Helsinki
-  | HIFK | HIFK Fotboll | IFK Helsingfors 
+  | HIFK | HIFK Fotboll | IFK Helsingfors
   | Helsingfors IFK   # champs (2): 1962/63 1960/61
   | Helsinki IFK
 
 HPS Helsinki,   Helsinki    # champs (1): 1958/59
-  | HPS | Helsingin Palloseura 
+  | HPS | Helsingin Palloseura
 
-Finnairin Palloilijat Helsinki (1965-1998), Helsinki 
+Finnairin Palloilijat Helsinki (1965-1998), Helsinki
   | FinnPa | FinnPa Helsinki
   | Finnairin Palloilijat
 
@@ -2532,37 +2753,55 @@ FC Inter Turku,  Turku
   | FC Inter | Inter Turku
 TPS Turku, 1922,      Turku
   | TPS | Turun Palloseura
+  | Turku PS
 
 FC Honka Espoo,   Espoo
-  | FC Honka | Honka
+  | Honka | Honka Espoo
+  | FC Honka
+
 KuPS Kuopio,      Kuopio
   | KuPS | Kuopio PS
   | Kuopion PS     # champs (3): 1977/78 1975/76 1967/68
   | Kuopion Palloseura
-  
+
+Koparit Kuopio (1931-1990),   Kuopio
+  | Koparit | Koparit FC
+  | KPT | Kuopion Pallotoverit
+
+
 Myllykosken Pallo -47,   Myllykoski    ## part of the city of Kouvola
-  | MYPA | MyPa 
-  | Myllykosken Pallo-47 
+  | MYPA | MyPa | MyPa-47
+  | Myllykosken Pallo-47
   | Myllykosken Pallo −47   ### todo/fix: norm dash (− => -) !!!
 
 FC Lahti,         Lahti
   | Lahti
-# FC Lahti was founded in 1996 when two rival clubs from Lahti 
-#  FC Kuusysi and Reipas Lahti - decided to merge. 
+# FC Lahti was founded in 1996 when two rival clubs from Lahti
+#  FC Kuusysi and Reipas Lahti - decided to merge.
 
 FC Kuusysi,       Lahti   # champs (5): 1992/93 1990/91 1987/88 1985/86 1983/84
+  | Kuusysi Lahti
 FC Reipas Lahti,  Lahti   # champs (3): 1971/72 1968/69 1964/65
-  | FC Reipas
+  | FC Reipas | Reipas Lahti
 
 
 JJK Jyväskylä,     Jyväskylä
-  | JJK | JJK Jyvaskyla 
+  | JJK | JJK Jyvaskyla
+  | Jyvaskyla JK
 
 Tampere United,      Tampere
+
 FC Ilves,            Tampere
   | Ilves | Ilves Tampere
   | FC Ilves Tampere
-  | Tampereen Ilves [de]
+  | Tampereen Ilves
+# They were formed in 1975 as a merger between
+#  Ilves-Kissat Tampere and TaPa Tampere
+
+Ilves-Kissat Tampere,  Tampere
+  | Ilves-Kissat | Tampereen-Viipurin Ilves-Kissat
+# In 1974 Ilves-Kissat and Tampellan Palloilijat
+#   merged with Ilves Tampere
 
 Tampereen Pallo-Veikot, 1930, Tampere
   | TPV | TPV Tampere
@@ -2575,10 +2814,11 @@ KPV Kokkola,        Kokkola
 Rovaniemen Palloseura,  Rovaniemi
   | RoPS | Rovaniemi | RoPS Rovaniemi | Rovaniemi PS
 SJK Seinäjoki,      Seinäjoki
+  | Seinäjoki
   | SJK | Seinäjoen Jalkapallokerho
   | Seinäjoen JK
 Vaasan Palloseura,    Vaasa
-  | VPS | VPS Vaasa | Vaasa PS
+  | VPS | VPS Vaasa | Vaasa PS | Vaasan PS
 
 FC Haka, Valkeakoski
   | Haka
@@ -2603,7 +2843,7 @@ FC Jazz, Pori      # champs (1): 1997/98
   | FC Jazz Pori
 
 AC Oulu, 2002, Oulu
-# AC Oulu was founded in 2002 as a joint initiative of the 
+# AC Oulu was founded in 2002 as a joint initiative of the
 #  OLS, OPS, OTP and Tervarit clubs.
 
 OPS Oulu,   Oulu    #  champs (2): 1982..1980 (2)
@@ -2616,6 +2856,8 @@ Mikkelin Palloilijat, 1929, Mikkeli
 
 AC Vantaan Allianssi (2002-2006),  Vantaa
   | AC Allianssi
+
+
 ====================================
 =  France
 
@@ -2676,7 +2918,9 @@ OGC Nice, 1904, Nice    ## Alpes-Maritimes > Provence-Alpes-Côte d'Azur
   | OGC Nizza [de]
 
 Stade Rennais FC, 1901,   Rennes    ## Ille-et-Vilaine > Brittany
-  | Rennes | Stade Rennes | Stade Rennais Football Club
+  | Rennes | Stade Rennes
+  | Stade Rennais | Stade Rennais Football Club
+
 AS Saint-Étienne, 1919,  Saint-Étienne     ## Loire > Rhône-Alpes
   | St-Étienne | Saint-Étienne
   | Association Sportive de Saint-Étienne Loire
@@ -2773,7 +3017,7 @@ Stade Lavallois, Laval
   | Laval | Stade Lavallois Mayenne Football Club
   | Stade Lavallois-Mayenne FC
   | Stade Laval
-  
+
 Le Mans FC,   Le Mans ›  Pays de la Loire
   | Le Mans | Le Mans Football Club | Le Mans UC 72
 FC Libourne-Saint-Seurin, Libourne
@@ -2813,6 +3057,21 @@ Rodez AF, 1929,   Rodez › Occitanie
 
 AS Béziers, 2007,  Béziers › Occitanie
   | Béziers | Avenir Sportif Béziers      ## check wikipedia -> AS Béziers (2007)
+
+
+Angoulême-Soyaux Charente, 1920, Angoulême
+  | Angoulême | AS Angoulême
+  | Angoulême CFC | Angoulême Charente FC
+# In 2019 following a merger with ASJ Soyaux-Charente
+#   they adopted the current name - Angoulême-Soyaux Charente
+#  name history:
+# AS Angoulême (ASA) (1948-92)
+# AS Angoulême-Charente 92 (ASAC92) (1992-2005)
+# Angoulême Charente Football Club (ACFC) (2005-2019)
+# Angoulême-Soyaux Charente (ASC) (2005-2019)
+
+
+
 ==================================
 =  Georgia
 
@@ -2825,13 +3084,13 @@ FC Locomotive Tbilisi,   Tbilisi
   | Lokomotiv Tbilisi
 
 FC Ameri Tbilisi (2002-2009), Tbilisi
-  | Ameri 
+  | Ameri
 
 
 FC Zestafoni, 2014,  Zestafoni
   | Zestafoni     # champs (2): 2013..2011 (2)
 
-FC Margveti Zestafoni (1990-2000),  Zestafoni 
+FC Margveti Zestafoni (1990-2000),  Zestafoni
   | Margveti Zestafoni
 # Margveti was declared bankrupt in 2000.
 
@@ -2850,11 +3109,14 @@ FC Torpedo Kutaisi
 
 
 FC Chikhura Sachkhere
-  | Chikhura
+  | Chikhura | Chikhura Sachkhere
 FC Samtredia
+  | Samtredia
 FC Dinamo Batumi
   | Dinamo Batumi
 FC Tskhinvali
+  | Spartak Tskhinvali
+  | Spartaki Tskhinvali
 FC Sioni Bolnisi
   | Sioni
   | Sioni Bolnisi    # champs (1): 2006/07
@@ -2866,6 +3128,8 @@ FC Kolkheti Poti, 1913,  Poti
   | FC Kolkheti-1913 Poti
 
 
+
+
 ============================================
 = Germany • Deutschland
 
@@ -2875,7 +3139,7 @@ FC Kolkheti Poti, 1913,  Poti
 Bayern München, 1900,     München
   | Bayern | FC Bayern München
   | Bayern Munich [en] | FC Bayern Munich [en]
- Säbener Straße 51-57 // 81547 München 
+ Säbener Straße 51-57 // 81547 München
 ii) Bayern München II
   | Bayern II |  Bayern München Am.
 
@@ -2884,25 +3148,25 @@ TSV 1860 München, 1860, München
   | Munich 1860 [en] | TSV 1860 Munich [en]
  Grünwalder Straße 114 // 81547 München
 
-Türkgücü München,  München 
+Türkgücü München,  München
   | Türkgücü
 
 1. FC Nürnberg, 1900, Nürnberg       ### todo: always map Nurnberg to 1. FC Nürnberg ?!
   | Nürnberg
   | 1. FC Nuremberg [en]
- Valznerweiherstraße 200 // 90480 Nürnberg 
+ Valznerweiherstraße 200 // 90480 Nürnberg
 ii) 1. FC Nürnberg II
   | Nürnberg II
-  
+
 SpVgg Greuther Fürth, 1903, Fürth
   | Greuther Fürth
- Laubenweg 60 // 90765 Fürth 
+ Laubenweg 60 // 90765 Fürth
 ii) SpVgg Greuther Fürth II
   | Gr. Fürth II | Greuther Fürth II
 
 FC Augsburg, 1907,    Augsburg
   | Augsburg
- Donauwörther Str. 170 // 86154 Augsburg 
+ Donauwörther Str. 170 // 86154 Augsburg
 ii) FC Augsburg II
   | Augsburg II
 
@@ -2911,7 +3175,7 @@ SpVgg Unterhaching,  Unterhaching
 FC Ingolstadt 04, 2004,    Ingolstadt               ##  bis 2004 MTV Ingolstadt und ESV Ingolstadt-Ringsee
   | Ingolstadt | FC Ingolstadt
  Am Sportpark 1 // 85053 Ingolstadt
- 
+
 SSV Jahn Regensburg,   Regensburg
   | Regensburg | Jahn Regensburg
 1. FC Schweinfurt 05,  Schweinfurt
@@ -2921,13 +3185,13 @@ Würzburger Kickers, 1907,     Würzburg
   | Kickers Würzburg
 Wacker Burghausen,  Burghausen
   | Burghausen
-Viktoria Aschaffenburg,  Aschaffenburg 
+Viktoria Aschaffenburg,  Aschaffenburg
   | Aschaffenburg
 TSV 1860 Rosenheim,  Rosenheim
   | 1860 Rosenheim
 FV Illertissen
   | Illertissen
-SpVgg Bayreuth,  Bayreuth 
+SpVgg Bayreuth,  Bayreuth
   | Bayreuth
 TSV Aubstadt
 TSV Buchbach
@@ -2951,7 +3215,7 @@ TSV 1896 Rain
   | Köln            ## add Köln too - why? why not?
   | FC Köln
  Franz-Kremer-Allee 1 // 50937 Köln
- 
+
 Fortuna Köln, 1948,  Köln
   | F Köln | SC Fortuna Köln | Sportclub Fortuna Köln
 FC Viktoria Köln,    Köln
@@ -2960,21 +3224,21 @@ FC Viktoria Köln,    Köln
 Fortuna Düsseldorf,  1895, Düsseldorf
   | Düsseldorf | F. Düsseldorf
  Arena Straße 1 // 40474 Düsseldorf
- 
+
 Borussia Dortmund, 1909,    Dortmund
   | Dortmund | Bor. Dortmund | BV 09 Borussia Dortmund
  Rheinlanddamm 207-209 // 44137 Dortmund
 ii) Borussia Dortmund II
   | Dortmund II | Bor. Dortmund II
-  
+
 FC Schalke 04, 1904,         Gelsenkirchen
   | Schalke | Schalke 04
  Ernst-Kuzorra-Weg 1 // 45891 Gelsenkirchen
- 
+
 Bayer 04 Leverkusen, 1904,    Leverkusen
   | Bayer | Leverkusen | Bayer Leverkusen | Bay. Leverkusen
  Bismarckstr. 122 - 124 // 51373 Leverkusen
- 
+
 MSV Duisburg,         Duisburg       ## until 1965/66 Meidericher SV -- was Meidericher SV in 1963/64
   | Duisburg | Meidericher SV
 Bor. Mönchengladbach, 1900, Mönchengladbach
@@ -2982,18 +3246,18 @@ Bor. Mönchengladbach, 1900, Mönchengladbach
   | Borussia M'gladbach | Bor. M'gladbach  | Borussia Mönchengladbach
   | VfL Borussia Mönchengladbach
  Hennes-Weisweiler-Allee 1 // 41179 Mönchengladbach
- 
+
 VfL Bochum, 1938,            Bochum
   | Bochum | VfL Bochum 1848
  Castroper Straße 145 // 44791 Bochum
- 
+
 SG Wattenscheid 09,    Bochum (Wattenscheid)    ## Bochum-Wattenscheid - Bochumer Stadtbezirk
   | Wattenscheid | Wattenscheid 09
 
 Arminia Bielefeld,  1905,    Bielefeld
   | Bielefeld | DSC Arminia Bielefeld
  Melanchthonstraße 31a // 33615 Bielefeld
- 
+
 Preußen Münster,     Münster
   | Münster | SC Preußen 06 | SC Preußen Münster
 
@@ -3009,7 +3273,7 @@ Alemannia Aachen,     Aachen
 SC Paderborn 07,  1907,      Paderborn
   | Paderborn | Paderborn 07 | SC Paderborn
  Paderborner Str. 89 // 33104 Paderborn
- 
+
 Rot Weiss Ahlen,    Ahlen
   | Ahlen
 Rot-Weiß Oberhausen,   Oberhausen
@@ -3034,7 +3298,7 @@ SC Wiedenbrück
 FC Hennef 05
 TuS Erndtebrück
 
-SC Verl, 1924, Verl  
+SC Verl, 1924, Verl
 SV Rödinghausen, 1970, Rödinghausen
 
 
@@ -3063,12 +3327,12 @@ VfL Wolfsburg,           Wolfsburg › Niedersachsen
 Hannover 96, 1896,       Hannover › Niedersachsen
   | Hannover | Hannover 1896
  Robert-Enke-Straße 1 // 30169 Hannover
- 
+
 Eintracht Braunschweig, 1895,  Braunschweig › Niedersachsen
-  | Braunschweig | E. Braunschweig | Eintr. Braunschweig 
+  | Braunschweig | E. Braunschweig | Eintr. Braunschweig
   | TSV Eintracht Braunschweig
  Hamburger Straße 210 // 38112 Braunschweig
- 
+
 FT Braunschweig
   | Freie Turnerschaft Braunschweig
 
@@ -3087,7 +3351,7 @@ TSV Havelse
 Energie Cottbus,  1966,      Cottbus › Brandenburg
   | Cottbus | FC Energie Cottbus
  Am Eliaspark 1 // 03042 Cottbus
- 
+
 SV Babelsberg 03,     Potsdam › Brandenburg     ## (Potsdam-Babelsberg)
   | Babelsberg
 
@@ -3095,8 +3359,16 @@ FSV Optik Rathenow
 SV Falkensee-Finkenkrug
 
 FFC Victoria 91,   Frankfurt an der Oder
-  | FC Frankfurt Viktoria/Oder
   | 1. FC Frankfurt | 1. FC Frankfurt (Oder)
+  | FC Frankfurt Viktoria/Oder
+  | FC Vorwärts Frankfurt
+# Seit 1971 spielte der Verein in Frankfurt,
+# zunächst als FC Vorwärts Frankfurt (Oder) und
+# später als FC Victoria '91 Frankfurt (Oder) und
+# Frankfurter FC Viktoria.
+# Am 1. Juli 2012 benannte sich Viktoria unter
+#  Anschluss des MSV Eintracht Frankfurt
+#  in 1. FC Frankfurt (Oder) um.
 
 FC Stahl Brandenburg,    Brandenburg an der Havel
   | Stahl Brandenburg
@@ -3106,7 +3378,8 @@ FC Stahl Brandenburg,    Brandenburg an der Havel
 == Berlin ==
 
 Hertha BSC, 1892,            	Berlin › Berlin
-  | Hertha | Hertha BSC Berlin | Hertha Berliner Sport-Club
+  | Hertha | Hertha Berlin
+  | Hertha BSC Berlin | Hertha Berliner Sport-Club
  Hanns-Braun-Straße / Friesenhaus 2 // 14053 Berlin
 
 1. FC Union Berlin, 1966,     Berlin › Berlin
@@ -3114,7 +3387,7 @@ Hertha BSC, 1892,            	Berlin › Berlin
  An der Wuhlheide 263 // 12555 Berlin
 
 Tennis Borussia Berlin, Berlin › Berlin
-  | TB Berlin | TeBe Berlin 
+  | TB Berlin | TeBe Berlin
 Blau-Weiß 90 Berlin (-1992), Berlin › Berlin
   | Blau-Weiss 90 Berlin
 SC Tasmania 1900 Berlin (-1973), Berlin › Berlin
@@ -3131,18 +3404,21 @@ FC Viktoria 1889 Berlin,     Berlin › Berlin
 
 
 ASK Vorwärts Berlin     # champs (6): 1969/70 1967..1965 (2) 1963..1961 (2) 1959/60
+  | Vorwärts Berlin
+# 1969 wurde der Klub nach Frankfurt (Oder) verlegt
+#  und als ASK Vorwärts Frankfurt neu organisiert
 
 
 == Hamburg ==
 
 Hamburger SV,  1887,     Hamburg › Hamburg
   | Hamburg
- Sylvesterallee 7 // 22525 Hamburg 
+ Sylvesterallee 7 // 22525 Hamburg
 
 FC St. Pauli, 1910,      Hamburg (St. Pauli) › Hamburg     ## use stadtteil St. Pauli ??
   | St Pauli | St. Pauli | FC Sankt Pauli
  Heiligengeistfeld 1 // 20359 Hamburg
- 
+
 SC Victoria Hamburg
   | Victoria Hamburg
 USC Paloma Hamburg
@@ -3165,7 +3441,7 @@ Bremer SV
 
 VfB Stuttgart, 1893,        Stuttgart › Baden-Württemberg
   | Stuttgart
- Mercedesstraße 109 // 70372 Stuttgart 
+ Mercedesstraße 109 // 70372 Stuttgart
 ii) VfB Stuttgart II
   | Stuttgart II
 
@@ -3175,21 +3451,21 @@ Stuttgarter Kickers,   Stuttgart › Baden-Württemberg
 SC Freiburg, 1904,       	  Freiburg  › Baden-Württemberg
   | Freiburg
  Schwarzwaldstr. 193 // 79117 Freiburg
- 
+
 TSG 1899 Hoffenheim,  1899,  Sinsheim › Baden-Württemberg   ## Sinsheim-Hoffenheim
   | Hoffenheim | 1899 Hoffenheim | TSG Hoffenheim
  Horrenberger Straße 58 // 74939 Zuzenhausen       ## check for Hoffenheim ??
- 
+
 Karlsruher SC,  1894,        Karlsruhe › Baden-Württemberg
   | Karlsruhe
- Adenauerring 17 // 76131 Karlsruhe 
-   
+ Adenauerring 17 // 76131 Karlsruhe
+
 SSV Ulm 1846,         Ulm › Baden-Württemberg
   | Ulm
 VfR Aalen, 1921,          Aalen › Baden-Württemberg
   | Aalen
  Stadionweg 5/1 // 73430 Aalen
- 
+
 1. FC Heidenheim, 2007,   Heidenheim an der Brenz › Baden-Württemberg
   | Heidenheim | FC Heidenheim | 1. FC Heidenheim 1846
 SSV Reutlingen 05,     Reutlingen › Baden-Württemberg
@@ -3197,7 +3473,7 @@ SSV Reutlingen 05,     Reutlingen › Baden-Württemberg
 SV Sandhausen, 1916,         Sandhausen › Baden-Württemberg
   | Sandhausen | SV Sandhausen 1916
  Jahnstraße 1 // 69207 Sandhausen
- 
+
 VfR Mannheim,        Mannheim › Baden-Württemberg
   | Mannheim
   ##  - 2 (8): 2002-03....1999-00 (4) 1996-97....1993-94 (4)
@@ -3223,7 +3499,7 @@ Eintracht Frankfurt, 1899,   Frankfurt am Main › Hessen
   | SG Eintracht Frankfurt
   | Frankfurter SG Eintracht | Frankfurter Sportgemeinde Eintracht     # champs (1): 1959/60
  Mörfelder Landstraße 362 // 60528 Frankfurt am Main
- 
+
 FSV Frankfurt, 1899,       Frankfurt am Main › Hessen
    | Frankfurt FSV | FSV Frankfurt 1899
  Richard-Herrmann-Platz 1 // 60386 Frankfurt am Main
@@ -3245,7 +3521,7 @@ KSV Hessen Kassel
 
 1. FSV Mainz 05, 1905,     Mainz          › Rheinland-Pfalz
   | Mainz | Mainz 05 | FSV Mainz 05
- Isaac-Fulda-Allee 5 // 55124 Mainz 
+ Isaac-Fulda-Allee 5 // 55124 Mainz
 ii) 1. FSV Mainz 05 II
 
 Eintracht Trier,      Trier          › Rheinland-Pfalz
@@ -3282,33 +3558,41 @@ FC Schönberg 95
 1. FC Neubrandenburg 04
 
 
+FC Mecklenburg Schwerin,  Schwerin
+  | FC Eintracht Schwerin      ## keep as separate club - why? why not?
+  | PSV Schwerin | Polizei SV Schwerin
+# 2013 durch Fusion des Fördervereins FCM Schwerin und
+#  dem FC Eintracht Schwerin entstand
+
+
 == Sachsen ==
 
 Dynamo Dresden, 1953,      Dresden › Sachsen
   | Dresden | SG Dynamo Dresden
   | 1. FC Dynamo Dresden
  Lennéstraße 12 // 01069 Dresden
- 
+
 RB Leipzig, 2009,     Leipzig › Sachsen
+  | Rasenballsport Leipzig
 
 VfB Leipzig (-2004),  Leipzig › Sachsen     ## note: 2004 aufgelöst in bl 1993/94
   | Leipzig
 
-1. FC Lokomotive Leipzig (1966-1991), Leipzig 
+1. FC Lokomotive Leipzig (1966-1991), Leipzig
   | 1. FC Lok | 1. FC Lok Leipzig
-  | Lok Leipzig 
+  | Lok Leipzig | Lokomotive Leipzig
 # 1991 in VfB Leipzig umbenannt
 
 
 BSG Chemie Leipzig, Leipzig     # champs (1): 1964/65
-  | Betriebssportgemeinschaft Chemie Leipzig   
+  | Betriebssportgemeinschaft Chemie Leipzig
 
 FC Sachsen Leipzig (1990-2011),  Leipzig      # keep a separate club - why? why not?
-# FC Sachsen Leipzig entstand 1990 aus der Fusion der Vereine 
+# FC Sachsen Leipzig entstand 1990 aus der Fusion der Vereine
 # BSG Chemie Leipzig und BSG Chemie Böhlen
 
 SG Sachsen Leipzig (2011-2014),  Leipzig     # keep a separate club - why? why not?
-  
+
 
 Chemnitzer FC, 1966       Chemnitz › Sachsen
   | Chemnitz
@@ -3319,22 +3603,25 @@ Chemnitzer FC, 1966       Chemnitz › Sachsen
 FC Erzgebirge Aue, 1949,   Aue      › Sachsen
   | Aue  | Erzgebirge Aue
   | SC Wismut Karl-Marx-Stadt    # champs (3): 1960/61 1959..1957 (2)
-  | FC Wismut Aue
+  | Wismut Aue | FC Wismut Aue
  Lößnitzer Straße 95 // 08280 Aue
 # In 1954 the East German government decided that the nearby city of Chemnitz
-# —recently renamed Karl-Marx-Stadt—deserved a quality team and so, 
-# there were plans for the club to move to Karl-Marx-Stadt 
+# —recently renamed Karl-Marx-Stadt—deserved a quality team and so,
+# there were plans for the club to move to Karl-Marx-Stadt
 # and to be renamed SC Wismut Karl-Marx-Stadt.
 
- 
+
 FSV Zwickau,        Zwickau  › Sachsen
   | Zwickau
 
 
 == Sachsen-Anhalt ==
 
-Hallescher FC
+Hallescher FC,  1966,   Halle an der Saale
   | Halle
+  | FC Halle
+  | Hallescher FC Chemie
+
 1. FC Magdeburg, 1965,   Magdeburg
   | Magdeburg | FC Magdeburg
 
@@ -3343,7 +3630,7 @@ Hallescher FC
 
 FC Carl Zeiss Jena,  Jena   › Thüringen
   | CZ Jena | Carl Zeiss Jena
-  | SC Motor Jena    # champs (1): 1963/64  
+  | SC Motor Jena    # champs (1): 1963/64
 #  Renamed SC Motor Jena in 1954
 
 SV Schott Jena
@@ -3354,12 +3641,14 @@ FC Rot-Weiß Erfurt,  Erfurt › Thüringen
 
 Wacker Nordhausen,  Nordhausen › Thüringen
   | FSV Wacker 90 Nordhausen
+
+
 ===============================
 =  Gibraltar
 
 
 Lincoln FC
-  | Lincoln Red Imps FC | Lincoln Red Imps
+  | Lincoln | Lincoln Red Imps FC | Lincoln Red Imps
 Manchester 62 FC
   | Manchester 62
 Lynx FC
@@ -3387,6 +3676,8 @@ Boca Juniors Gibraltar FC
   | Boca Juniors
 FC Olympique
   | Olympique
+
+
 ================================
 =  Greece
 
@@ -3399,13 +3690,14 @@ Panathinaikos FC,  Athens
   | Panathinaikos Athens
 
 Apollon Smyrnis FC,  Athens
-  | Apollon
+  | Apollon | Apollon Smyrnis
   | Apollon Athens FC
+
 Atromitos FC,      Athens    ## use!? - Peristeri a suburban municipality in the northwestern part of the Athens agglomeration
   | Atromitos
   | Atromitos Athen [de]
 Panionios GSS,     Athens    ## use!? - Nea Smyrni a municipality and a southern suburb of Athens
-  | Panionios 
+  | Panionios
   | Panionios Athen [de]
 APO Akratitos,      Athens        ## Ano Liosia, Athens
   | Akratitos
@@ -3445,14 +3737,16 @@ Ethnikos Piraeus FC,    Piraeus › Attica
 PAOK FC,              Thessaloniki › Central Macedonia
   | PAOK | PAOK Thessal. | PAOK Thessaloniki
   | PAOK Saloniki
+  | PAOK Thessaloniki FC
 Aris Thessaloniki FC, Thessaloniki › Central Macedonia
   | Aris | Aris Thessaloniki
   | Aris Saloniki
 Iraklis 1908 Thessaloniki FC, Thessaloniki › Central Macedonia
   | Iraklis | Iraklis FC
+  | Iraklis Thessaloniki
   | AEP Iraklis FC
   | Heracles [en]   ## Iraklis = Haracles (engl.)
- 
+
 Apollon Pontou FC, Kalamaria › Central Macedonia    ## Kalamaria, Thessaloniki
   | Kalamaria
 
@@ -3460,27 +3754,39 @@ Asteras Tripolis FC, Tripoli › Peloponnese
   | Asteras | Asteras Tripolis
 
 Xanthi FC,           Xanthi › Thrace
-  | Xanthi 
+  | Xanthi
   | Skoda Xanthi FC
 Panetolikos GFS,     Agrinio › West Greece
   | Panetolikos
   | Panaitolikos
 PAS Giannina FC,     Ioannina › Epirus
-  | Giannina | Yiannina
+  | Giannina | PAS Giannina
+  | Yiannina
 Levadiakos FC,       Livadeia › Central Greece
   | Levadeiakos | Levadiakos
 
 
-AE Larissa FC,       Larissa › Thessaly
+AE Larissa FC,  1964,     Larissa › Thessaly
   | Larissa | Larissa FC | AE Larissa
   | Larisa | AE Larisa
-
+  | Larisa AEL
+  | AEL | Athlitiki Enosi Larissa
+  | Athlitiki Enosi Larissa FC
+  | AEL Football Club
 
 PAS Lamia 1964,      Lamia › Central Greece
   | Lamia | PAS Lamia | Lamia 1964
+
 Kerkyra FC,          Corfu › Ionian Islands
   | Kerkyra
   | Kerkyra Kassiopi     # club founded in 2013 following a merger between AO Kerkyra and AO Kassiopi.
+  | AOK Kerkyra
+  | PAE Kerkyra
+# name history.
+#   1969–2013 (AO Kerkyra)
+#   1984–2013 (AO Kassiopi)
+#   2013–present (AOK PAE Kerkyra
+
 
 Doxa Dramas FC, Drama › Macedonia
   | Doxa | Doxa Dramas
@@ -3516,15 +3822,20 @@ Volos FC, 2017, Volos › Thessaly
   | Volos
   | Volos NFC | Volos Football Club
   | Volos NPS
+  | Volos New Football Club
 Niki Volou FC, Volos › Thessaly
+  | Niki Volou
   | Niki Volos
 Olympiacos Volou 1937 FC, Volos › Thessaly
   | Olympiacos Volou | Olympiacos Volou FC
   | Olympiakos Volou
+  | Olympiakos Volos
 
-
-Panachaiki FC,   Patras › Peloponnese
+Panachaiki FC, 1891,  Patras › Peloponnese
   | Panahaiki | Panahaiki FC
+  | Panachaiki Patras
+  | Panachaiki 1891 Football Club
+  | Panachaiki GE
 
 Paniliakos FC, Pyrgos › Peloponnese
   | Paniliakos
@@ -3532,7 +3843,7 @@ Panserraikos FC, Serres › Macedonia
   | Panserraikos
 Panthrakikos FC, Komotini › Thrace
   | Panthrakikos
-
+  | Panthrakikos Komotini
 
 Trikala FC,       Trikala › Thessaly
   | Trikala
@@ -3542,6 +3853,8 @@ AO Trikala 1963,  Trikala › Thessaly
 
 Veria FC, Veria › Macedonia
   | Veria | Veroia
+
+
 ================================
 =  Hungary
 
@@ -3550,14 +3863,15 @@ Ferencvárosi TC, Budapest
   | Ferencváros | Ferencvaros
 
 Budapest Honvéd FC, Budapest
-  | Honvéd | Budapest Honvéd
+  | Honvéd | Honvéd Budapest
+  | Budapest Honvéd
   | Budapest Honvéd SE   # champs (7): 1990..1988 (2) 1987...1984 (3) 1980/81 1956/57
   | Kispesti Honvéd      # champs (2): 1993/94 1991/92
-# In 1991 renamed Kispest Honvéd FC 
+# In 1991 renamed Kispest Honvéd FC
 # and adopted Budapest Honvéd FC in 2003.
 
 Vasas FC, Budapest
-  | Vasas
+  | Vasas | Vasas Budapest
   | Budapesti Vasas   # champs (6): 1977/78 1968..1966 (2) 1963..1961 (2) 1957/58
 
 MTK Budapest, Budapest
@@ -3567,8 +3881,9 @@ MTK Budapest, Budapest
 
 Újpest FC, Budapest
   | Újpest
+  | Újpest Dózsa
   | Ú. Dózsa SC | Újpesti Dózsa SC | Újpesti Dózsa Sport Club  # champs (11): 1998/99 1990/91 1980..1978 (2) 1976......1970 (6) 1960/61
-
+  | Újpest TE
 
 Csepel SC, Budapest     # champs (1): 1959/60
   | Csepel FC
@@ -3578,7 +3893,7 @@ Budapesti VSC, 1911,    Budapest (Zugló)
 
 
 
-Vác FC,   Vác 
+Vác FC,   Vác
   | Dunakanyar-Vác   # champs (1): 1994/95
   | Dunakanyar-Vác FC
   | Váci FC
@@ -3591,18 +3906,23 @@ Dunaújváros FC (1952-2009),  Dunaújváros
 
 Videoton FC
   | Videoton      # champs (2): 2015/16 2011/12
+  | Videoton Fehérvár
+  | Fehérvár | Fehérvár FC
+  | MOL Fehérvár FC | MOL Vidi
 
 
 Debreceni VSC
   | Debrecen
+  | DVSC Debrecen
 
 Győri ETO FC, 1904,     Győr
   | Győr | Győri ETO     # champs (2): 2013/14 1964/65
   | Rába ETO Győr        # champs (2): 1984..1982 (2)
-  | ETO FC Győr
+  | ETO Győr | ETO FC Győr
   | Egyetértés Torna Osztály Futball Club Győr
   | Gyori ETO       ## FIX: auto-add variant!!!
   | Raba ETO Gyor   ## FIX: auto-add variant!!!
+  | ETO Györ        ## fix: auto-add variant!!!
 
 Paksi SE
   | Paks | Paksi FC
@@ -3614,45 +3934,71 @@ Szombathelyi Haladás
 Zalaegerszegi TE
   | Zalaegerszeg
 
-Fehérvár FC
-  | Fehérvár
 
 Diósgyőri VTK,  1910, Miskolc (Diósgyőr)
   | Diósgyőr
   | Diósgyöri VTK
   | Diósgyőr-Vasgyári Testgyakorlók Köre
-
+  | Diósgyöri Miskolc
+  | Diósgyör
 
 Mezőkövesd Zsóry SE
-  | Mezőkövesd
+  | Mezőkövesd | Mezőkövesd-Zsóry
+
 Varda SE
   | Varda
 
 Puskás Akadémia FC
+  | Puskás FC
 
 Kaposvári Rákóczi FC
-  | Rákóczi
+  | Rákóczi | Kaposvári Rákóczi
 
 Salgótarjáni BTC,  1920,  Salgótarján
  | Salgótarjáni Barátok Torna Club
  | Salgótarján BTC
 
-Pécsi MFC, 1950,   Pécs  
-  | PMFC | Pécsi Mecsek Football Club
+Pécsi MFC, 1950,   Pécs
+  | PMFC | Pécsi Mecsek FC | Pécsi Mecsek Football Club
+  | MSC Pécs
+  | Pécsi Dózsa | Pécsi Dózsa Sport Club
+# name history:
+#  1950: Pécs (Pécsi Dózsa Sport Club)
+#  1956: Pécs (Pécs Baranya)
+#  1957: Pécs (Pécsi Dózsa Sport Club)
+#  1973: Pécs (Pécsi Munkás Sport Club) amalgamation with Pécsi Bányász SC, Pécsi Ércbányász SC, Pécsi Helyiipar SK and Pécsi Építők --> PMSC
+#  1995: Pécs (Pécsi Mecsek Futball Club)
 
-FC Sopron
+
+FC Sopron (1921-2008),  Sopron
+
 
 Békéscsaba 1912 Előre, 1912,  Békéscsaba
   | Békéscsaba | Békéscsaba Előre
-  | Békéscsabai Előre FC | Békéscsabai EFC
   | Békéscsaba 1912 Előre SE
+  | Békéscsabai Előre
+  | Bekescsabai Elore   ## todo/fix: auto-add variant!!!
+  | Békéscsabai Előre FC | Békéscsabai EFC
 
 Pápai FC (1995-2015),  Pápa
-  | Lombard Pápa TFC
+  | Pápa | Lombard Pápa TFC
 
 
 FC Tatabánya, 1910,   Tatabánya
-  | Tatabánya FC
+  | Tatabánya | Tatabánya FC
+
+
+BFC Siófok, 1921,    Siófok
+  | Siófok | Bodajk FC Siófok
+  | Siófoki Bányász
+# The word Bodajk in the club's name stems from a merger
+#   with Bodajk FC in 2005.
+
+
+Komlói Bányász SK,   1922,   Komló
+  | Komlói Bányász | Komlói Bányász Sport Klub
+
+
 
 =================================
 =  Iceland
@@ -3674,6 +4020,8 @@ Víkingur Reykjavík, Reykjavík
   | ÍA | Íþróttabandalag Akraness
 FH Hafnarfjörður,  Hafnarfjörður    # note/fix: auto-change Hafnarfjörður => Hafnarfjördur
   | FH | FH Hafnarfjördur
+  | FH Hafnarfjardar
+
 Breiðablik,          Kópavogur        # note/fix: Breidablik - auto-change ð to d
   | Breidablik
 ÍBV Vestmannaeyjar,  Vestmannaeyjar
@@ -3684,6 +4032,7 @@ Stjarnan,  1960,      Garðabær
   | Stjarnan Garð. | Stjarnan Garðab.  | Stjarnan Gardab.   # note/fix: auto-change ð to d
   | UMF Stjarnan
   | Stjarnan Garðabær
+  | Stjarnan FC
 
 Grindavík,    Grindavík
   | UMF Grindavík
@@ -3705,22 +4054,26 @@ Knattspyrnufélag Fjallabyggðar,  Fjallabyggð  # from the towns Ólafsfjörðu
   | KF
   | Leiftur
 # 2010: formerly two clubs
-#   Leiftur and Knattspyrnufélag Siglufjarðar (KS) ==============================
+#   Leiftur and Knattspyrnufélag Siglufjarðar (KS)
+
+==============================
 =  Ireland
 
 Shamrock Rovers FC,                Dublin (Tallaght)         #  Tallaght, South Dublin
   | Shamrock | Shamrock Rovers | FC Shamrock Rovers
 Bohemian FC,                     Dublin (Phibsborough)
-  | Bohemians | Boh. Dublin
+  | Bohemians | Boh. Dublin | Bohemians Dublin
   | Bohemian Football Club Dublin
-  
+
 St Patrick's Athletic FC,        Dublin (Inchicore)
   | St Patrick's | St Patrick's Athletic
   | St. Patricks
   | Saint Patrick's Athletic FC
   | Saint Patrick's
 University College Dublin AFC,  Dublin (Belfield)
-  | UCD | UC Dublin
+  | UCD | UC Dublin | Uni College Dublin
+  | University College Dublin
+
 Shelbourne FC,                   Dublin (Drumcondra)
   | Shelbourne
 
@@ -3768,6 +4121,7 @@ Longford Town FC,  Longford
   | Longford | Longford Town
 Mervue
 Monaghan
+  | Monaghan United
 Sligo Rovers FC,       Sligo
   | Sligo | Sligo Rovers | FC Sligo Rovers
 
@@ -3781,11 +4135,15 @@ Waterford FC,          Waterford
 
 Wexford FC,           Crossabeg
   | Wexford
+  | Wexford Youths
 
 Sporting Fingal FC
+  | Sporting Fingal
 
 Cabinteely FC,        Cabinteely
   | Cabinteely
+
+
 ==========================================
 =  Italy
 
@@ -3867,7 +4225,7 @@ Carpi, Carpi
 AC Cesena (1940-2018), Cesena
   | Cesena | Associazione Calcio Cesena
   | Cesena FC
-# bankrupted and folded in 2018. 
+# bankrupted and folded in 2018.
 # Another club from Cesena, A.S.D. Romagna Centro Cesena, claimed as a successor.
 
 
@@ -3888,6 +4246,7 @@ Palermo, Palermo
 Parma, Parma
   | Parma FC | FC Parma | Parma Football Club
   | Parma Calcio | Parma Calcio 1913
+  | AC Parma
 
 AC Perugia, 1905,  Perugia
   | Perugia | Perugia Calcio
@@ -4040,16 +4399,22 @@ Paganese Calcio, Pagani
   | Paganese | Paganese Calcio 1926
 Vibonese Calcio, Vibo Valentia
   | Vibonese | US Vibonese Calcio | Unione Sportiva Vibonese Calcio
+
+
 ==========================================
 =  Kosovo
 
 KF Drita
   | Drita
   | Drita Gjilan
+  | FC Drita
 
 FC Prishtina,     Prishtina
   | Prishtina
+  | Prishtina KF
+
 Flamurtari Prishtina,  Prishtina
+
 
 KF Trepça'89,   Mitrovica      ## note:  Not to be confused with FK Trepča or KF Trepça (in Serbia)!!!
   | KF Trepça | Trepça | Trepça 89
@@ -4067,6 +4432,8 @@ KF Ferizaj
   | Ferizaj
 Dukagjini
 Vushtrria
+
+
 ==============================
 =  Latvija
 
@@ -4081,18 +4448,18 @@ Riga FC,         Riga
 FS METTA,        Riga
   | METTA | FS METTA/LU | FS METTA/Latvijas Universitāte
   | FK Universitate
- 
-FK LU/Daugava (1979-2000), Riga    
-  | FK Latvijas Universitāte/Daugava 
+
+FK LU/Daugava (1979-2000), Riga
+  | FK Latvijas Universitāte/Daugava
   | Torpedo Rīga
 
 FC Daugava Rīga (2003-2015),  Riga          # note: historic soviet era club
+  | Daugava Rīga
   | FK Daugava Rīga
 
-
 Skonto FC (1991-2006), Riga
-  | Skonto | FC Skonto Riga
-
+  | Skonto | Skonto Riga
+  | FC Skonto Riga
 
 FK Ventspils,    Ventspils
   | Ventspils
@@ -4106,6 +4473,7 @@ FK Liepāja,      Liepāja       # check -same as SK Liepājas Metalurgs ??
 SK Liepājas Metalurgs,      Liepāja
   | Liepājas Metalurgs
   | FK Liepājas Metalurgs
+  | Metalurgs Liepāja
 
 FK Jelgava, Jelgava
   | Jelgava
@@ -4126,6 +4494,8 @@ BFC Daugavpils,         Daugavpils
 
 FC Dinaburg
 
+
+
 ===================================
 =  Liechtenstein
 
@@ -4137,11 +4507,16 @@ FC USV Eschen/Mauren        ### check if plays in swiss leagues (3rd league prom
   | Eschen/Mauren
   | USV Eschen-Mauren
 
+
+
 ===============================
 =  Lithuania
 
-FK Riteriai,  Vilnius
+FK Riteriai, 2005, Vilnius
   | Riteriai
+  | FK Trakai
+# Note: Until 21 February 2019, the club was based in Trakai and was known as FK Trakai.
+
 VMFD Žalgiris,  Vilnius
   | Žalgiris | Žalgiris Vilnius | FK Žalgiris | FK Žalgiris Vilnius
 
@@ -4149,7 +4524,7 @@ FK Kauno Žalgiris,  Kaunas
   | Kauno Žalgiris
   | FK Žalgiris Kaunas
 FC Stumbras,        Kaunas
-  | Stumbras
+  | Stumbras | Stumbras Kaunas
 FBK Kaunas,        Kaunas
 
 FK Kareda Kaunas (1935-2003),  Kaunas
@@ -4162,7 +4537,7 @@ FK Inkaras Kaunas (1937-2003), Kaunas
 
 
 FK Ekranas
-  | Ekranas
+  | Ekranas | Ekranas Panevezys
 FK Sūduva,    Marijampolė
   | Sūduva | Sūduva Marija.
   | Sūduva Marijampolė
@@ -4172,23 +4547,30 @@ FC Šiauliai
 
 
 FK Banga
+  | Banga Gargzdai
 FK Atlantas
-  | Atlantas
+  | Atlantas | Atlantas Klaipeda
+
 FK Kruoja
+  | Kruoja Pakruojis | FK Kruoja Pakruojis
 
 Panevezys
 FK Palanga
 
 FK Mažeikiai,   Mažeikiai
 
+
+
 ================================
 =  Luxembourg
 
 Racing FC Union Lëtzebuerg, Lëtzebuerg
   | Racing Union
-  | Racing FC Union Luxembourg 
+  | Racing Union Luxembourg
+  | Racing FC Union Luxembourg
+  | RFCU Luxemburg
 
-FC Aris Bonnevoie (-2001),  Lëtzebuerg    # champs (3): 1972/73 1966/67 1964/65 
+FC Aris Bonnevoie (-2001),  Lëtzebuerg    # champs (3): 1972/73 1966/67 1964/65
   | Aris Bonnevoie
   | Aris Bonneweg
 # note: now a part of Racing FC Union Luxembourg
@@ -4199,14 +4581,14 @@ FC Avenir Beggen, Lëtzebuerg     # champs (6): 1995..1993 (2) 1986/87 1984/85 1
 Spora Luxemburg (1923-2005), Lëtzebuerg
   | CA Spora Luxembourg   # champs (3): 1989/90 1961/62 1956/57
 # In 2005, Spora merged with two other clubs from Luxembourg City,
-#   CS Alliance 01 and Union Luxembourg, 
-#   to form Spora's modern incarnation, Racing FC Union Luxembourg. 
+#   CS Alliance 01 and Union Luxembourg,
+#   to form Spora's modern incarnation, Racing FC Union Luxembourg.
 
 Union Luxembourg (1925-2005), Lëtzebuerg        # champs (5): 1993...1990 (3) 1971/72 1962/63
   | US Luxembourg | Union Sportive Luxembourg
   | Union Luxemburg
 # now a part of Racing FC Union Luxembourg
-  
+
 
 
 F91 Dudelange,   Dudelange
@@ -4219,7 +4601,7 @@ Stade Dudelange (1913-1991),  Dudelange    # champs (2): 1965/66 1957/58
 
 
 FC Differdange 03,  2003,  Differdange
-  | Differdange
+  | Differdange | Differdange 03
 ## Differdange 03 was formed in 2003 as an amalgam of two clubs
 #  from the city of Differdange: FA Red Boys Differdange and AS Differdange.
 
@@ -4241,6 +4623,7 @@ CS Fola Esch
 
 FC Progrès Niederkorn
   | Progrès | P. Niederkorn
+  | Progrès Niederkorn
   | Progrès Niedercorn       # champs (2): 1981/82 1978/79
 
 US Mondorf-les-Bains
@@ -4261,7 +4644,7 @@ FC Rodange 91
 US Hostert
   | Hostert
 
-FC Mondercange, 1933,  Mondercange  
+FC Mondercange, 1933,  Mondercange
 
 US Rumelange,  1908, Rumelange
   | Union Sportive Rumelange
@@ -4270,17 +4653,20 @@ CS Pétange (1910-2015),    Pétange
   | Club Sportif Pétange
 # In 2015 folded and merged with FC Titus Lamadelaine
 #  to form Union Titus Pétange.
+
+
 ====================================
 =  Macedonia
 
-FK Metalurg Skopje
+FK Metalurg Skopje,  Skopje
+  | Metalurg Skopje
 
 FK Makedonija Skopje, 1932,  Skopje (Gjorče Petrov)
   | Makedonija | FK Makedonija GP Skopje
   | Makedonija GP
   | FK Makedonija Gjorče Petrov
 
-FK Vardar
+FK Vardar,  Skopje
   | Vardar
   | Vardar Skopje    # champs (6): 2015/16 2014..2012 (2) 2004..2002 (2) 1987/88
 
@@ -4291,25 +4677,32 @@ FK Cementarnica 55, 1995, Skopje
 Sloga Jugomagnat Skopje (1927-2009), Skopje    # champs (3): 2002...1999 (3)
   | FK Sloga Jugomagnat
 
-FK Rabotnički
-  | Rabotnički | Rabotnicki | Rabotnički Skopje | FK Rabotnicki
+FK Rabotnički,  Skopje
+  | Rabotnički
+  | Rabotnički Skopje
+
+
+
 FK Renova
   | Renova | KF Renova
+  | Renova Dzepciste
+
 FK Shkëndija 79
   | Shkëndija
   | KF Shkëndija | KF Shkëndija 79
-
+  | Shkëndija Tetovo
 
 FK Teteks
 FK Milano
 FK Pelister
+  | Pelister Bitola
 
 KF Shkupi, 1927,  Čair
   | Shkupi
   | FC Shkupi 1927
+  | FK Shkupi
 
-
-FK Sileks, 1965,   Kratovo 
+FK Sileks, 1965,   Kratovo
   | Sileks
   | Sileks Kratovo
 
@@ -4323,10 +4716,12 @@ FK Pobeda,   Prilep
   | FK Pobeda Prilep
 
 FK Bashkimi Kumanovo (1947-2008),   Kumanovo
-  |  FK Baskimi
+  | FK Baskimi
 
 FK Belasica, 1922,   Strumica
   | FK Belasica GC
+
+
 
 ================================
 =  Malta
@@ -4349,7 +4744,7 @@ Marsaxlokk FC, 1949,   Marsaxlokk
 Balzan FC
   | Balzan
 Gżira United FC
-  | Gżira
+  | Gżira | Gżira United
 
 Gudja United
 Hamrun Spartans FC
@@ -4373,6 +4768,8 @@ Marsa FC, 1920,  Marsa
 Żurrieq FC, 1949,  Żurrieq
   | FC Zurrieq
 
+
+
 =======================================
 =  Moldova
 
@@ -4380,22 +4777,25 @@ FC Sheriff Tiraspol, Tiraspol
   | Sheriff | FC Sheriff | Sheriff Tiraspol | FC Tiraspol
   | Tiraspol
 
-FC Dinamo-Auto Tiraspol
+FC Dinamo-Auto Tiraspol, Tiraspol
   | Dinamo-Auto
 
-CS Tiligul-Tiras Tiraspol (1938-2009)
+CS Tiligul-Tiras Tiraspol (1938-2009), Tiraspol
   | FC Tiligul Tiraspol
 
 
-FC Dacia Chișinău
+FC Dacia Chișinău,  Chișinău
   | Dacia
   | Dacia Chișinău    # champs (1): 2011/12
 
-FC Zimbru Chișinău
+FC Zimbru Chișinău,  Chișinău
   | Zimbru | FC Zimbru
   | Zimbru Chisinau   # champs (4): 2001...1998 (3) 1993/94
 
-FC Veris Chișinău (2011-2014)
+FC Veris (2011-2014),  Chișinău
+  | Veris
+  | Veris Chișinău
+  | FC Veris Chișinău
 
 
 FC Iskra-Stal
@@ -4414,8 +4814,7 @@ CS Petrocub
   | Petrocub | Petrocub-Hincesti
 FC Saxan
   | Saxan
-FC Veris
-  | Veris
+  | Saxan Gagauz Yeri
 
 FC Sfintul Gheorghe Suruceni
   | Sfintul Gheorghe
@@ -4430,35 +4829,43 @@ CS Petrocub Hîncești, 1990, Sărata-Galbenă
   | FC Petrocub-Hincesti
 
 
+
+
 ========================================
 =   Monaco
 
 AS Monaco,  1924,      Monaco
   | Monaco | AS Monaco FC | Association sportive de Monaco FC
   | Association Sportive de Monaco Football Club
+
+
 ====================================
 =  Montenegro
 
 FK Budućnost Podgorica
   | Budućnost | Budućnost Podgorica
-  
+
 FK Mogren (1920-2016),  Budva
   | FK Mogren Budva
 
 FK Zeta
   | Zeta
+  | Zeta Golubovci
 FK Rudar Pljevlja
   | Rudar Pljevlja
 OFK Petrovac
   | Petrovac
 FK Čelik Nikšić
+  | Čelik Nikšić
 FK Sutjeska
   | Sutjeska | Sutjeska Nikšić
 
 OFK Titograd
   | Titograd
 FK Bokelj
+  | Bokelj | Bokelj Kotor
 FK Lovćen
+  | Lovćen Cetinje
 FK Iskra
   | Iskra
 
@@ -4467,6 +4874,8 @@ FK Kom
   | Kom
 OFK Grbalj
   | Grbalj
+
+
 =====================================
 =  Netherlands
 
@@ -4481,8 +4890,8 @@ ii) Jong Ajax
 DWS Amsterdam, Amsterdam    # champs (1): 1964/65
   | AFC DWS | Amsterdamsche Football Club Door Wilskracht Sterk
 
-FC Amsterdam,  Amsterdam 
-# FC Amsterdam was a Dutch football club which was founded on 20 June 1972, 
+FC Amsterdam,  Amsterdam
+# FC Amsterdam was a Dutch football club which was founded on 20 June 1972,
 # from the merger of the Amsterdam football clubs Blauw Wit and DWS
 
 
@@ -4492,12 +4901,12 @@ ii) AZ Alkmaar II
   | Jong AZ
 
 SC Telstar,     Velsen
-  | Telstar 
+  | Telstar
   | SC Stormvogels Telstar     ## 2001–2008: Stormvogels Telstar
-  
+
 HFC Haarlem (1889-2010),  Haarlem
-  | Haarlemsche Football Club Haarlem 
-  | Haarlem FC
+  | Haarlemsche Football Club Haarlem
+  | Haarlem FC | FC Haarlem
 
 
 == Zuid-Holland ==
@@ -4514,6 +4923,8 @@ SBV Excelsior Rotterdam, 1902,   Rotterdam › Zuid-Holland    ## use SBV Excels
 
 ADO Den Haag, 1905,    Den Haag › Zuid-Holland
   | Den Haag | Alles Door Oefening Den Haag
+  | FC Den Haag
+# The club was for a time known as FC Den Haag
 
 FC Dordrecht,    Dordrecht › Zuid-Holland
   | Dordrecht | Dordrecht '90
@@ -4536,7 +4947,7 @@ NAC Breda, 1912,  Breda
 
 PSV Eindhoven, 1913,   Eindhoven
   | Philips Sport Vereniging | PSV
-ii) Jong PSV 
+ii) Jong PSV
   | Jong PSV Eindh.
 
 FC Eindhoven,  1909,   Eindhoven
@@ -4569,7 +4980,7 @@ VVV Venlo, 1903,    Venlo     ## use VVV-Venlo - why? why not?
 MVV Maastricht, Maastricht
 
 
-Rapid JC Heerlen (1954-1962),  Heerlen 
+Rapid JC Heerlen (1954-1962),  Heerlen
   | Rapid JC    # champs (1): 1956/57
   | Rapid Juliana Combinatie
 
@@ -4630,6 +5041,8 @@ FC Volendam, Volendam
 
 FC Emmen,    Emmen   ## Drenthe
   | Emmen | FC Emmen VV
+
+
 =====================================
 =  Northern Ireland
 
@@ -4640,7 +5053,8 @@ Institute FC,        Derry
 
 
 Linfield FC,    Belfast
-  | Linfield | FC Linfield
+  | Linfield | Linfield Belfast
+  | FC Linfield
 Glentoran FC,   Belfast
   | Glentoran | Glentoran Belfast
 Crusaders FC,  Belfast
@@ -4653,7 +5067,7 @@ Cliftonville FC
 Portadown FC
   | Portadown   # champs (3): 2002/03 1992..1990 (2)
 
-Lisburn Distillery FC, 1880,  Ballyskeagh   
+Lisburn Distillery FC, 1880,  Ballyskeagh
   | Lisburn Distillery    # champs (1): 1963/64
 
 
@@ -4661,24 +5075,36 @@ Glenavon FC
   | Glenavon | FC Glenavon
 Coleraine FC
   | Coleraine
-Ballymena United FC
+Ballymena United FC,  1928, Ballymena
   | Ballymena | Ballymena United
 
+Ballinamallard United FC,  Ballinamallard
+  | Ballinamallard United
+
 Dungannon Swifts FC
-  | Dungannon
+  | Dungannon | Dungannon Swifts
+
 Larne FC
   | Larne
 Carrick Rangers FC
   | Carrick
   | FC Carrick Rangers
+  |  Carrick Rangers
+
 Warrenpoint Town FC
-  | Warrenpoint
+  | Warrenpoint | Warrenpoint Town
 
 Ards FC,  1900     #  champs (1): 1958/59
   | Ards
-  
-Bangor FC,   Bangor 
+
+Bangor FC,   Bangor
   ## note: not to confuse with Bangor City in Wales!! - fix error in champs.txt!!
+
+
+Newry City AFC,  Newry
+
+
+
 
 
 =============================
@@ -4686,6 +5112,7 @@ Bangor FC,   Bangor
 
 Vålerenga Fotball,   Oslo
   | Vålerenga | Vålerenga IF
+  | Vålerengen IF
 KFUM-Kameratene Oslo,  Oslo
   | KFUM Oslo
 Skeid Fotball,  Oslo
@@ -4693,10 +5120,12 @@ Skeid Fotball,  Oslo
   | Skeid Oslo    # champs (1): 1967/68
 
 Lyn Oslo,  Oslo
-  | Lyn 1896 FK | FK Lyn     # champs (4): 1969/70 1966...1963 (3)
+  | Lyn | Lyn 1896 FK | FK Lyn     # champs (4): 1969/70 1966...1963 (3)
   | Lyn Fotball | Lyn 1896 Fotballklubb
   | FC Lyn Oslo
 
+Frigg Oslo FK,  1904, Oslo (Majorstua)
+  | Frigg Oslo Fotballklubb
 
 
 Rosenborg BK,  Trondheim
@@ -4716,7 +5145,8 @@ Aalesunds FK,   Ålesund
   | Aalesund | Aalesunds Fotballklubb
 
 SK Brann,    Bergen
-  | Brann
+  | Brann | SK Brann Bergen
+
 Strømsgodset IF,  Drammen
   | Strømsgodset | Strømsgodset Toppfotball
 Fredrikstad FK,    Fredrikstad
@@ -4726,8 +5156,11 @@ Lillestrøm SK,    Lillestrøm
   | Lilleström SK [de]     ## todo/fix: auto-generate variant (no) ø->ö
 Viking FK,    Stavanger
   | Viking | Viking Fotballklubb | Viking Stavanger
-Odds BK, Skien
+Odds BK,  1894,  Skien
   | Odd | Odds Ballklubb
+  | Odd Grenland
+# known as Odd Grenland between 1994 and 2012
+
 Sandefjord, Sandefjord
   | Sandefjord Fotball
 Sandnes Ulf,  Sandnes
@@ -4752,8 +5185,16 @@ Mjøndalen IF,   Mjøndalen
 Bodø/Glimt,   Bodø
   | FK Bodø/Glimt | Fotballklubben Bodø/Glimt
   | Bodö Glimt  [de]    ## check if ø=>ö transliteration is used in english too (or only german/de)?
-FK Haugesund,   Haugesund
+
+FK Haugesund, 1993,  Haugesund
   | Haugesund | Fotballklubben Haugesund
+
+SK Haugar,  1939,  Haugesund
+  | Haugur Haugesund
+  | Sportsklubben Haugar
+# In 1993 merged its elite teams with
+#    Djerv 1919 to create FK Haugesund
+
 Hønefoss BK,  Hønefoss
  | Hønefoss | Hønefoss Ballklubb
 FK Jerv,   Grimstad
@@ -4768,8 +5209,12 @@ IL Hødd, 1919,  Ulsteinvik
 
 Hamarkameratene,  Hamar
   | HamKam | Ham-Kam
-Kongsvinger IL Toppfotball, Kongsvinger
-  | Kongsvinger | Kongsvinger IL Fot
+
+
+Kongsvinger IL,  1892,    Kongsvinger
+  | Kongsvinger
+  | Kongsvinger IL Fot | Kongsvinger IL Toppfotball
+
 Nest-Sotra Fotball,  Sotra
   | Nest-Sotra
 Notodden FK,  Notodden
@@ -4785,12 +5230,12 @@ Tromsdalen UIL,  Tromsdalen
   | Aasane Fotball [de]
 
 
-Kongsvinger IL,  1892,    Kongsvinger
-  | Kongsvinger | Kongsvinger IL Toppfotball
 
 Bryne FK,  1926,   Bryne
    | Bryne Fotballklubb
-  ================================
+
+
+================================
 =  Poland
 
 
@@ -4800,9 +5245,10 @@ Legia Warszawa,        Warszawa      ## Warsaw [en]
   | Legia Warschau [de]
 KSP Polonia Warszawa,  Warszawa
   | Polonia Warszawa
+  | Polonia Warsaw
 
 Gwardia Warszawa,  1948,  Warszawa   # champs (2): 1957/58 1955/56
-
+  | Gwardia Warsaw
 
 Górnik Zabrze,   Zabrze
   | Górnik Z.
@@ -4819,8 +5265,9 @@ Wisła Kraków,     Kraków
   | Wisła Krakau [de]
 KS Cracovia,     Kraków
   | Cracovia | MKS Cracovia Kraków
+  | Cracovia Kraków
   | Cracovia Krakau [de]
-Hutnik Kraków, 1950,    Kraków (Nowa Huta) 
+Hutnik Kraków, 1950,    Kraków (Nowa Huta)
   | KS Hutnik Nowa Huta
   | KS Hutnik Kraków
 
@@ -4832,7 +5279,10 @@ Jagiellonia Białystok,  Białystok
 
 Arka Gdynia,  Gdynia
   | Arka | Arka Gdynia 1929
+  | MZKS Arka Gdynia
+
 GKS Bełchatów,  Bełchatów
+  | Bełchatów
 Korona Kielce,  Kielce
   | Korona
 
@@ -4861,6 +5311,7 @@ Sandecja Nowy Sącz, Nieciecza
   | Sandecja Nowy S.
 Bruk-Bet Termalica Nieciecza, 1922, Nieciecza
   | Termalica B-B.
+  | Termalica Nieciecza
 
 Widzew Łódź,  Łódź
   | RTS Widzew Łódź
@@ -4882,6 +5333,7 @@ Zawisza Bydgoszcz,  Bydgoszcz
 Raków Częstochowa, 1921,  Częstochowa
   | Raków | RKS Raków | RKS Raków Częstochowa
   | Raków Czestochowa   ## todo/fix: check unaccent for Czę
+  | KS Raków Częstochowa
 
 Odra Opole, Opole
   | OKS Odra Opole
@@ -4903,12 +5355,13 @@ Szombierki Bytom, 1919, Bytom (Szombierki)  # champs (1): 1980/81
 Stal Mielec, 1939, Mielec   # champs (2): 1976/77 1973/74
   | KS Stal Mielec | FKS Stal Mielec
 
-Dyskobolia Grodzisk Wielkopolski, 1922, Grodzisk Wielkopolski 
+Dyskobolia Grodzisk Wielkopolski, 1922, Grodzisk Wielkopolski
   | KS Dyskobolia Grodzisk Wielkopolski | Klub Sportowy Dyskobolia Grodzisk Wielkopolski
   | Groclin Grodzisk Wielkopolski
+  | Groclin Dyskobolia
 
 
-Amica Wrońki (1992-2007),  Wrońki 
+Amica Wrońki (1992-2007),  Wrońki
 # was formed when two clubs were joined together, Błękitni Wronki and LZS Czarni Wromet Wróblewo
 
 
@@ -4925,15 +5378,19 @@ Odra Wodzisław,  1922,    Wodzisław Śląski
   | APN Odra Wodzisław Śląski
 
 
-  ====================================
+
+
+====================================
 =  Portugal
 
 SL Benfica,       Lisboa
-  | Benfica | Benfica Lis. | Benfica Lisboa 
-  | Benfica Lissab [de] | Benfica Lissabon [de] 
+  | Benfica | Benfica Lis. | Benfica Lisboa
+  | Benfica Lissab [de] | Benfica Lissabon [de]
 Sporting CP,      Lisboa
+  | Sporting
   | Sporting Lisboa | Sporting Clube de Portugal
   | Sp Lisbon [en]
+  | Sporting CP Lisbon
   | Sporting Liss. [de] | Sporting Lissabon [de]
 
 Os Belenenses,    Lisboa
@@ -4943,8 +5400,8 @@ Os Belenenses,    Lisboa
 Casa Pia,         Lisboa
   | Casa Pia AC | Casa Pia Atlético
   | Casa Pia Atlético Clube
-  
-UD Vilafranquense,    Vila Franca de Xira   # a municipality in the Lisbon District 
+
+UD Vilafranquense,    Vila Franca de Xira   # a municipality in the Lisbon District
   | Vilafranquense | União Desportiva Vilafranquense
 CD Mafra,  Mafra                            # a city and a municipality in the district of Lisbon
   | Clube Desportivo Mafra
@@ -4955,18 +5412,20 @@ FC Porto,     Porto
 Boavista FC,  Porto
   | Boavista | Boavista Porto | Boavista Porto FC
 
-UD Oliveirense,  Oliveira de Azeméis    # a city and a municipality located in Porto Metropolitan Area 
+UD Oliveirense,  Oliveira de Azeméis    # a city and a municipality located in Porto Metropolitan Area
   | Oliveirense | União Desportiva Oliveirense
 
-CD Aves, Aves
+CD Aves, 1930,  Aves
   | Aves | Desportivo Aves
+  | CD das Aves | Desportivo das Aves
+
 GD Chaves, Chaves
   | Chaves
 Estoril Praia, Estoril
   | Estoril
   | GD Estoril Praia | Grupo Desportivo Estoril Praia
   | GD Estoril
-  
+
 CD Feirense, Santa Maria da Feira
   | Feirense
 
@@ -4980,6 +5439,13 @@ Vitória de Setúbal, Setúbal   ## note:  Vitória SC <=> Vitória FC !!!
 
 CS Marítimo, Funchal
   | Marítimo | Marítimo Funchal
+  | CS Marítimo Madeira
+
+CD Nacional Madeira, Funchal
+  | Nacional  | CD Nacional | Nacional da Madeira
+  | Clube Desportivo Nacional
+  | Nacional Funchal
+
 Moreirense FC, Moreira de Cónegos
   | Moreirense
 FC Paços de Ferreira, Paços de Ferreira
@@ -4999,12 +5465,10 @@ Académica de Coimbra, Coimbra
   | Associação Académica de Coimbra
   | Associação Académica de Coimbra - Organismo Autónomo de Futebol  # (AAC–OAF)
   | Associação Académica de Coimbra - O.A.F
-  . 
+  .
 FC Arouca, Arouca
   | Arouca
-CD Nacional Madeira, Funchal
-  | Nacional  | CD Nacional | Nacional da Madeira
-  | Clube Desportivo Nacional
+
 FC Penafiel, Penafiel
   | Penafiel
 
@@ -5013,7 +5477,7 @@ SC Beira-Mar, Aveiro
 Desportivo de Chaves, Chaves
   | Desp. Chaves
 CF Estrela da Amadora, Amadora
-  | Est Amadora
+  | Est Amadora | Estrela Amadora
 SC Farense, Faro
   | Farense
 Gil Vicente FC, Barcelos
@@ -5021,7 +5485,7 @@ Gil Vicente FC, Barcelos
 União de Leiria,   Leiria
   | Leiria | UD Leiria | União Desportiva de Leiria
   | União Leiria
-  
+
 União da Madeira,  Funchal
   | Madeira | União Madeira
 SC Salgueiros,  Paranhos
@@ -5054,23 +5518,29 @@ Varzim SC,       Póvoa de Varzim
 
 FC Famalicão,  1931,  Vila Nova de Famalicão
   | Famalicão | Futebol Clube de Famalicão
- 
+
 SC Covilhã,   Covilhã
   | Sporting da Covilhã | Sporting Clube da Covilhã
 
-Académico Viseu,  Viseu 
+Académico Viseu,  Viseu
   | Académico de Viseu FC
-  
+
 Anadia FC, Anadia
-  | Anadia Futebol Clube 
+  | Anadia Futebol Clube
 AC Marinhense,  Marinha Grande
 
 
-CU Fabril Barreiro, 1937, Barreiro 
+CU Fabril Barreiro, 1937, Barreiro
   | Fabril Barreiro | Fabril do Barreiro
   | GD Fabril | Grupo Desportivo Fabril
+  | GD CUF Barreiro
   | CUF Barreiro | CUF do Barreiro    # Companhia União Fabril
- ====================================
+
+FC Barreirense,  1911,  Barreiro
+  | Futebol Clube Barreirense
+
+
+====================================
 =  Romania
 
 Steaua București,        București
@@ -5099,10 +5569,10 @@ Sportul Studenţesc Bucureşti, 1916,  București
   | FC Sportul Studenţesc | FC Sportul Studenţesc Bucureşti
 
 AS Progresul București,   1944,  București
-  | Progresul | Progresul București 
+  | Progresul | Progresul București
   | FC Progresul București | Fotbal Club Progresul București
-  | FC Naţional Bucureşti    
-# The team was founded in 1944 as B.N.R. București, 
+  | Naţional Bucureşti | FC Naţional Bucureşti
+# The team was founded in 1944 as B.N.R. București,
 #   being the team of the National Bank of Romania (B.N.R.)
 
 
@@ -5139,16 +5609,20 @@ FC Petrolul Ploiești, Ploiești
 FC Viitorul Constanța,   Ovidiu
   | Viitorul | FC Viitorul | Viitorul Constanța
 
-Corona Brașov,   Brașov
+Corona Brașov (2010-2014),   Brașov
  | ASC Corona 2010 Brașov
-FC Brașov,  Brașov
- |  SR Brașov
+ | Asociatia Sport Club Corona Brașov
+
+FC Brașov,  1936, Brașov
+ | SR Brașov | Steagul Rosu Brașov
+ | AS SR Brașov | Asociația Sportivă SR Brașov
+
 
 Dunărea Călărași,   Călărași
   | Călărași
   | AFC Dunărea 2005 | Asociația Fotbal Club Dunărea 2005 Călărași
   | FC Dunărea Călărași
-  
+
 Chindia Târgoviște, 2010,  Târgoviște
   | AFC Chindia Târgoviște
 
@@ -5158,7 +5632,7 @@ CS Turnu Severin,    Drobeta-Turnu Severin
 FC Severin,         Drobeta-Turnu Severin
   | FC Drobeta-Turnu Severin
 
-AFC Turris-Oltul,  1965,  Turnu Măgurele  
+AFC Turris-Oltul,  1965,  Turnu Măgurele
   | AFC Turris-Oltul Turnu Măgurele
   | Turris Turnu Măgurele | Turris-Oltul Turnu Măgurele
 
@@ -5182,13 +5656,14 @@ Pandurii Târgu Jiu,  Târgu Jiu
 FC Politehnica Iași,   Iași
   | Poli Iasi | Poli Iași | Politehnica Iași
   | CSMS Iasi | CSM Politehnica Iași     ## check - older name?
-  | CSMS laşi
   | CSM Politehnica Iaşi   ## todo/check: unaccent ro - auto-generate with cedilla from with ...
   | Politehnica Iaşi
+  ##  | CSMS laşi     -- todo/check: typo?  l is a small letter l ?
 
 Poli Timișoara, Timișoara
   | Timişoara | ACS Poli Timișoara
   | FC Politehnica Timișoara     # champs (1): 2009/10
+  | Politehnica Timișoara
   | FC Timișoara
 
 Sepsi Sfântu Gheorghe,   Sfântu Gheorghe
@@ -5196,10 +5671,10 @@ Sepsi Sfântu Gheorghe,   Sfântu Gheorghe
 
 ASA Târgu Mureș (2008-2018),    Târgu Mureș
   | Târgu Mureș | ASA Târgu Mureş | Târgu Mureş
-  | ASA Tîrgu Mureş   
+  | ASA Tîrgu Mureş
   | FCM Târgu Mureş
 # in 2008 founded as FCM Târgu Mureș
-# In 2013, the club changed its name from 
+# In 2013, the club changed its name from
 # Fotbal Club Municipal (FCM) to Asociația Sportivă Ardealul (ASA).
 
 
@@ -5229,23 +5704,45 @@ CS Mioveni, 2000, Mioveni
   | Mioveni
 
 CSM Flacăra Moreni,  1922,   Moreni
-  | Flacăra | Flacăra Moreni 
+  | Flacăra | Flacăra Moreni
   | CS Flacăra Moreni
   | Club Sportiv Municipal Flacăra Moreni
 
 FC Argeș Pitești, Pitești
   | Argeș | Argeș Pitești
 
+
+CS Minaur Baia Mare, 1948,  Baia Mare
+  | Baia Mare | Minaur Baia Mare
+  | FC Baia Mare
+
+
+CSM Jiul Petroșani, 1919,   Petroșani
+  | Jiul Petroșani | CS Jiul Petroșani
+  | Clubul Sportiv Municipal Jiul Petroșani
+
+FCM Bacău,  1950,   Bacău
+  | FCM 1950 Bacău | ASS FCM 1950 Bacău
+
+
+Chimia Râmnicu Vâlcea (1946-2004),  Râmnicu Vâlcea
+  | Chimia Rimnicu Vilcea
+  | CS Chimia Râmnicu Vâlcea
+  | FC Râmnicu Vâlcea
+
 Unirea Urziceni (1954-2017), Urziceni   # champs (2): 2011..2009 (2)
-  | FC Unirea | FC Unirea Urziceni  
+  | FC Unirea | FC Unirea Urziceni
 
 FC Corvinul Hunedoara (1921-2004),  Hunedoara
   | Corvinul Hunedoara
 
-FC Extensiv Craiova (1949-2013),    Caracal 
+FC Extensiv Craiova (1949-2013),    Caracal
   | Fotbal Club Extensiv Craiova
-  | FC Caracal 
-  =====================================
+  | FC Caracal
+
+
+
+=====================================
 =  Russia
 
 
@@ -5267,7 +5764,7 @@ FC Spartak Moskva, 1922,    Moskva
   | Spartak Moskau [de] | FC Spartak Moskau [de]
 ii) Spartak Moskva II
   | Spartak Moskau II [de]
-  
+
 FC Moskva,    Moskva
   | Moskva
   | FK Moskva
@@ -5305,22 +5802,26 @@ FC Anzhi Makhachkala, 1991,  Makhachkala      ## Dagestan (Republic of) >  North
 
 FC Sibir Novosibirsk,  Novosibirsk
   | Sibir | Sibir' | FC Sibir
+  | Sibir Novosibirsk
 
 FC Alania Vladikavkaz,  Vladikovkaz
   | Alania | Alania Vladikavkaz
+  | Alaniya
 
 PFC Krylya Sovetov Samara,    Samara
   | Samara
   | Krylya Sovetov | FK Krylya Sovetov Samara
   | Krylia Sovetov | Kryl'ia Sovetov | Krylia Sovetov Samara | PFC Krylia Sovetov Samara
+  | Krylya Sovetov Samara
   | Kryliya Sovetov [de]
 
 Arsenal Tula,  Tula
   | Arsenal | FC Arsenal Tula
 
-Chernomorets Novorosisk, 1907, Novorosisk    
+Chernomorets Novorosisk, 1907, Novorosisk
   | Chernomorets | FC Chernomorets Novorossiysk
   | FC Chernomorets Krasnodarskiy Kray    # Novorossiysk is a city in Krasnodar Krai
+  | Chernomorets Novorossisk
 
 
 FC Khimki,  Khimki
@@ -5365,7 +5866,7 @@ Shinnik, Yaroslavl
   | Shinnik Yaroslavl
 SKA Khabarovsk, Khabarovsk
   | SKA-Energiia | SKA Energia | Energ. Khabarovsk
-  | FC SKA-Khabarovsk    
+  | FC SKA-Khabarovsk
 # note: The club has been known under different names: SKA (1960–99)
 #                                                      SKA-Energia (1999–2016)
 #                                                      SKA-Khabarovsk (2016–)
@@ -5375,32 +5876,36 @@ Terek Grozny, Grozny
   | Terek | FC Terek Grozny
 Akhmat Grozny, Grozny
   | Akhmat | FC Akhmat Grozny
+  | FK Akhmat Grozny
   | FK Achmat Grozny [de]
 Tom Tomsk, Tomsk
   | Tom | Tom' | Tomsk | FC Tom Tomsk
 Tosno,  Tosno
+  | FK Tosno
 FC Ufa, Ufa
   | Ufa | Ufa Ufa
 Ural Yekaterinburg, Yekaterinburg
-  | Ural | FC Ural Yekaterinburg
+  | Ural | FC Ural | FC Ural Yekaterinburg
   | FC Ural Sverdlovsk Oblast | Football Club Ural Sverdlovsk Oblast
   | Ural Jekaterinburg [de]
 
 Uralan, Elista
 Volga Nizhnii Novgorod, Nizhny Novgorod
   | Volga | Volga N. Novgorod
+  | Volga Nyzhnyi
 
 FC Tambov,  2013, Tambov
   | Tambov
+  | FK Tambov
 FC Orenburg,  Orenburg
-  | Orenburg | FK Orenburg 
+  | Orenburg | FK Orenburg
   | Gazovik Orenburg
 Volgar-Astrakhan,  Astrakhan
 
 Vladikavkaz,   Vladikavkaz
   | Spartak Vladikavkaz
   | FC Spartak Vladikavkaz
-  
+
 Yenisey, Krasnoyarsk
   | FC Yenisey | Yenisey Krasnoyarsk | FC Yenisey Krasnoyarsk
 
@@ -5413,17 +5918,18 @@ Neftekhimik Nizhnekamsk, Nizhnekamsk
 
 FC Chayka, Peschanokopskoye
   | Chayka Peschanokopskoye | FC Chayka Peschanokopskoye
-  
-FC Fakel Voronezh, Voronezh  
-  | Fakel Voronezh
-  | Fakel Worenesch [de] 
 
-FC Armavir, Armavir 
+FC Fakel Voronezh, Voronezh
+  | Fakel Voronezh
+  | Fakel Worenesch [de]
+
+FC Armavir, Armavir
   | Torpedo Armavir    # note: on 9 June 2016, the club was renamed from FC Torpedo Armavir to FC Armavir
 
 FC Tekstilshchik Kamyshin,    1958,    Kamyshin
   | Tekstilshchik
   | Tekstilshchik Kamyshin
+  | Tekstilschik Kamyshin
   | FC Rotor Kamyshin
 # name history:
 #  1979–1995: FC Tekstilshchik Kamyshin
@@ -5431,6 +5937,8 @@ FC Tekstilshchik Kamyshin,    1958,    Kamyshin
 #  1997: FC Energiya Kamyshin
 #  1998: FC Rotor-Kamyshin Kamyshin
 #  1999–present: FC Tekstilshchik Kamyshin
+
+
 ====================================
 =  San Marino
 
@@ -5471,6 +5979,8 @@ SS San Giovanni
   | San Giovanni
 Virtus FC
   | Virtus
+
+
 ==============================================
 =  Scotland
 
@@ -5487,6 +5997,7 @@ Queen's Park,    Glasgow
 
 Heart of Midlothian FC,  Edinburgh   ## Gorgie - West of Edinburgh
   | Hearts | Heart of Midl. | Heart of Midlothian
+  | Hearts FC
 Hibernian FC,            Edinburgh   ## Leith  - North of Edinburgh
   | Hibernian | Hibernians
 Edinburgh City,          Edinburgh
@@ -5601,35 +6112,49 @@ East Stirlingshire FC,  Falkirk
   | East Stirling
 Gretna FC, Gretna
   | Gretna
+
+
 =====================================
 =  Serbia
 
 
 Red Star Belgrade, Belgrade
-  | Crvena Zvezda | Crvena zvezda | FK Crvena zvezda
+  | Crvena Zvezda | FK Crvena Zvezda
   | Red Star
+  | FK Red Star Belgrade
   | Roter Stern B. [de]
+
 FK Partizan Belgrade, Belgrade
   | Partizan | FK Partizan | Partizan Belgrade
   | Partizan Beograd
   | Partizan Belgrad [de]
-OFK Beograd, Belgrade
+
+OFK Beograd, 1911, Belgrade
+  | Omladinski Fudbalski Klub Beograd
+
 FK Rad Belgrade, Belgrade
   | FK Rad | Rad
-  | FK Rad Beograd
+  | FK Rad Beograd | Rad Beograd
+
+FK Čukarički, 1926,   Belgrade (Čukarica)
+  | Čukarički | Čukarički Belgrade
+
 
 FK Bežanija,  1921,   Belgrade (New Belgrade)
   | Fudbalski Klub Bežanija
 
-FK Obilić (1924-2015),  Belgrade 
+FK Obilić (1924-2015),  Belgrade
   | Obilić | Obilić Belgrade
 
 FK Vojvodina,  Novi Sad
   | Vojvodina
-  | FK Vojvodina Novi Sad
+  | Vojvodina Novi Sad | FK Vojvodina Novi Sad
 
-  
-FK Spartak Zlatibor voda
+FK Proleter Novi Sad,  1951, Novi Sad
+  | Proleter Novi Sad
+
+
+FK Spartak Zlatibor Voda
 
 FK Sloboda Užice,     Užice
   | Sloboda Užice
@@ -5641,25 +6166,28 @@ FK Sevojno (1950-2010),   Užice (Sevojno)
 
 FK Jagodina
   | Jagodina
-FK Borac Čačak
 
+FK Borac Čačak, 1926,   Čačak
+  | Borac Čačak | Fudbalski Klub Borac Čačak
 
 FK Spartak Subotica
   | FC Spartak Subotica | Spartak Subotica
-FK Radnicki Niš
+FK Radnicki Niš,   Niš
   | Radnicki Niš
 FK Mladost Lučani
   | Mladost Lučani
-FK Čukarički
-  | Čukarički
 
-Backa Topola
+Bačka Topola,  1913,   Bačka Topola
+  | TSC Bačka Topola  | FK TSC Bačka Topola
+  | Topolski Sportski Club
+
 FK Napredak
-  | Napredak
+  | Napredak | Napredak Krusevac
+  | FK Napredak Krusevac
 FK Voždovac
   | Voždovac
 FK Indjija
-  | Indjija
+  | Indjija | FK Inđija
 
 FK Javor
   | Javor
@@ -5670,8 +6198,9 @@ FK Radnik Surdulica
 Macva Sabac
 
 FK Smederevo, 1924,  Smederevo
-  | Smederevo 
+  | Smederevo
   | FK Smederevo 1924 | Fudbalski Klub Smederevo 1924
+  | Sartid Smederevo
 
 FK Banat Zrenjanin (2006-2016),   Zrenjanin
   | Banat Zrenjanin
@@ -5682,6 +6211,8 @@ FK Hajduk Kula (1925-2013),   Kula
 
 OFK Bečej 1918,  1918,  Bečej
   | FK Bečej
+
+
 =====================================
 =  Slovakia
 
@@ -5693,7 +6224,7 @@ FK Inter Bratislava, 1940,  Bratislava
    | Inter Bratislava
 
 FC Petržalka,  1898,  Bratislava
-  | FC Petržalka 1898
+  | Petržalka | FC Petržalka 1898
   | Petrzalka Akademia
 # 2010 – Renamed FC Petržalka 1898
 # 2014 – Bankruptcy - renamed FC Petržalka akadémia
@@ -5740,7 +6271,7 @@ AS Trenčín
 FC DAC 1904 Dunajská Streda
   | Dunajská Streda
   | DAC Dunajská Streda
-  
+
 MFK Ružomberok
   | Ružomberok
 TJ Spartak Myjava
@@ -5750,19 +6281,21 @@ FC ViOn Zlaté Moravce
   | Zlaté Moravce
 
 SK Sered
-  | Sered
+  | Sered | ŠKF Sereď
+
 TJ Sokol Dolná Zdana
   | Sokol Dolná Zdana
 MFK Zemplín Michalovce
   | Michalovce
+  | Zemplin Michalovce
 
 FK Poprad, 1906, Poprad
 
 
-MŠK Púchov, 1920,  Púchov 
+MŠK Púchov, 1920,  Púchov
   | Mestský Športový Klub Púchov
-  | FK Matador Púchov 
-# In July 2006, lost its main sponsor, Matador a.s., 
+  | Matador Púchov | FK Matador Púchov
+# In July 2006, lost its main sponsor, Matador a.s.,
 #  and was renamed FK Púchov
 #  name history:
 #   2003 – FK Matador Púchov
@@ -5776,6 +6309,8 @@ MŠK Púchov, 1920,  Púchov
 
 FC Senec (1994-2008), Senec
 # in 2007/2008 season merged with FK DAC 1904 Dunajská Streda.
+
+
 
 
 ===================================
@@ -5794,8 +6329,12 @@ ND Mura 05
   | NS Mura   ## check if same as ND Mura 05??
 FC Koper
   | Koper
+  | NK Koper
+
 ND Gorica
   | Gorica
+  | Nova Gorica
+
 NK Domžale
   | Domžale
 NK Rudar Velenje
@@ -5820,11 +6359,17 @@ NK Krško, 1922,   Krško
 
 
 NK Primorje (1924-2011),  Ajdovščina
- | Primorje | Nogometni Klub Primorje 
+ | Primorje | Nogometni Klub Primorje
 
-NK Izola (1923-1996),  Izola  
-  | Nogometni Klub Izola  
-# Note: For the currently active club, see MNK Izola  
+
+MNK Izola,  1996,  Izola
+  | Mladinski Nogometni Klub Izola
+
+NK Izola (1923-1996),  Izola
+  | Nogometni Klub Izola
+# Note: For the currently active club, see MNK Izola
+
+
 
 ====================================
 =  Spain • España
@@ -5887,7 +6432,7 @@ Córdoba CF,       Córdoba
 Écija Balompié,   Écija
   | Écija
 Real Jaén CF,     Jaén
-  | Jaén | Real Jaén Club de Fútbol
+  | Jaén | Real Jaén | Real Jaén Club de Fútbol
 
 ## note: different from Granada 74 <=> Granda (CF) !!!
 ##   see https://es.wikipedia.org/wiki/Granada_74_Club_de_Fútbol
@@ -5921,7 +6466,7 @@ CF Reus,  1909,      Reus
 == Galicia ==
 
 RCD La Coruña,  La Coruña
-  | La Coruña 
+  | La Coruña
   | RC Deportivo La Coruña | RC Deportivo de La Coruña | Real Club Deportivo La Coruña
   | Deportivo | Deportivo La Coruña | Deportivo de La Coruña | Deportivo da Coruña
   | Dep. La Coruña
@@ -6047,10 +6592,11 @@ Universidad Las Palmas, Las Palmas
 
 RCD Mallorca,   Palma de Mallorca
   | Mallorca | Real CD Mallorca | Real Club Deportivo Mallorca
+  | Real Mallorca
 ii) RCD Mallorca B
   | Mallorca B
 
-CD Atlético Baleares,  Palma de Mallorca 
+CD Atlético Baleares,  Palma de Mallorca
   | Atlético Baleares
   | Club Deportivo Atlético Baleares
 
@@ -6114,7 +6660,7 @@ CE Sabadell
 UD Salamanca
   | Salamanca
 
-Real Racing Santander,  1913,   Santander  
+Real Racing Santander,  1913,   Santander
   | Santander | Racing Santander | Real Racing Club de Santander
   | Real Racing Club
 
@@ -6130,14 +6676,13 @@ UD Vecindario
 
 Xerez CD
   | Xerez
+  | Deportivo Xerez
 
 Real Madrid Castilla
   | Castilla | Real Madrid Castilla Club de Fútbol
 
 Club Marino Luanco, Luanco
   | Marino Luanco
-Real Jaén,  Jaén
-  | Real Jaén Club de Fútbol
 CF Illueca,  Illueca
   | Club de Fútbol Illueca
   | Illueca CF
@@ -6171,6 +6716,8 @@ CD Becerril,   Becerril de Campos
 UD Melilla,  Melilla
   | Union Deportiva Melilla
   | Melilla UD
+
+
 =====================================
 =  Sweden
 
@@ -6208,6 +6755,7 @@ Norrby IF,    Borås
 
 Helsingborgs IF, Helsingborg
   | Helsingborg
+  | Helsingborg IF
 
 Kalmar FF, Kalmar
   | Kalmar
@@ -6275,7 +6823,9 @@ IK Brage,   Borlänge
 
 Landskrona BoIS, 1915,  Landskrona
   | Landskrona Boll och Idrottsällskap
-  
+
+
+
 ===================================================
 =  Switzerland
 
@@ -6308,6 +6858,7 @@ FC Luzern, 1901,                Luzern    ## use Lucerne [fr] - why??
 == St. Gallen ==
 FC St. Gallen, 1879,            St. Gallen
   | St. Gallen | FC St. Gallen 1879
+  | FC Sankt Gallen
 FC Wil, 1900,                   Wil
   | Wil | FC Wil 1900
 
@@ -6320,7 +6871,7 @@ FC Aarau, 1902,                Aarau
 FC Wohlen, 1904,          Wohlen
   | Wohlen
 
-FC Wettingen, 1931,   Wettingen 
+FC Wettingen, 1931,   Wettingen
   | FC Wettingen 93
 # 1931 (as FC Wettingen)
 # 1993 (as FC Wettingen 1993)
@@ -6345,6 +6896,7 @@ FC La Chaux-de-Fonds, 1894,  La Chaux-de-Fonds    # champs (1): 1964/65
 FC Lausanne,  1896,           Lausanne
   | Lausanne | FC Lausanne-Sport
   | Lausanne Sports    #  champs (1): 1965/66
+  | Lausanne Sport
 
 FC Le Mont, 1942,             Le Mont-sur-Lausanne
   | FC Le Mont-sur-Lausanne,
@@ -6363,6 +6915,8 @@ FC Locarno, 1906,    Locarno
   | Locarno
 AC Bellinzona, 1904,    Bellinzona
   | Bellinzona
+
+
 
 ===================================
 =  Turkey
@@ -6451,18 +7005,20 @@ Eskişehirspor,         Eskişehir
 
 Akhisarspor,   Akhisar
   | Akhisar | Akhisar Bld.spor | Akhisar Belediyespor | Akhisar Belediye Gençlik ve Spor Kulübü
-  
+  | Akhisar Belediye
 
 Alanyaspor,  Alanya
 Antalyaspor, 1966, Antalya
   | Antalya | Antalyaspor Kulübü
-
+  | Antalyaspor AS
+  | MP Antalyaspor
 
 Bursaspor,   Bursa
   | Bursaspor SK
 Göztepe İzmir,    İzmir (Güzelyalı)
   | Göztepe | Göztepe SK
   | Göztep | Göztepespor
+  | Göztepe AŞ
 Bucaspor, 1928,       İzmir (Buca)
   | Bucaspor Kulübü
 Altay SK,  1914,     İzmir
@@ -6565,21 +7121,27 @@ Erzincanspor,  Erzincan
   | 24 Erzincan | 24 Erzincan Spor Kulübü
 
 Hatayspor,  1967,  Antakya       # Hatay Province
+
+
 =================================
 =  Ukraine
 
 
 FC Dynamo Kyiv,  Kyiv
   | Dynamo Kyiv
-  | Dynamo Kiev | FC Dynamo Kiev    ## add [en] ?? 
-  | Dinamo Kiev       
+  | Dynamo Kiev | FC Dynamo Kiev    ## add [en] ??
+  | Dinamo Kiev
   | Dynamo Kiew [de] | FC Dynamo Kiew [de]
-  
+
 FC Arsenal Kyiv,  Kyiv
   | Arsenal Kyiv
   | Arsenal Kiew [de]
-  | Arsenal Kiev
-  
+  | Arsenal Kiev | FC Arsenal Kiev
+
+
+FC Obolon Kyiv
+  | Obolon'
+
 
 FC Shakhtar Donetsk,  Donetsk
   | Shakhtar | Shakhtar Donetsk | Shakhtar Don.
@@ -6588,13 +7150,16 @@ FC Shakhtar Donetsk,  Donetsk
 
 FC Metalurh Donetsk,  Donetsk
   | Metalurh Donetsk
-FC Olimpik Donetsk
+  | Metalurg Donetsk
+
+FC Olimpik Donetsk,  Donetsk
   | Olimpik Donetsk
+
 
 FC Metalist Kharkiv,    Kharkiv    ## also known as Kharkov
   | Metalist | Metalist Kharkiv
   | Metalist Kharkov
-  
+
 FC Dnipro,    Dnipropetrovsk
   | Dnipro | FC Dnipro Dnipropetrovsk | Dnipro Dnipropetrovsk
   | SC Dnipro
@@ -6605,46 +7170,90 @@ SC Dnipro-1,  2017,  Dnipropetrovsk      ## todo/check - differnt from FC Dnipro
   | Dnipro-1 | Sport Club Dnipro-1
 
 FC Vorskla Poltava
-  | Vorskla 
+  | Vorskla
+  | Vorskla Poltava
   | Vorskla Poltawa [de]
+
 FC Karpaty Lviv
   | Karpaty | FC Lviv
+  | Karpaty Lviv
   | Karpaty Lemberg [de]
+
 SC Tavriya Simferopol
   | Tavriya
   | Tavriya Simferopol   # champs (1): 1992/93
   | SK Tavriya Simferopol
+  | Tavriia
 
 FC Zorya Luhansk
-  | Zorya Luhansk
+  | Zorya | Zorya Luhansk
   | Zorya Lugansk [de] | FC Zorya Lugansk [de]
   | Zorya Voroshilovgrad   # champs (1): 1973/74
 
 FC Mariupol
   | Mariupol
   | FK Mariupol
+  | FK Mariupol Illichivets'
+
 FC Olexandriya
   | Olexandriya
+  | Oleksandriya
   | FC Oleksandriya
   | Oleksandria [de] | FC Oleksandria [de]
+
 FC Chornomorets Odesa
   | Chornomorets Odesa
+  | Chernomorets Odesa
+  | Chernomorets Odessa
   | Chernom. Odessa [de]
 
 Desna
   | SFC Desna Tscherni
-Kolos Kovalivka
+  | FC Desna Chernihiv
+  | FK Desna Chernihiv
 
-FC Volyn Lutsk, Lutsk 
-  | Volyn Lutsk
+Kolos Kovalivka
+  | FC Kolos Kovalivka
+
+
+FC Volyn Lutsk, Lutsk
+  | Volyn | Volyn Lutsk
 
 FC Metalurh Zaporizhya,    1935,   Zaporizhya
-  | MFC Metalurh Zaporizhya | Municipal Football Club Metalurh Zaporizhya
+  | Metalurh Zaporizhya | MFC Metalurh Zaporizhya | Municipal Football Club Metalurh Zaporizhya
   | Metalurg Zaporizhya
+  | Metalurg Zaporizhia
 
 FC Kryvbas Kryvyi Rih, 1959,  Kryvyi Rih
+  | Kryvbas
   | FK Krivbas
   | Futbolniy Klub Krivbas Kriviy Rig
+
+
+NK Veres Rivne,  1957, Rivne
+  | Veres Rivne
+  | Narodnyy Klub Veres Rivne
+
+
+FC Zirka Kropyvnytskyi,  1911,   Kropyvnytskyi   # in Kirovohrad Oblast
+  | Zirka Kropyvnytskyi
+  | FK Zirka Kirovohrad
+
+ FC Stal Kamianske (1926-2018),    Kamianske
+  | Stal Kamianske
+  | FC Metalist Kamianske
+  | FK Stal Kamjanske
+
+FC Hoverla Uzhhorod (1946-2016),  Uzhhorod
+  | Hoverla Uzhhorod
+
+FC Sevastopol (2002-2014),   Sevastopol
+   | Sevastopol
+# due to the 2014 Crimean Conflict, the club ceased its existence
+#  and applied for a Russian license with the new name FC SKChF Sevastopol.
+
+
+
 ================================
 =  Wales
 
@@ -6663,31 +7272,41 @@ Llanelli AFC, 1896,  Llanelli
 Cefn Druids AFC
   | Cefn Druids | NEWI Cefn Druids    ## NEWI = North East Wales Institute of Higher Education
 Neath FC
+  |  Neath Athletic
+
 Port Talbot Town FC
+  | Port Talbot
 
 Connah's Quay Nomads FC
   | Connah's Quay
+  | Connah's Quay Nomads
+
 Bala Town FC
   | Bala | Bala Town
 
 Llandudno FC, 1988,    Llandudno
   | Llandudno Town FC
+  | Llandudno Town
 
 Newtown AFC
   | Newtown
 AUK Broughton FC
-  | Airbus | Broughton | Airbus UK Broughton | Airbus UK Broughton FC
+  | Airbus | Airbus UK
+  | Broughton | Airbus UK Broughton | Airbus UK Broughton FC
+
 Aberystwyth Town FC
   | Aberystwyth | Aberystwyth Town
 
 Barry Town AFC
-  | Barry 
+  | Barry
   | FC Barry Town
   | Barry Town    # champs (6): 2004...2001 (3) 2000...1997 (3)
   | Barry Town United | Barry Town United FC
 
 Cardiff Metropolitan University FC
   | Cardiff Met | Cardiff M.U. | Cardiff Met Uni.
+  | Cardiff Metropolitan
+  | Cardiff Met University
 Caernarfon Town FC
   | Caernarfon | Caernarfon Town
 Carmarthen Town AFC
@@ -6711,28 +7330,49 @@ Wrexham AFC,             Wrexham
   | Wrexham | Wrexham FC
 Merthyr Town FC,         Merthyr Tydfil
   | Merthyr Town
+  | Merthyr Tydfil FC   ## todo/check: keep separate - why? why not?
+# In 2010 the club Merthyr Tydfil FC was liquidated
+#  and reformed under the name Merthyr Town.
+
+
 Aberdare Athletic FC (1893-1928),  Aberdare
   | Aberdare Athletic
 
 Rhyl FC,  Rhyl    # in Denbighshire
  | Rhyl | Rhyl Football Club      # champs (2): 2009/10 2004/05
 
-Cwmbrân Town AFC,    Cwmbrân 
+Cwmbrân Town AFC,    Cwmbrân
   | Cwmbrân Town    # champs (1): 1993/94
   | Cwmbrân Town FC
 
 Prestatyn Town FC,  1910,  Prestatyn
 
 Afan Lido FC, 1967,   Port Talbot
+  | Afan Lido
 
 Haverfordwest County AFC, 1899,  Haverfordwest
+  | Haverfordwest County
+
+Porthmadog FC,   Porthmadog
+  | Porthmadog
+
+Welshpool Town FC,  Welshpool
+  | Welshpool Football Club
+  | Welshpool Town
+
+
+Caersws FC,  Caersws
+  |  Caersws
+
 
 = Iran
 
 Pars Jonoubi Jam
 Peykan
+
+
 =================================
-=  Israel 
+=  Israel
 
 Hapoel Tel-Aviv FC
   | H. Tel-Aviv | Hapoel Tel-Aviv
@@ -6740,6 +7380,7 @@ Maccabi Tel-Aviv FC
   | Maccabi Tel Aviv | Macc. Tel Aviv | M. Tel-Aviv
 Bnei Yehuda Tel-Aviv FC
   | Bnei Yehuda
+  | Bnei Yehuda Tel Aviv
 Beitar Tel Aviv Bat Yam FC,  Tel Aviv       ## and Bat Yam
   | Beitar Tel Aviv | Beitar Tel Aviv Bat Yam
 
@@ -6752,8 +7393,9 @@ Hapoel Haifa FC
 Hapoel Kiryat Shmona FC
   | H. Kiryat Shmona | Hapoel Kiryat Shmona
   | Hapoel Ironi Kiryat Shmona FC
-  | Ironi K. Shmona | Ironi Kiryat Shmona
   | Hapoel Ironi Kiryat Shmona     # champs (1): 2012/13
+  | Ironi K. Shmona | Ironi Kiryat Shmona
+  | Ironi Kiryat Schmona
 
 Maccabi Netanya FC
   | M. Netanya | Maccabi Netanya
@@ -6785,7 +7427,7 @@ Maccabi Petah Tikva FC, Petah Tikva
   | Macc. Petach Tikva
   | Maccabi Petach-Tikva FC    ## fix/todo: check dash(-) if fancy?!
   | Maccabi Petach-Tikva
- 
+
 Hapoel Petah Tikva FC,   Petah Tikva
   | H. Petach Tikva | Hapoel Petah Tikva
   | Hapoel Petach-Tikva FC     ## fix/todo: check dash(-) if fancy?!
@@ -6797,16 +7439,19 @@ Hapoel Kfar-Saba FC
 Sektzia Nes Tziona FC,   Ness Ziona
   | Nes Tziona | Sektzia Nes Tziona
   | Sectzya Nes Ziona
-  
+  | Sektzia Ness Ziona FC
+
 
 Bnei Sakhnin FC,  Sakhnin
   | Bnei Sakhnin
   | Bnei Sachnin FC
-  
+
 FC Kafr Qasim, Kafr Qasim
   | SC Kfar Qasem
 Hapoel Acre FC, Acre
   | Hapoel Acre  | Hapoel Akko
+  | Hapoel Ironi Akko
+
 Hapoel Afula FC, Afula
   | Hapoel Afula
 Hapoel Ashkelon FC, Ashkelon
@@ -6821,7 +7466,8 @@ Hapoel Ramat Gan Giv'atayim FC,  Ramat Gan
   | Hapoel Ramat Gan FC
 
 Hapoel Ramat HaSharon FC,   Ramat HaSharon
-  | Hapoel Ramat HaSharon | I. Ramat Hasharon
+  | Hapoel Ramat HaSharon
+  | Ironi Ramat HaSharon | I. Ramat Hasharon
 Hapoel Rishon LeZion FC, Rishon LeZion
   | Hap. Rishon LeZion | Hapoel Rishon LeZion | Hapoel Rishon Lezi
 Hapoel Umm al-Fahm FC,   Umm al-Fahm   # in hebrew: Um el-Faḥem
@@ -6829,12 +7475,18 @@ Hapoel Umm al-Fahm FC,   Umm al-Fahm   # in hebrew: Um el-Faḥem
   | Hapoel Um el-Fahem
 Maccabi Ahi Nazareth FC,   Nazareth
   | M. Ahi Nazareth | Maccabi Ahi Nazareth
+
+
 = Jordan
 
 Al Wehdat
+
+
 = Lebanon
 
 Al Ahed
+
+
 
 =============
 =  Qatar
@@ -6846,12 +7498,16 @@ Al Gharafa SC
 Al Ahli Doha SC
 Al-Duhail SC
 
+
+
 =================================
 =  Saudi Arabia
 
 Al Nassr
 Al Hilal FC
 Al-Ahli Jeddah
+
+
 ============================
 =  Canada 
 
@@ -6888,6 +7544,8 @@ Vancouver Whitecaps FC, 1974,  Vancouver   ## founding year is 2011? check again
   
 Pacific FC,  2018,  Victoria   ## Langford -  Greater Victoria ??
   | Pacific | Pacific Football Club
+
+
 ===========================================
 =  Mexico
 
@@ -7084,6 +7742,8 @@ Atlante FC, 1916,          Cancún
   | Club de Fútbol Atlante
  Av. Mayapán esq. Av. Kabah s/n Supermanzana 43 Pedregal del Bosque // Quintana Roo
  
+
+
 ==============================================
 =  United States
 
@@ -7355,6 +8015,8 @@ Tampa Bay Mutiny (1996-2001),  Tampa           › Florida
 Miami Fusion     (1998-2001),  Fort Lauderdale › Florida
 CD Chivas USA    (2005-2014),  Carson          › California   ## use 2014? use Los Angeles (not Carson)?
   | Chivas USA | Club Deportivo Chivas US
+
+
 ===========================================
 =  Australia
 
@@ -7390,6 +8052,8 @@ Adelaide United,          Adelaide
 
 == Western Australia ==
 Perth Glory,           Perth
+
+
 ============================================
 =  New Zealand
 
@@ -7413,6 +8077,8 @@ Otago United,  Dunedin › Otago  › South Island
 
 Wellington Phoenix,     Wellington › Wellington › North Island
   | Wellington | Wellington Phoenix FC
+
+
 ===========================
 =  Argentina 
 
@@ -7620,6 +8286,8 @@ Mitre,            Santiago del Estero
 Guillermo Brown,  Puerto Madryn
    | Guillermo Brown de Puerto Madryn
    | Brown de Puerto Madryn
+
+
 =========================
 =  Bolivia 
 
@@ -7659,6 +8327,8 @@ Club Aurora,               Cochabamba
 
 Sport Boys Warnes,       Warnes
   | Sport Boys
+
+
 ======================
 =  Brazil
 
@@ -7827,6 +8497,8 @@ Cuiabá, Cuiabá
 == Maranhão ==
 Sampaio Corrêa FC, São Luís › Maranhão
   | Sampaio Corrêa | Sampaio Corrêa Futebol Clube
+
+
 =========================
 =  Chile 
 
@@ -7865,6 +8537,8 @@ Deportes Vallenar,   Vallenar
 Deportes La Serena,  La Serena 
   | CD La Serena | Club de Deportes La Serena
   
+
+
 ==========================
 =  Colombia 
 
@@ -7917,6 +8591,8 @@ Rionegro Águilas, Rionegro
 Unión Magdalena,  Santa Marta
 Deportivo Pereira,  Pereira
   
+
+
 =========================
 =  Ecuador 
 
@@ -7960,11 +8636,15 @@ CSD Independiente del Valle,   Sangolquí
   | Ind. d. Valle | Indep. d. Valle | Indep. del Valle | Independiente del Valle
 CD Olmedo,        Riobamba
   | Olmedo
+
+
 ===========================
 =  Guyana 
 
 Alpha United FC,     Providence
   | Alpha United
+
+
 ===========================
 =  Paraguay
 
@@ -7995,6 +8675,8 @@ Club Sportivo San Lorenzo,  San Lorenzo
   | San Lorenzo
 Club Sol de América,  Villa Elisa
   | Sol de América
+
+
 ==========================
 =  Peru
 
@@ -8046,6 +8728,8 @@ Universidad Técnica de Cajamarca, Cajamarca
 
 Club Atlético Grau, 1919,  Piura
   | Atlético Grau
+
+
 ========================
 =  Uruguay
 
@@ -8093,6 +8777,8 @@ Sud América, 1914,                San José
   | Institución Atlética Sud América | I.A.S.A
 Club Plaza Colonia de Deportes,   Colonia
   | Plaza Colonia | Plaza Colonia CD
+
+
 ==============================
 =   Venezuela
 
@@ -8153,3 +8839,5 @@ Monagas Sport Club,  Maturín
   | Monagas | Monagas SC
 Portuguesa FC,       Acarigua
   | Portuguesa
+
+

@@ -1,7 +1,6 @@
 ###
-#  sport.db gems / libraries
+#  sport.db gems / libraries via fifa
 require 'fifa'
-require 'sportdb/teams'
 
 
 ###
