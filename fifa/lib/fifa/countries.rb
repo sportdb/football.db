@@ -2,8 +2,8 @@
 
 
 class Fifa
-## built-in countries for (quick starter) auto-add
 
+## built-in countries for (quick starter) auto-add
 class CountryIndex
 
   def initialize( recs )
@@ -29,11 +29,11 @@ private
     recs.each do |rec|
 
       ## add codes lookups - key, fifa, ...
-      if @countries[ rec.fifa ]
-        puts "** !!! ERROR !!! country (fifa) code  >#{rec.fifa}< already exits!!"
+      if @countries[ rec.code ]
+        puts "** !!! ERROR !!! country code (fifa)  >#{rec.code}< already exits!!"
         exit 1
       else
-        @countries[ rec.fifa ] = rec
+        @countries[ rec.code ] = rec
       end
     end
   end # method add

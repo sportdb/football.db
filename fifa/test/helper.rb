@@ -1,4 +1,5 @@
-## $:.unshift(File.dirname(__FILE__))
+## note: use the local version of gems
+$LOAD_PATH.unshift( File.expand_path( '../../sport.db/sportdb-formats/lib' ))
 
 ## minitest setup
 

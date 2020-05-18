@@ -20,7 +20,7 @@ Hoe.spec 'fifa' do
   self.licenses = ['Public Domain']
 
   self.extra_deps = [
-    ['sportdb-formats',   '>= 1.0.1'],
+    ['sportdb-formats',   '>= 1.0.4'],
   ]
 
   self.spec_extras = {

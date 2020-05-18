@@ -53,14 +53,14 @@ class TestOrgs < MiniTest::Test
     Fifa.countries.each do |country|
       if country.tags.empty? == false &&
          country.tags.include?( 'fifa' ) == false
-        puts "  #{country.name}, #{country.fifa}, #{country.tags.join(' | ')}"
+        puts "  #{country.name}, #{country.code}, #{country.tags.join(' | ')}"
       end
     end
 
     ## print countries NOT members of fifa or any confederation (irregular codes)
     puts "irregular codes:"
     Fifa.countries.each do |country|
-      puts "  #{country.name}, #{country.fifa}"    if country.tags.empty?
+      puts "  #{country.name}, #{country.code}"    if country.tags.empty?
     end
   end
 

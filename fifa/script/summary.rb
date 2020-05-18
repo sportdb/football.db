@@ -1,5 +1,7 @@
-## note: use the local version of fifa gem
+## note: use the local version of gems
+$LOAD_PATH.unshift( File.expand_path( '../../sport.db/sportdb-formats/lib' ))
 $LOAD_PATH.unshift( File.expand_path( './lib'))
+
 require 'fifa'
 
 
@@ -12,10 +14,14 @@ countries = countries.sort_by {|country| country.name }
 
 buf = String.new
 buf << "# Countries A-Z (#{countries.size})\n\n"
-buf << "| Name   | Code  |     |\n"
-buf << "|--------|-------|-----|\n"
+buf << "| Name   | Code  | Tags | Alt. Names |\n"
+buf << "|--------|-------|------|------------|\n"
 countries.each do |country|
-  buf << "| #{country.name} | #{country.fifa } | #{country.tags.join( ' › ' )} |\n"
+  buf << "| #{country.name}"
+  buf << " | #{country.code }"
+  buf << " | #{country.tags.join( ' › ' )}"
+  buf << " | #{country.alt_names.join( ' · ' )}"
+  buf << " |\n"
 end
 
 puts buf

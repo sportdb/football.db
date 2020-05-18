@@ -60,10 +60,10 @@ class Fifa
 
   def self.orgs()  org_index.keys; end   ## return list of known org (keys) e.g. fifa, uefa, etc.
 
+
 private
   def self.country_index
     @country_index ||= build_country_index
-    @country_index
   end
 
   def self.build_country_index
@@ -73,8 +73,7 @@ private
 
 
   def self.org_index
-    @org_index ||= build_org_index   ## fifa,uefa,etc.
-    @org_index
+    @org_index ||= build_org_index   ## fifa, uefa, etc.
   end
 
   def self.build_org_index

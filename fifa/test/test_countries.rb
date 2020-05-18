@@ -13,9 +13,9 @@ class TestCountries < MiniTest::Test
     recs = SportDb::Import::CountryReader.read( "#{Fifa.data_dir}/countries.txt" )
     ## pp recs
 
-    assert_equal [{ key: 'al', fifa: 'ALB', name: 'Albania', tags: ['fifa','uefa']},
-                  { key: 'ad', fifa: 'AND', name: 'Andorra', tags: ['fifa','uefa']}],
-                 recs[0..1].map { |rec| { key: rec.key, fifa: rec.fifa, name: rec.name, tags: rec.tags }}
+    assert_equal [{ key: 'bi', code: 'BDI', name: 'Burundi',   tags: ['fifa','caf','cecafa']},
+                  { key: 'dj', code: 'DJI', name: 'Djibouti', tags: ['fifa','caf','cecafa']}],
+                 recs[0..1].map { |rec| { key: rec.key, code: rec.code, name: rec.name, tags: rec.tags }}
   end
 
 
@@ -28,7 +28,7 @@ class TestCountries < MiniTest::Test
 
     assert_equal 'eng',           eng.key
     assert_equal 'England',       eng.name
-    assert_equal 'ENG',           eng.fifa
+    assert_equal 'ENG',           eng.code
     assert_equal ['fifa','uefa'], eng.tags
 
 
@@ -38,7 +38,7 @@ class TestCountries < MiniTest::Test
 
     assert_equal 'at',            aut.key
     assert_equal 'Austria',       aut.name
-    assert_equal 'AUT',           aut.fifa
+    assert_equal 'AUT',           aut.code
     assert_equal ['fifa','uefa'], aut.tags
   end
 

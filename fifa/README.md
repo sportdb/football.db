@@ -21,20 +21,20 @@ pp Fifa.countries
 resulting in:
 
 ```
-[#<Country @fifa="AFG", @key="af", @name="Afghanistan">,
- #<Country @fifa="ALB", @key="al", @name="Albania">,
- #<Country @fifa="ALG", @key="dz", @name="Algeria">,
- #<Country @fifa="ASA", @key="as", @name="American Samoa">,
- #<Country @fifa="AND", @key="ad", @name="Andorra">,
- #<Country @fifa="ANG", @key="ao", @name="Angola">,
- #<Country @fifa="AIA", @key="ai", @name="Anguilla">,
- #<Country @fifa="ATG", @key="ag", @name="Antigua and Barbuda">,
- #<Country @fifa="ARG", @key="ar", @name="Argentina">,
- #<Country @fifa="ARM", @key="am", @name="Armenia">,
- #<Country @fifa="ARU", @key="aw", @name="Aruba">,
- #<Country @fifa="AUS", @key="au", @name="Australia">,
- #<Country @fifa="AUT", @key="at", @name="Austria">,
- #<Country @fifa="AZE", @key="az", @name="Azerbaijan">,
+[#<Country @code="AFG", @key="af", @name="Afghanistan">,
+ #<Country @code="ALB", @key="al", @name="Albania">,
+ #<Country @code="ALG", @key="dz", @name="Algeria">,
+ #<Country @code="ASA", @key="as", @name="American Samoa">,
+ #<Country @code="AND", @key="ad", @name="Andorra">,
+ #<Country @code="ANG", @key="ao", @name="Angola">,
+ #<Country @code="AIA", @key="ai", @name="Anguilla">,
+ #<Country @code="ATG", @key="ag", @name="Antigua and Barbuda">,
+ #<Country @code="ARG", @key="ar", @name="Argentina">,
+ #<Country @code="ARM", @key="am", @name="Armenia">,
+ #<Country @code="ARU", @key="aw", @name="Aruba">,
+ #<Country @code="AUS", @key="au", @name="Australia">,
+ #<Country @code="AUT", @key="at", @name="Austria">,
+ #<Country @code="AZE", @key="az", @name="Azerbaijan">,
  ...
 ]
 ```
@@ -52,7 +52,7 @@ eng = Fifa[:eng]
 
 eng.key    #=> "eng"
 eng.name   #=> "England"
-eng.fifa   #=> "ENG"
+eng.code   #=> "ENG"
 
 
 aut  = Fifa['AUT']
@@ -62,7 +62,7 @@ aut  = Fifa[:aut]
 
 aut.key    #=> "at"
 aut.name   #=> "Austria"
-aut.fifa   #=> "AUT"
+aut.code   #=> "AUT"
 
 ...
 ```
