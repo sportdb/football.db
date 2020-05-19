@@ -59,14 +59,14 @@
 | Curaçao | CUW | fifa › concacaf › cfu |  |
 | Cyprus | CYP | fifa › uefa |  |
 | Czech Republic | CZE | fifa › uefa |  |
-| Czechoslovakia (-1992) | TCH |  | Czechoslovakia |
+| Czechoslovakia (-1992) | TCH |  |  |
 | Côte d'Ivoire | CIV | fifa › caf › wafu | Ivory Coast [en] |
 | Denmark | DEN | fifa › uefa |  |
 | Djibouti | DJI | fifa › caf › cecafa |  |
 | Dominica | DMA | fifa › concacaf › cfu |  |
 | Dominican Republic | DOM | fifa › concacaf › cfu |  |
-| Dutch East Indies (-1945) | DEI |  | Dutch East Indies |
-| East Germany (-1989) | GDR |  | East Germany |
+| Dutch East Indies (-1945) | DEI |  |  |
+| East Germany (-1989) | GDR |  |  |
 | Ecuador | ECU | fifa › conmebol |  |
 | Egypt | EGY | fifa › caf › unaf |  |
 | El Salvador | SLV | fifa › concacaf › uncaf |  |
@@ -200,7 +200,7 @@
 | South Africa | RSA | fifa › caf › cosafa |  |
 | South Korea | KOR | fifa › afc › eaff | Korea Republic · Republic of Korea |
 | South Sudan | SSD | fifa › caf › cecafa |  |
-| Soviet Union (-1991) | URS |  | Soviet Union |
+| Soviet Union (-1991) | URS |  |  |
 | Spain | ESP | fifa › uefa | España [es] |
 | Sri Lanka | SRI | fifa › afc › saff |  |
 | Sudan | SDN | fifa › caf › cecafa |  |
@@ -235,10 +235,10 @@
 | Venezuela | VEN | fifa › conmebol |  |
 | Vietnam | VIE | fifa › afc › aff |  |
 | Wales | WAL | fifa › uefa |  |
-| West Germany (-1989) | FRG |  | West Germany |
+| West Germany (-1989) | FRG |  |  |
 | Yemen | YEM | fifa › afc › waff |  |
-| Yugoslavia (-2003) | YUG |  | Yugoslavia |
-| Zaire (-1997) | ZAI |  | Zaire |
+| Yugoslavia (-2003) | YUG |  |  |
+| Zaire (-1997) | ZAI |  |  |
 | Zambia | ZAM | fifa › caf › cosafa |  |
 | Zanzibar | ZAN | caf › cecafa |  |
 | Zimbabwe | ZIM | fifa › caf › cosafa |  |
