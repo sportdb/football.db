@@ -5,8 +5,8 @@ module FootballDb
 module Leagues
 
   MAJOR = 2020    ## todo: namespace inside version or something - why? why not??
-  MINOR = 5
-  PATCH = 10
+  MINOR = 6
+  PATCH = 16
   VERSION = [MAJOR,MINOR,PATCH].join('.')
 
   def self.version

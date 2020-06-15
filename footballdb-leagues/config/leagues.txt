@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile leagues.txt bundle
-#    on 2020-05-10 19:20:57 +0200 from 14 datafile(s)
+#    on 2020-06-15 09:06:38 +0200 from 14 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/leagues - updates welcome!
 
@@ -68,6 +68,11 @@ cup.l  Knockout                                # league cup  - find a better "of
 1  Premier Soccer League
     | Zimbabwean Premier Soccer League
 
+= Burundi =
+1   1. Liga 
+    | BUR 1
+    | Burundi 1. Liga
+
 
 
 = International =
@@ -75,20 +80,20 @@ cup.l  Knockout                                # league cup  - find a better "of
 asia.cl   AFC Champions League     # afc = asian football confederation ?
            | AFC CL
 asia.cup  AFC Cup
-           | AFC C    
+           | AFC C
 
 
 = Japan =
 
-1      J. League 
+1      J. League
          | Japanese J League
          | Japan J. League
 2      J. League 2
          | Japan J. League 2
 
 cup    Emperor's Cup                       # note: national cup (as a rule use cup key for national cup and NOT league cup if both exists)
-          | Japan Emperor Cup 
-          | Japan FA Cup 
+          | Japan Emperor Cup
+          | Japan FA Cup
 
 cup.l    J. League Cup                    # note: league cup (incl. all teams from J. League and 0-2 teams from J2 League)
           | JPN LC | Japan Nabisco Cup    # check - $$$ Nabisco is a sponsor?
@@ -97,6 +102,11 @@ cup.l    J. League Cup                    # note: league cup (incl. all teams fr
 
 1      K-League
         | Südkorea K-League [de]
+
+2      K-League 2
+        | KOR 2
+        | Südkorea K-League 2 [de]
+
 
 = Singapore =
 
@@ -129,21 +139,39 @@ cup.l    J. League Cup                    # note: league cup (incl. all teams fr
           | Indian I-League
 1.ii     Super League
           | Indian Super League
-# note:  Indian Super League is a football league in India. It is one of the TWO co-existing premier football leagues in India 
+# note:  Indian Super League is a football league in India. It is one of the TWO co-existing premier football leagues in India
 #         along with I-League
-# todo/check: how to handle two top football leagues? check auto-add keys and more? 
+# todo/check: how to handle two top football leagues? check auto-add keys and more?
+
+
+= Taiwan =
+1      Premier League
+        | TWN 1   
+        | Taiwan Football Premier League
 
 
 = China =
 
-1      Super League 
-         | Chinese Super League  
+1      Super League
+         | Chinese Super League
          | China Chinese Super League
 
 = Kazakhstan =
 
 1      Premier League A
          | Kazakh Premier League A
+
+= Turkmenistan =
+
+1       1. Liga
+         | TURK 1   
+         | Turkmenistan 1. Liga
+
+= Vietnam =
+
+cup     Cup 
+         | VIE CUP  
+         | Vietnam Cup
 
 
 = Jamaica =
@@ -174,32 +202,42 @@ cup.l    J. League Cup                    # note: league cup (incl. all teams fr
 
 1       Bundesliga                    # Each year (July→December/February→May)
          | AUT BL
+         | Ö BL | Ö 1 
          | Austrian Bundesliga
-         | Österreich Bundesliga | Österr. Bundesliga 
+         | Österreich Bundesliga | Österr. Bundesliga
 2       2. Liga                       # Each year (July→May)
-         | Österreich Zweite Liga
+         | Ö 2
+         | Österreich Zweite Liga | Österr. Zweite Liga | Österr. 2. Liga
          | Österr. Erste Liga | Österr. 1. Liga      # note: before 2018/19 2. Liga was known as 1. Liga / Erste Liga
+
+## todo/check: use playoffs.1/2 for key - why? why not?
+rel.1   Bundesliga - Relegation
+         | Österr. Bundesliga - Relegation
+         | Österr. Bundesliga - Relegationsspiele
+         | Österr. Bundesliga - Aufstieg
+         | Play-offs 1/2
+
 
 # todo/check: use groups for West/Mitte/Ost??
 #  and just use at.3, Österr. Regionalliga
-#  use 3.ost / 3.mitte / 3.west ? 
-
+#  use 3.ost / 3.mitte / 3.west ?
 
 3.o     Regionalliga Ost
-         | AUT RLO 
+         | AUT RLO
          | Österr. Regionalliga Ost | Österreich Regionalliga Ost
 3.m     Regionalliga Mitte
-         | AUT RLM 
+         | AUT RLM
          | Österr. Regionalliga Mitte | Österreich Regionalliga Mitte
 3.sbg   Regionalliga Salzburg
          | RL SBG
 3.t     Regionalliga Tirol
          | RL TIR
-3.v     Eliteliga Vorarlberg
+3.v     Regionalliga Vorarlberg
          | RL VBG
-       
-3.w     Regionalliga West                   # note: split in three leagues (Salzburg/Tirol/Vorarlber with playoff) in 2019/20   
-         | AUT RLW  
+         | Eliteliga Vorarlberg     ### todo/check new Eliteliga modus - split into two stages? 
+
+3.w     Regionalliga West                   # note: split in three leagues (Salzburg/Tirol/Vorarlber with playoff) in 2019/20
+         | AUT RLW
          | Österr. Regionalliga West | Österreich Regionalliga West
 
 cup     ÖFB Cup
@@ -236,7 +274,7 @@ cup     ÖFB Cup
                | Vorarlbergliga
 
 
-## niederösterreich 
+## niederösterreich
 
 ############## -- 2. Landesliga (2 Staffeln)
 5.n.ost     2. Landesliga Ost (NÖ)        ## todo/check: use – (geviertstrich) to avoid () e.g. 2. Landesliga Ost – NÖ
@@ -307,7 +345,7 @@ cup     ÖFB Cup
 8.n.waldviertel.s         2. Klasse Waldviertel/Süd (NÖ)
 
 
-#############  -- 3. Klasse 
+#############  -- 3. Klasse
 9.n.hornerwald   3. Klasse Hornerwald (NÖ)
 9.n.mistelbach   3. Klasse Mistelbach (NÖ)
 
@@ -328,6 +366,18 @@ cup     ÖFB Cup
           | English League Two
 5       National League
           | English National League
+
+
+## todo/check: turn play-offs (only) into a stage (instead of "free-standing league") - why? why not?
+
+playoffs.2   Championship - Play-offs
+             | English Championship - Play-offs
+playoffs.3   League One - Play-offs
+             | English League One - Play-offs
+playoffs.4   League Two - Play-offs
+             | English League Two - Play-offs
+
+
 
 cup         FA Cup                  ## use cup.fa as key - why? why not?
              | ENG FA
@@ -370,13 +420,33 @@ com         FA Community Shield
 
 1       Bundesliga
          | GER BL
+         | D BL | D 1
          | German Bundesliga
          | Deutschland Bundesliga | Deutsche Bundesliga
 2       2. Bundesliga
+         | D 2
          | German 2. Bundesliga
          | Deutschland 2. Bundesliga | Deutsche 2. Bundesliga
 3       3. Liga
+         | D 3
          | Deutschland 3. Liga | Deutsche 3. Liga
+
+## todo/check: change key to playoffs.1/2 or rel.1/2  - why? why not?
+rel.1   Bundesliga - Relegation
+         | Deutsche Bundesliga - Relegation
+         | Deutsche Bundesliga - Relegationsspiele
+         | Deutsche Bundesliga - Aufstieg
+         | Play-offs 1/2
+rel.2   2. Bundesliga - Relegation
+         | Deutsche 2. Bundesliga - Relegation
+         | Deutsche 2. Bundesliga - Relegationsspiele
+         | Deutsche 2. Bundesliga - Aufstieg
+         | Play-offs 2/3
+rel.3   3. Liga - Relegation
+         | Deutsche 3. Liga - Relegation
+         | Deutsche 3. Liga - Relegationsspiele
+         | Deutsche 3. Liga - Aufstieg
+         | Play-offs 3/4
 
 cup     DFB Pokal
          | German DFB Pokal
@@ -402,7 +472,7 @@ cup.super   Supercup
 
 ## Regionalliga Nordost
 5.nordost.n   Oberliga Nordost (Nord)    ## todo/check: use – (geviertstrich) to avoid () e.g. Oberliga Nordost – Nord
-5.nordost.s   Oberliga Nordost (Süd)     ## todo/check: use – (geviertstrich) to avoid () e.g. Oberliga Nordost – Süd 
+5.nordost.s   Oberliga Nordost (Süd)     ## todo/check: use – (geviertstrich) to avoid () e.g. Oberliga Nordost – Süd
 
 ## Regionalliga West
 5.west.niederrhein   Oberliga Niederrhein
@@ -417,15 +487,6 @@ cup.super   Supercup
 ## Regionalliga Bayern
 5.by.n    Bayernliga (Nord)    ## todo/check: use – (geviertstrich) to avoid () e.g. Bayernliga – Nord
 5.by.s    Bayernliga (Süd)     ## todo/check: use – (geviertstrich) to avoid () e.g. Bayernliga – Süd
-
-
-= National Teams =
-
-euro       Euro
-            | European Championship
-            | UEFA Euro
-            | UEFA European Championship
-            | UEFA European Football Championship
 
 
 = International =
@@ -504,12 +565,18 @@ cup.l  League Cup
 3      2. Delid
         | Island 2. Delid
 
-cup    Icelandic Cup
+cup    Cup
+        | Icelandic Cup
         | Island Cup
+
+super  Super Cup
+        | ISL SC
+        | Island Super Cup
 
 
 = Faroe Islands =
-1      Faroese Premier Division
+1      Premier Division
+        | Faroese Premier Division
 
 
 
@@ -556,10 +623,12 @@ super   Supercup
 
 
 = Gibraltar =
-1     Gibraltarian Premier League A
+1   Premier League A  
+     | Gibraltarian Premier League A
 
 = Andorra =
-1     Andorran Premier Division
+1   Premier Division  
+     | Andorran Premier Division
 
 
 = France =     ## add incl. Monaco - why? why not?
@@ -729,8 +798,9 @@ cup     Cup
           | Dutch KNVB Beker
           | Niederlande KNVB Cup [de]
 
-super   Johan Cruijff Schaal in Amsterdam    ## todo/check - is supercup?
+super   Johan Cruijff Schaal   ## todo/check - is supercup?
           | NL SC
+          | Johan Cruijff Schaal in Amsterdam 
           | Niederlande Johan Cruijff Schaal in Amsterdam [de]
 
 po      Promotion/Relegation Playoffs
@@ -738,14 +808,16 @@ po      Promotion/Relegation Playoffs
 
 
 = Belgium =
-1      Pro League
+1       First Division A
+          | Pro League
           | Belgian First Division A
           | Belgian First League
           | Belgien Pro League
           | Belgien Eerste Klasse
 
-2      Belgian First Division B
-          | Belgium Tweede Klasse
+2      First Division B
+         | Belgian First Division B
+         | Belgium Tweede Klasse
 
 cup    Beker van Belgie
           | Belgium Beker van Belgie
@@ -766,7 +838,8 @@ super  Supercup
 2      I Liga
         | Polen I Liga [de]
 
-cup    Polish Cup
+cup    Cup
+        | Polish Cup
         | Puchar Polski
         | Polen Cup [de]
 
@@ -775,14 +848,21 @@ super  Supercup
 
 
 = Hungary =
-1     Hungarian First League
+1     First League
        | NB I
+       | Hungarian First League
+
+cup    Cup
+        | HUN CUP 
+        | Ungarn Cup [de]
+
 
 = Czech Republic =
-1     Czech First League
+1     First League
+       | Czech First League
        | 1. Liga
 2     1. Division
-       | Tschechien 1. Division
+       | Tschechien 1. Division [de]
 
 cup   Cup
        | Tschechien Cup
@@ -801,7 +881,8 @@ cup    Schweizer Cup
 
 
 = Slovakia =
-1     Slovak First League
+1     First League
+        | Slovak First League
         | Slowakei Corgon Liga [de]    ## check - Corgon is sponsor?
 
 cup   Slovak Cup
@@ -809,9 +890,11 @@ cup   Slovak Cup
 
 
 = Slovenia =
-1     Slovene First League
+1     First League
+       | Slovene First League
        | SLO 1 | Prva Liga      # note: official FIFA code is SVN !!!
-cup   Slowenien Cup
+cup   Cup
+       | Slowenien Cup
        | SLO CUP                # note: official FIFA code is SVN
 
 = Croatia  =
@@ -819,7 +902,8 @@ cup   Slowenien Cup
         | Croatian First League
         | Kroatien 1. HNL
 
-cup    Croatian Cup
+cup    Cup
+        | Croatian Cup
         | Kroatien Croatian Cup [de]
 
 super  Supercup
@@ -837,29 +921,36 @@ cup   Bosnia and Herzegovina Football Cup
        | Bosnien Cup [de]
 
 = Serbia =
-1     Serbian Super League
+1     Super League
+        | Serbian Super League
         | SERB 1                   # note: official FIFA code is SRB
         | Serbien Meridijan Superliga  [de]   ## check - Meridijan is sponsor?
 
-cup   Serbian Cup
+cup    Cup
+        | Serbian Cup
         | SER CUP                  # note: official FIFA code is SRB
         | Serbien Cup [de]
 
 
 = Kosovo =
-1     Kosovan Superliga A
+1    Superliga A 
+      | Kosovan Superliga A
 
 = Albania =
-1     Albanian Super League
+1    Super League 
+      | Albanian Super League
 
 = Moldova =
-1     Moldovan First Division
+1    First Division 
+      | Moldovan First Division
 
 = Montenegro =
-1     Montenegrin First League
+1    First League
+      | Montenegrin First League
 
 = Macedonia =
-1     Macedonian First League
+1    First League 
+      | Macedonian First League
 
 
 
@@ -881,7 +972,8 @@ super  Supercup
        | Bulgarian A League
        | Bulgarien Premier League [de]
 
-cup   Bulgarian Cup
+cup   Cup
+       | Bulgarian Cup
        | Bulgarien Cup [de]
 
 super  Supercup
@@ -890,14 +982,16 @@ super  Supercup
 
 
 = Latvia =
-1      Latvian Higher League
+1      Higher League
+        | Latvian Higher League
         | LAT 1                 # note: official FIFA code is LVA
         | Virslīga
         | Latvian First Division
         | Lettland LMT Virsliga [de]
 
 = Lithuania =
-1      Lithuanian First Division
+1      First Division
+        | Lithuanian First Division
         | LIT 1                # note: official FIFA code is LTU
         | Litauen A Lyga [de]
 
@@ -917,7 +1011,8 @@ super  Supercup
 2    1. Division
       | Russland 1. Division [de]
 
-cup  Russian Cup
+cup  Cup
+      | Russian Cup
       | Russland Russian Cup [de]
 
 super  Supercup
@@ -929,24 +1024,47 @@ super  Supercup
 1     Premier League
        | Ukrainian Premier League
        | Ukraine Premier League
+
 cup   Cup
        | Ukraine Cup
 
-super  Ukraine Supercup
+super  Supercup
+        | Ukraine Supercup
         | UKR SC
 
 
 = Belarus =
-1     Belarusian Premier League
+1   Premier League 
+     | Belarusian Premier League
+
+2   Pervaya Liga
+     | BLR 2  
+     | Weißrussland Pervaya Liga [de]
+
+cup  Cup
+      | BLR CUP  
+      | Weißrussland Cup [de]
+
+
+## todo/check - what key to use for reserve  use 1.res or 1.b or 1.ii or such - why? why not?    
+res Reserve Liga
+     | BLR RES
+     | Weißrussland Reserve Liga [de]
+
+
 
 = Armenia =
-1     Armenian Premier League
+1   Premier League 
+     | Armenian Premier League
 
 = Azerbaijan =
-1     Azerbaijani Premier League A
+1   Premier League A  
+     | Azerbaijani Premier League A
 
 = Georgia =
-1     Georgian Premier League A
+1   Premier League A  
+     | Georgian Premier League A
+
 
 
 
@@ -955,15 +1073,74 @@ super  Ukraine Supercup
 
 = National Teams =
 
-worldcup       World Cup
-                | FIFA World Cup
+##############
+# FIFA
+
+world                       World Cup
+                             | FIFA World Cup
+
+world.quali.europe          World Cup Quali Europe
+world.quali.northamerica    World Cup Quali North/Central America and Caribbean
+world.quali.southamerica    World Cup Quali South America
+world.quali.africa          World Cup Quali Africa
+world.quali.asia            World Cup Quali Asia (w/ Australia)
+world.quali.pacific         World Cup Quali South Pacific
+world.quali.playoffs        World Cup Quali Intercontinental Playoffs
+
+world.confed                Confederations Cup
+
+
+#######################################################
+# UEFA (Union of European Football Associations)
+
+euro       Euro
+            | European Championship
+            | UEFA Euro
+            | UEFA European Championship
+            | UEFA European Football Championship
+
+euro.quali   Euro Quali
+
+
+#######################################################
+# CONMEBOL (Confederación Sudamericana de Fútbol)
+
+southamerica     Copa América
+
+######################################################
+# CONCACAF (Confederation of North, Central American and Caribbean Association Football)
+
+northamerica     Gold Cup
+                  | Copa de Oro
+
+
+##########################################
+# AFC (Asian Football Confederation)
+
+asia              Asian Cup
+
+
+################################################
+# CAF (Confédération Africaine de Football)
+
+africa            Africa Cup of Nations
+                   | Coupe d'Afrique des Nations
+
+
+#############################################
+# OFC (Oceania Football Confederation)
+
+paficic     South Pacific Nations Cup
+# note: gets merged (group stage is the same as world.quali.pacific - stage 2 qualifiers)
+
+
 
 
 = International =
 
-worldcup.club   Club World Cup
+world.club   Club World Cup
                  | FIFA Club World Cup
-                 | KLUB WM
+                 | Klub WM [de]
                  | FIFA Klub WM [de]
 
 

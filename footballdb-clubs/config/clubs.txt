@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile clubs.txt bundle
-#    on 2020-05-10 19:34:12 +0200 from 98 datafile(s)
+#    on 2020-06-15 09:15:27 +0200 from 98 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/clubs - updates welcome!
 
@@ -778,6 +778,8 @@ SR Donaufeld
 
 FC Stadlau
 SC Red Star Penzing
+  | Red Star Penzing
+
 
 == Burgenland ==
 
@@ -831,6 +833,7 @@ ii) SKN St. Pölten Juniors
 
 SV Horn,  1922,   Horn
 ii) Horn Amateure
+  | SV Horn II
 
 SKU Amstetten,   Amstetten
   | Amstetten SKU
@@ -863,7 +866,9 @@ ATSV Ober-Grafendorf
   | Ober-Grafendorf
 ASK Kottingbrunn
 ASV Spratzern
-SC Krems
+
+SC Krems,  Krems
+  | Kremser SC
 
 
 #  add Gebietsliga NW/Wald.  --  6-noe-nordwest-waldviertel
@@ -893,6 +898,9 @@ USV Groß Gerungs
   | Groß Gerungs
 USV Langenlois, Langenlois
   | Langenlois
+
+SC Admira Gföhl
+USV Raabs/Thaya
 
 
 == Oberösterreich ==
@@ -930,12 +938,14 @@ SK Vorwärts Steyr,   Steyr
   | Vorwärts Steyr
 
 FC Wels,         Wels
+  | Wels FC
 WSC Hertha Wels, Wels
 
 Union Vöcklamarkt, Vöcklamarkt
   | Vöcklamarkt
 
 ATSV Stadl-Paura, Stadl-Paura
+  | Stadl-P. ATSV
 Union Gurten,        Gurten
   | Gurten
 
@@ -975,6 +985,8 @@ TuS Bad Gleichenberg,  Bad Gleichenberg
   | Bad Gleichenberg
 Deutschlandsberger SC, Deutschlandsberg
   | Deutschlandsberg
+  | DSC Deutschlandsberg
+
 FC Gleisdorf 09,       Gleisdorf
   | FC Gleisdorf
 SC Kalsdorf,           Kalsdorf
@@ -1012,6 +1024,9 @@ SAK Klagenfurt, Klagenfurt
   | Slovenski atletski klub | Slowenischer AK
   | SAK Celovec/Klagenfurt
 
+ASV Annabichler SV 1923,   Klagenfurt (Annabichl)
+  | Annabichler SV
+  | ASV
 
 
 
@@ -1022,8 +1037,9 @@ FC St. Veit
 FC Lendorf
   | Lendorf
 
-ASV Annabichler SV 1923
+
 ASKÖ Köttmannsdorf
+  | Köttmannsdorf
 VST Völkermarkt
 
 == Salzburg ==
@@ -1092,6 +1108,7 @@ SV Wörgl
 SC Imst
 SV Hall
 SVG Reichenau
+  | Reichenau SVG
 FC Zirl
 SV Reutte
 
@@ -1127,6 +1144,7 @@ FC Wolfurt
   | Meusburger FC Wolfurt    ## $$$ Meusburger is a sponsor
 SW Bregenz,   Bregenz
   | SC Schwarz-Weiß Bregenz
+  | Bregenz SW
   | SC Bregenz     ## todo/check if SC Bregenz exists as its own independent club??
 
 FC Hard
@@ -3540,12 +3558,17 @@ FK Pirmasens
 
 == Schleswig-Holstein ==
 
-VfB Lübeck,          Lübeck  › Schleswig-Holstein
+VfB Lübeck,          Lübeck
   | Lübeck
-Holstein Kiel,       Kiel    › Schleswig-Holstein
+Holstein Kiel,       Kiel
   | Kiel
 
 VfR Neumünster
+
+SC Weiche Flensburg 08,     Flensburg (Weiche)
+
+
+
 
 
 == Mecklenburg-Vorpommern ==
@@ -8419,7 +8442,8 @@ Esporte Clube Juventude, 1913, Caxias do Sul
 
 == Paraná ==
 Atlético PR,   Curitiba
-  | Athl Paranaense | Atlético Paranaense | C Atlético Paranaense | Clube Atlético Paranaense
+  | Atl Paranaense | Athl Paranaense | Atlético Paranaense 
+  | C Atlético Paranaense | Clube Atlético Paranaense
   | Athletico-PR [en] | Athletico Paranaense [en] | Club Athletico Paranaense [en]
 Coritiba PR,   Curitiba
   | Coritiba | Coritiba FC | Coritiba Football Club
