@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile clubs.txt bundle
-#    on 2020-06-15 09:15:27 +0200 from 98 datafile(s)
+#    on 2020-07-07 21:39:23 +0200 from 98 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/clubs - updates welcome!
 
@@ -758,6 +758,7 @@ SC Team Wiener Linien,   Wien (Favoriten)
 Wiener Sport-Club,       Wien (Hernals)
   | Wiener Sportklub | Wiener SK | Wr. Sportklub
   | Wiener SC
+  | Sportclub
 
 First Vienna FC,  1894,  Wien (Döbling)
   | Vienna | Vienna FC 1894 | First Vienna FC 1894
@@ -822,6 +823,13 @@ ii) FC Admira Wacker Mödling II
   | FC Admira Wacker II
   | Admira Amateure | Admira Juniors
 
+
+VfB Mödling (1911-1977),  Mödling
+  | Verein für Bewegungsspiele Mödling
+# Fusion mit Fusion mit FC Admira/Wacker aus der Südstadt
+#    zum VfB Admira Wacker Mödling
+
+
 SC Wiener Neustadt, 1908,  Wr. Neustadt
   | Neustadt | Wr. Neustadt | SC Wr. Neustadt | Wiener Neustadt
  Giltschwertgasse 81 // 2700 Wr. Neustadt
@@ -830,6 +838,10 @@ SKN St. Pölten, 2000,      St. Pölten
   | St. Pölten | Sportklub Niederösterreich St. Pölten
   | SKN Sankt Pölten
 ii) SKN St. Pölten Juniors
+
+VSE St. Pölten (1920-1998), St. Pölten
+  | Voith-Schwarze Elf St. Pölten
+
 
 SV Horn,  1922,   Horn
 ii) Horn Amateure
@@ -908,10 +920,21 @@ USV Raabs/Thaya
 LASK Linz, 1899,      Linz (Pasching)          ## use Pasching ??
   | LASK | Linzer ASK
 ii) FC Juniors OÖ     ## todo/(double) check: is a not a feeder / reserve team / club ?
-  | Juniors OÖ
+  | Juniors OÖ        ##  bis Juli 2017 FC Pasching (merge with FC Pasching!! see below)
 
-FC Pasching,         Linz (Pasching)
+FC Pasching,   2007        Linz (Pasching)
   | Pasching
+  | FC Superfund Pasching
+# im Jahr 2007 als FC Superfund Pasching neu gegründet
+
+ASKÖ Pasching (1946-2007), Linz (Pasching)
+  | FC Superfund
+  | SV PlusCity Pasching
+# unter den Sponsorbezeichnungen SV PlusCity Pasching und FC Superfund
+#   von 2002/03 bis 2006/07 insgesamt fünf Saisonen in der Bundesliga.
+# Medial wurde in dieser Zeit der Verein auch mit
+# den umgangssprachlichen Namen SV Pasching, FC Pasching
+# bezeichnet.
 
 FC Blau-Weiß Linz, Linz
   | BW Linz | Blau-Weiß Linz
@@ -1005,10 +1028,15 @@ FC Lankowitz
 
 Wolfsberger AC, 1931, Wolfsberg
   | Wolfsberg | Wolfsberger | AC Wolfsberger | Wolfsberger Athletik Club
+  | WAC/St. Andrä | Wolfsberger AC/St. Andrä   
   | $$RZ Pellets$$ WAC           ## $$$ note: RZ Pellets is a sponsor name
  Don Bosco Weg 1 // 9400 Wolfsberg
 ii) Wolfsberger AC II
   | WAC Amateure
+
+# note: Durch eine Kooperation mit dem SK St. Andrä trat der Verein von 2007 bis 2012 
+#  unter den Namen Wolfsberger AC/St. Andrä in der Ersten Liga 
+
 
 ATSV Wolfsberg, 	Wolfsberg
 
@@ -1143,7 +1171,7 @@ VfB Hohenems
 FC Wolfurt
   | Meusburger FC Wolfurt    ## $$$ Meusburger is a sponsor
 SW Bregenz,   Bregenz
-  | SC Schwarz-Weiß Bregenz
+  | Schwarz-Weiß Bregenz | SC Schwarz-Weiß Bregenz
   | Bregenz SW
   | SC Bregenz     ## todo/check if SC Bregenz exists as its own independent club??
 
@@ -2165,28 +2193,28 @@ B 1901 Nykøbing (1901-1994),  Nykøbing Falster
 #  note: see wal.txt for teams from wales
 
 
-Arsenal FC, 1886, @ Emirates Stadium, London   ## Greater London
+Arsenal FC, 1886, @ Emirates Stadium, London (Highbury)   ## Greater London
   | Arsenal | FC Arsenal
-Chelsea FC, 1905, @ Stamford Bridge, London   ## Greater London
+Chelsea FC, 1905, @ Stamford Bridge, London (Fulham)    ## Greater London
   | Chelsea | FC Chelsea
 
-Tottenham Hotspur FC, 1882, @ White Hart Lane, London   ## Greater London
+Tottenham Hotspur FC, 1882, @ White Hart Lane, London (Tottenham)   ## Greater London
   | Tottenham | Tottenham Hotspur | Spurs
-West Ham United FC, 1895, @ Boleyn Ground, London   ## Greater London
+West Ham United FC, 1895, @ Boleyn Ground, London (Upton Park)   ## Greater London
   | West Ham  | West Ham United
 Fulham FC, 1879,  @ Craven Cottage,  London (Fulham)   ## London (Fulham), Greater London
   | Fulham | FC Fulham
 Charlton Athletic FC,  @ The Valley,  London (Charlton)      ##   London (Charlton), Greater London
-  | Charlton | Charlton Athletic
-Crystal Palace FC, 1905, @ Selhurst Park, London   ## Greater London
-  | Crystal Palace | C Palace | Palace | Crystal P
+  | Charlton | Charlton Ath | Charlton Athletic
+Crystal Palace FC, 1905, @ Selhurst Park, London (Selhurst)   ## Greater London
+  | Palace | C Palace | Crystal P | Crystal Palace
 
-Wimbledon FC,         London   ## Greater London
+Wimbledon FC,         London (Wimbledon)   ## Greater London
   | Wimbledon
 AFC Wimbledon,      @ Kingsmeadow,   London   ##  London (Norbiton ??)  or London- Kingston upon Thames ??
  ## add Wimbledon too here?
 
-Queens Park Rangers FC, 1882,  @ Loftus Road, London   ## Greater London
+Queens Park Rangers FC, 1882,  @ Loftus Road, London (Shepherd's Bush)   ## Greater London
   | QPR | Queens Park R. | Queens Park Rangers
 Millwall FC,      @ The Den,     London (South Bermondsey)        # London (South Bermondsey) or  London-South Bermondsey
   | Millwall | FC Millwall
@@ -2198,7 +2226,7 @@ Barnet FC,           @ The Hive Stadium, London ##   London (Canons Park ??)  or
   | Barnet
 Dagenham & Redbridge FC,  @ Victoria Road,  London  ##  London (Dagenham)  or London-Dagenham
   | Dagenham & Red. | Dagenham & Redbridge
-  | Dag and Red | Dagenham and Redbridge 
+  | Dag and Red | Dagenham and Redbridge
 
 Bromley FC,                London   ## London-Bromley
   | Bromley | FC Bromley
@@ -2213,9 +2241,9 @@ Thames AFC (1928-1932),  London  ## London-Custom House
   | Thames
 
 
-Everton FC, 1878,  @ Goodison Park, Liverpool › Lancashire   ## North West England
+Everton FC, 1878,  @ Goodison Park, Liverpool (Walton) › Lancashire   ## North West England
   | Everton | FC Everton
-Liverpool FC, 1892, @ Anfield, Liverpool › Lancashire
+Liverpool FC, 1892, @ Anfield, Liverpool (Anfield) › Lancashire
   | Liverpool | FC Liverpool
 
 Blackburn Rovers FC,  @ Ewood Park,  Blackburn › Lancashire
@@ -2235,10 +2263,13 @@ Bootle FC (1879-1893) ,  Bootle › Lancashire
 Nelson FC,           Nelson, Lancashire
   | Nelson
 
-Manchester United FC, 1878, @ Old Trafford, Manchester     ## North West England
+Manchester United FC, 1878, @ Old Trafford, Manchester (Old Trafford)     ## North West England
   | Man Utd | Man. United | Manchester U. |  Manchester Utd | Manchester United
 Manchester City FC, 1880, @ Etihad Stadium,  Manchester     ## North West England
   | Man City | Manchester City | Man. City | Manchester C
+
+Oldham Athletic AFC,    @ Boundary Park,  Oldham › Greater Manchester
+  | Oldham  | Oldham Athletic
 
 Bolton Wanderers FC,  @ Macron Stadium,  Bolton › Greater Manchester
   | Bolton | Bolton Wanderers
@@ -2248,9 +2279,7 @@ Wigan Borough FC (1920-1931),   Wigan › Greater Manchester    #  Lancashire
   | Wigan Borough
 Atherton Collieries,    Atherton › Greater Manchester    # in the Metropolitan Borough of Wigan
     | Atherton Colli. | Atherton Collieries AFC
- 
-Oldham Athletic AFC,    @ Boundary Park,  Oldham › Greater Manchester
-  | Oldham  | Oldham Athletic
+
 Stockport County FC,    Stockport › Greater Manchester
   | Stockport | Stockport County
 Bury FC,             @ Gigg Lane, Bury › Greater Manchester
@@ -2323,7 +2352,7 @@ Solihull Moors FC,   Solihull › West Midlands
 Stafford Rangers FC,   Stafford › West Midlands
   | Stafford Rangers
 Stourbridge FC,    Stourbridge › West Midlands
-  | Stourbridge Football Club  
+  | Stourbridge Football Club
 
 
 
@@ -2333,8 +2362,17 @@ Middlesbrough FC, 1876,  @ Riverside Stadium,   Middlesbrough › North Yorkshir
   | Middlesbrough | Middlesboro | FC Middlesbrough
 Middlesbrough Ironopolis FC (1889-1894), Middlesbrough › North Yorkshire
   | Middlesbrough Ironopolis
-Scarborough Athletic FC,  Scarborough › North Yorkshire
-  | Scarborough
+
+Scarborough Athletic FC, 2007,  Scarborough › North Yorkshire
+  | Scarborough 
+  # see en.wikipedia.org/wiki/Scarborough_Athletic_F.C.
+  # formed on 25 June 2007 following the winding up of Scarborough Football Club.
+Scarborough FC (1879-2007), Scarborough › North Yorkshire
+  | Scarborough Football Club
+  # see en.wikipedia.org/wiki/Scarborough_F.C.
+  # keep clubs separate - why? why not?
+
+
 Harrogate Town AFC,  Harrogate › North Yorkshire
   | Harrogate | Harrogate Town | Harrogate Town Association Football Club
 
@@ -2364,9 +2402,9 @@ Hull City AFC, 1904,   @ KC Stadium,   Hull › East Yorkshire    ## change Hull
 North Ferriby United AFC,  North Ferriby › East Yorkshire
   | North Ferriby
 
-Sheffield Wednesday FC,   @ Hillsborough,  Sheffield › South Yorkshire
+Sheffield Wednesday FC,   @ Hillsborough,  Sheffield (Owlerton) › South Yorkshire
   | Sheffield Wed | Sheffield Weds | Sheffield Wednes. | Sheffield Wednesday
-Sheffield United FC,  @ Bramall Lane,  Sheffield › South Yorkshire
+Sheffield United FC,  @ Bramall Lane,  Sheffield (Highfield) › South Yorkshire
   | Sheffield United | Sheff. United | Sheffield Utd
 
 Barnsley FC,   @ Oakwell,  Barnsley › South Yorkshire
@@ -2422,7 +2460,7 @@ Ipswich Town FC,   @ Portman Road,  Ipswich › Suffolk
 Notts County FC,        @ Meadow Lane,   Nottingham › Nottinghamshire
   | Notts County
 Nottingham Forest FC,    @ City Ground,  West Bridgford › Nottinghamshire
-  | Nott'm Forest | Nottingham Forest
+  | Nott'm Forest | Nott'ham Forest | Nottingham Forest
 Mansfield Town FC,    @ Field Mill,  Mansfield › Nottinghamshire
   | Mansfield | Mansfield Town
 
@@ -2438,6 +2476,7 @@ Maidenhead United FC,   Maidenhead › Berkshire
 
 Brighton & Hove Albion FC,  @ American Express Stadium,  Falmer › East Sussex     # Brighton?
   | Brighton |  Brighton & Hove | Brighton & Hove Albion
+  | Brighton Hove Albion
 Crawley Town FC,         @ Broadfield Stadium,   Crawley › West Sussex
   | Crawley Town
 Eastbourne Borough FC,   Eastbourne › East Sussex
@@ -2553,8 +2592,16 @@ Northampton Town FC,  @ Sixfields Stadium,  Northampton › Northamptonshire
   | Northampton | Northampton Town
 ## note: there's also <=> Northampton Sileby Rangers  (!!)
 
-AFC Rushden & Diamonds,   Rushden › Northamptonshire
-  | Rushden & D | Rushden & Diamonds
+Rushden & Diamonds (1992-2011), Rushden › Northamptonshire
+  | Rushden | Rushden & D 
+  | Rushden & Diamonds FC | Rushden & Diamonds Football Club
+## note: was formed by a merger of Rushden Town and Irthlingborough Diamonds in 1992  
+
+AFC Rushden & Diamonds, 2011,  Rushden › Northamptonshire
+## todo/fix:  add Rushden & Diamonds here too? and add resolve by season/year
+## note: was formed by supporters in July 2011, after Rushden & Diamonds, a former Football League club, 
+##  was expelled from the Football Conference and liquidated.
+
 Kettering Town FC,  Kettering › Northamptonshire
   | Kettering Town
 
@@ -2610,11 +2657,11 @@ Durham City AFC, Durham › Durham
 Salisbury City FC (1947-2014),  Salisbury › Wiltshire
   | Salisbury | Salisbury City
 Salisbury FC (2015-),  Salisbury › Wiltshire
-# note: <=> see Salisbury City FC for the club that existed between 1947 and 2014; 
-#         for the original Salisbury City club, see Salisbury City FC (1905) 
+# note: <=> see Salisbury City FC for the club that existed between 1947 and 2014;
+#         for the original Salisbury City club, see Salisbury City FC (1905)
 #  merge them all together here? or keep it separate like wikipedia? why? why not?
-  
-  
+
+
 Nuneaton Borough FC,    Nuneaton › Warwickshire
   | Nuneaton Town
 
@@ -2898,6 +2945,13 @@ Paris FC,            Paris › Île-de-France
 Red Star FC,   Saint-Ouen › Île-de-France
   | Red Star | Red Star 93
 
+Racing Club de France, 1882,    Paris (Colombes) › Île-de-France
+  | Racing Club de France Football
+  | Racing Paris
+  | RCF Paris
+  ## also known as Matra Racing, Racing Club, or Racing
+
+
 
 Amiens SC,             Amiens   › Hauts-de-France
   | Amiens
@@ -2938,6 +2992,7 @@ OGC Nice, 1904, Nice    ## Alpes-Maritimes > Provence-Alpes-Côte d'Azur
 Stade Rennais FC, 1901,   Rennes    ## Ille-et-Vilaine > Brittany
   | Rennes | Stade Rennes
   | Stade Rennais | Stade Rennais Football Club
+  | Stade Rennais FC 1901
 
 AS Saint-Étienne, 1919,  Saint-Étienne     ## Loire > Rhône-Alpes
   | St-Étienne | Saint-Étienne
@@ -2996,7 +3051,7 @@ Valenciennes FC, Valenciennes
   | Valenciennes | Valenciennes Football Club | FC Valenciennes
 
 AC Arles-Avignon, Avignon
-  | Arles | AC Arles Avignon | Athletic Club Arles-Avignon
+  | Arles | Arles-Avignon | Athletic Club Arles-Avignon
 
 SC Bastia, 1905,  Bastia    ## Haute-Corse > Corsica
   | Bastia | Sporting Club de Bastia
@@ -3019,7 +3074,7 @@ US Créteil, Créteil
 SAS Épinal,  Épinal
   | Épinal
 Évian TG FC, 2007, Thonon-les-Bains     ## Haute-Savoie > Rhône-Alpes
-  | Évian TG
+  | Évian | Évian TG
   | Évian Thonon Gaillard
   | Évian Thonon Gaillard FC | Évian Thonon-Gaillard FC
   | Évian Thonon Gaillard Football Club
@@ -3160,10 +3215,11 @@ Bayern München, 1900,     München
  Säbener Straße 51-57 // 81547 München
 ii) Bayern München II
   | Bayern II |  Bayern München Am.
+  | FC Bayern II
 
 TSV 1860 München, 1860, München
   | 1860 München | TSV München 1860
-  | Munich 1860 [en] | TSV 1860 Munich [en]
+  | Munich 1860 [en] | 1860 Munich [en] | TSV 1860 Munich [en]
  Grünwalder Straße 114 // 81547 München
 
 Türkgücü München,  München
@@ -3191,16 +3247,18 @@ ii) FC Augsburg II
 SpVgg Unterhaching,  Unterhaching
   | U'haching | Unterhaching
 FC Ingolstadt 04, 2004,    Ingolstadt               ##  bis 2004 MTV Ingolstadt und ESV Ingolstadt-Ringsee
-  | Ingolstadt | FC Ingolstadt
+  | Ingolstadt | Ingolstadt 04 | FC Ingolstadt
  Am Sportpark 1 // 85053 Ingolstadt
 
 SSV Jahn Regensburg,   Regensburg
   | Regensburg | Jahn Regensburg
+  | Jahn R'burg
 1. FC Schweinfurt 05,  Schweinfurt
   | Schweinfurt | Schweinfurt 05
 Würzburger Kickers, 1907,     Würzburg
   | FC Würzburger Kickers
   | Kickers Würzburg
+  | W'burg Kickers
 Wacker Burghausen,  Burghausen
   | Burghausen
 Viktoria Aschaffenburg,  Aschaffenburg
@@ -3241,10 +3299,13 @@ FC Viktoria Köln,    Köln
 
 Fortuna Düsseldorf,  1895, Düsseldorf
   | Düsseldorf | F. Düsseldorf
+  | TSV Fortuna 95 Düsseldorf
  Arena Straße 1 // 40474 Düsseldorf
 
 Borussia Dortmund, 1909,    Dortmund
-  | Dortmund | Bor. Dortmund | BV 09 Borussia Dortmund
+  | Dortmund | Bor. Dortmund
+  | BV 09 Borussia Dortmund
+  | BV Borussia 09 Dortmund
  Rheinlanddamm 207-209 // 44137 Dortmund
 ii) Borussia Dortmund II
   | Dortmund II | Bor. Dortmund II
@@ -3274,6 +3335,7 @@ SG Wattenscheid 09,    Bochum (Wattenscheid)    ## Bochum-Wattenscheid - Bochume
 
 Arminia Bielefeld,  1905,    Bielefeld
   | Bielefeld | DSC Arminia Bielefeld
+  | Arminia
  Melanchthonstraße 31a // 33615 Bielefeld
 
 Preußen Münster,     Münster
@@ -3282,6 +3344,7 @@ Preußen Münster,     Münster
 Gütersloh,            Gütersloh
 KFC Uerdingen,        Krefeld          ## bis 1995 FC Bayer 05 Uerdingen
   | Uerdingen | KFC Uerdingen 05 | Bayer 05 Uerdingen | FC Bayer 05 Uerdingen | Bayer Uerdingen
+  | KSC Uerdingen 05   # KSC used by soccerverse - keep typo? or mark with !!! or something - why? why not?
 # note:  now called KFC Uerdingen 05 (was Bayer 05 Uerdingen)
 # -- (1953-1995) note: now KFC Uerdingen 05
 
@@ -3310,6 +3373,7 @@ SF Baumberg
   | Sportfreunde Baumberg
 SF Lotte
   | Sportfreunde Lotte
+  | Lotte
 SV Lippstadt 08
 SC Wiedenbrück
   | SC Wiedenbrück 2000
@@ -3449,6 +3513,7 @@ Werder Bremen, 1899,      Bremen › Bremen
   | Bremen | SV Werder Bremen
  Franz-Böhmert-Straße 1c // 28205 Bremen
 ii) Werder Bremen II
+  | Wrd Bremen II
 
 SG Aumund-Vegesack
 FC Oberneuland
@@ -3465,6 +3530,7 @@ ii) VfB Stuttgart II
 
 Stuttgarter Kickers,   Stuttgart › Baden-Württemberg
   | Stutt. Kick. | Stuttgarter K
+  | S'gart Kickers
 
 SC Freiburg, 1904,       	  Freiburg  › Baden-Württemberg
   | Freiburg
@@ -3476,6 +3542,7 @@ TSG 1899 Hoffenheim,  1899,  Sinsheim › Baden-Württemberg   ## Sinsheim-Hoffe
 
 Karlsruher SC,  1894,        Karlsruhe › Baden-Württemberg
   | Karlsruhe
+  | Karlsruher
  Adenauerring 17 // 76131 Karlsruhe
 
 SSV Ulm 1846,         Ulm › Baden-Württemberg
@@ -3497,6 +3564,7 @@ VfR Mannheim,        Mannheim › Baden-Württemberg
   ##  - 2 (8): 2002-03....1999-00 (4) 1996-97....1993-94 (4)
 SV Waldhof Mannheim,   Mannheim › Baden-Württemberg
   | W. Mannheim | Waldhof Mannheim | SV Waldhof Mannheim 07
+  | SV Waldhof
   ## note: SV Waldhof Mannheim (played in 1. liga and 2. liga too)
 
 SG Großaspach, 1994
@@ -3523,7 +3591,7 @@ FSV Frankfurt, 1899,       Frankfurt am Main › Hessen
  Richard-Herrmann-Platz 1 // 60386 Frankfurt am Main
 
 SV Darmstadt 98, 1898,       Darmstadt › Hessen
-  | Darmstadt
+  | Darmstadt | Darmstadt 98
 SV Wehen Wiesbaden,     Wiesbaden › Hessen
   | Wehen | Wiesbaden | Wehen Wiesbaden
 Kickers Offenbach,     Offenbach am Main › Hessen
@@ -3541,6 +3609,7 @@ KSV Hessen Kassel
   | Mainz | Mainz 05 | FSV Mainz 05
  Isaac-Fulda-Allee 5 // 55124 Mainz
 ii) 1. FSV Mainz 05 II
+  | Mainz 05 II
 
 Eintracht Trier,      Trier          › Rheinland-Pfalz
   | Ein Trier
@@ -3592,6 +3661,7 @@ FC Mecklenburg Schwerin,  Schwerin
 
 Dynamo Dresden, 1953,      Dresden › Sachsen
   | Dresden | SG Dynamo Dresden
+  | Dynamo Dres
   | 1. FC Dynamo Dresden
  Lennéstraße 12 // 01069 Dresden
 
@@ -3644,6 +3714,7 @@ Hallescher FC,  1966,   Halle an der Saale
   | Halle
   | FC Halle
   | Hallescher FC Chemie
+  | Hallescher
 
 1. FC Magdeburg, 1965,   Magdeburg
   | Magdeburg | FC Magdeburg
@@ -4171,6 +4242,37 @@ Cabinteely FC,        Cabinteely
 =  Italy
 
 
+###
+## use  -split into 20 regions
+##
+##  --- North-West
+##   Valle d'Aosta   | Aosta Valley [en]
+##   Liguria
+##   Lombardia       | Lombardy [en]
+##   Piemonte        | Piedmont [en]
+## --- North-East
+##   Emilia-Romagna
+##   Friuli-Venezia Giulia
+##   Trentino-Alto Adige   | Trentino-South Tyrol [en]
+##   Veneto
+## --- Centre
+##  Lazio
+##  Marche
+##  Toscana      | Tuscany [en]
+##  Umbria
+## --- South
+##  Abruzzo
+##  Puglia        | Apulia [en]
+##  Basilicata
+##  Calabria
+##  Campania
+##  Molise
+## -- Islands
+##  Sardegna     | Sardinia [en]
+##  Sicilia      | Sicily [en]
+
+
+== Lazio ==
 AS Roma,  Roma
   | Roma | Associazione Sportiva Roma
   | AS Rom [de]
@@ -4178,6 +4280,8 @@ SS Lazio, Roma
   | Lazio | Lazio Roma | Società Sportiva Lazio
   | Lazio Rom [de]
 
+
+== Lombardia ==       ## Lombardy [en]
 AC Milan,                 Milano
   | Milan | Associazione Calcio Milan
   | AC Mailand [de]
@@ -4186,6 +4290,15 @@ FC Internazionale Milano, Milano
   | Inter Milan
   | Inter Mailand [de]
 
+Atalanta BC,            Bergamo
+  | Atalanta | Atalanta Bergamo | Atalanta Bergamasca Calcio
+
+Cremonese, Cremona
+  | US Cremonese
+Brescia, Brescia
+  | Brescia Calcio
+
+== Piemonte ==    ## Piedmont [en]
 Torino FC,   Torino
   | Torino | Torino Football Club | FC Torino
   | FC Turin [de]
@@ -4193,11 +4306,42 @@ Juventus,    Torino
   | Juventus Torino | Juventus FC | Juventus Football Club
   | Juventus Turin [de]
 
+
+== Veneto ==
 Hellas Verona FC, 1903,     Verona
   | Verona | Hellas Verona | Hellas Verona Football Club
 AC Chievo Verona, Verona
   | Chievo | Chievo Verona | Associazione Calcio Chievo Verona
 
+Venezia, 1907,       Venezia
+  | Venezia FC | Venezia Football Club
+  | SSC Venezia | Società Sportiva Calcio Venezia
+  | FBC Unione Venezia | Foot Ball Club Unione Venezia
+# In the summer 2005 the club was refounded as SSC Venezia or Società Sportiva Calcio Venezia
+# In 2009 (?) the club was re-founded as FBC Unione Venezia or Foot Ball Club Unione Venezia
+# In 2015 (?) the club was re-founded as Venezia FC
+
+LR Vicenza Virtus, Vicenza
+  | Vicenza | Vicenza Calcio
+  | Vicenza Virtus
+
+Calcio Padova, Padova
+  | Padova
+  | Padua Calcio [de]
+
+Cittadella, 1973, Cittadella
+  | AS Cittadella | Associazione Sportiva Cittadella
+
+
+== Friuli-Venezia Giulia ==
+Udinese Calcio, Udine
+  | Udinese
+
+US Triestina Calcio, Trieste
+  | Triestina | Triestina Calcio | US Triestina Calcio 1918
+
+
+== Liguria ==
 Genoa CFC,      Genova
   | Genoa | Genoa Cricket and Football Club
   | FC Genua [de]
@@ -4206,42 +4350,53 @@ UC Sampdoria,   Genova
   | Sampdoria | Sampdoria Genoa | Unione Calcio Sampdoria
   | Sampdoria Genua [de]
 
-Atalanta BC,            Bergamo
-  | Atalanta | Atalanta Bergamo | Atalanta Bergamasca Calcio
-Benevento, 1929,        Benevento
-  | Benevento Calcio
-Bologna FC,      Bologna
-  | Bologna | FC Bologna
-  | Bologna FC 1909 | Bologna Football Club 1909
-Cagliari Calcio, Cagliari
-  | Cagliari
-FC Crotone,      Crotone
-  | Crotone | Crotone FC | Federazione Calcistica Crotone
-ACF Fiorentina, Firenze
-  | Fiorentina | AC Firenze | Associazione Calcio Firenze Fiorentina
-  | AC Fiorentina
-  | AC Florenz [de]
+
+== Campania ==
 SSC Napoli,     Napoli
   | Napoli | Società Sportiva Calcio Napoli
   | SSC Neapel [de]
-US Sassuolo Calcio, 1922,   Sassuolo
-  | Sassuolo | US Sassuolo | Sassuolo Calcio | Unione Sportiva Sassuolo Calcio
-SPAL,           Ferrara
-  | SPAL 2013 | SPAL Ferrara | SPAL 2013 Ferrara
-Udinese Calcio, Udine
-  | Udinese
 
-Ascoli, Ascoli Piceno
-  | Ascoli FC
+Benevento, 1929,        Benevento
+  | Benevento Calcio
+
 Avellino, Avellino
   | US Avellino 1912 | Unione Sportiva Avellino 1912
   | AS Avellino | Associazione Sportiva Avellino 1912
+
+
+== Calabria ==
+FC Crotone,      Crotone
+  | Crotone | Crotone FC | Federazione Calcistica Crotone
+
+== Puglia  ==   ## Apulia [en]
 Bari, Bari
   | AS Bari
   | SSC Bari | Società Sportiva Calcio Bari
   | FC Bari 1908
-Brescia, Brescia
-  | Brescia Calcio
+
+Calcio Foggia 1920,     Foggia
+  | Calcio Foggia 1920 SSD
+  | US Foggia
+  | Foggia
+# Foggia Calcio went bankrupt in 2004
+# and was replaced by U.S. Foggia, which itself was declared bankrupt in 2012
+
+
+== Emilia-Romagna ==
+Ravenna FC, Ravenna
+  | Ravenna | Ravenna FC 1913
+  | Ravenna Calcio
+
+Bologna FC,      Bologna
+  | Bologna | FC Bologna
+  | Bologna FC 1909 | Bologna Football Club 1909
+
+US Sassuolo Calcio, 1922,   Sassuolo
+  | Sassuolo | US Sassuolo | Sassuolo Calcio | Unione Sportiva Sassuolo Calcio
+
+SPAL Ferrara,     Ferrara
+  | SPAL | SPAL 2013 | SPAL 2013 Ferrara
+
 Carpi, Carpi
   | Carpi FC | Carpi FC 1909 | Carpi Football Club 1909
 
@@ -4251,14 +4406,48 @@ AC Cesena (1940-2018), Cesena
 # bankrupted and folded in 2018.
 # Another club from Cesena, A.S.D. Romagna Centro Cesena, claimed as a successor.
 
+Modena FC, Modena
+  | Modena
+  | FC Modena
 
-Cittadella, Cittadella
-  | AS Cittadella
-Cremonese, Cremona
-  | US Cremonese
+
+== Toscana ==       ## Tuscany [en]
+ACF Fiorentina, Firenze
+  | Fiorentina | AC Firenze | Associazione Calcio Firenze Fiorentina
+  | AC Fiorentina
+  | AC Florenz [de]
+
 Empoli, Empoli
   | Empoli FC | Empoli Football Club | FC Empoli
-Foggia, Foggia
+
+SS Robur Siena, Siena
+  | Siena | AC Siena | Associazione Calcio Siena
+# note: Robur Siena was re-incorporated in 2014 after the bankruptcy of the previous legal person Associazione Calcio Siena S.p.A..
+#       A.C. Siena's predecessor was founded in 1904.
+
+AC Pisa,        Pisa
+  | Pisa | AC Pisa 1909
+  | Associazione Calcio Pisa 1909
+  | Pisa SC | Pisa Sporting Club
+  | SC Pisa
+  | Pisa Calcio
+
+
+== Marche ==
+Ascoli, Ascoli Piceno
+  | Ascoli FC
+  | Ascoli Calcio
+  | Ascoli Calcio 1898 FC
+
+
+== Sardegna ==     ## Sardinia [en]
+Cagliari Calcio, Cagliari
+  | Cagliari
+
+
+
+== ?? ==
+
 Frosinone, Frosinone
   | Frosinone Calcio
 Novara, Novara
@@ -4278,37 +4467,36 @@ AC Perugia, 1905,  Perugia
 Pescara, Pescara
   | Pescara Calcio
 Pro Vercelli, Vercelli
+
 Salernitana, Salerno
   | Salernitana Calcio
+  | US Salernitana 1919
+  | US Salernitana
+  | Unione Sportiva Salernitana 1919
+  | Salernitana Calcio 1919
+
+
 Spezia, La Spezia
   | Spezia Calcio
 Ternana, Terni
   | Ternana Calcio
-Venezia, Venezia
-  | SSC Venezia
+
+
+
 Virtus Entella, Chiavari
 
 
 Piacenza Calcio, Piacenza
   | Piacenza | Piacenza Calcio 1919
 
-LR Vicenza Virtus, Vicenza
-  | Vicenza | Vicenza Calcio
-  | Vicenza Virtus
-
-Calcio Padova, Padova
-  | Padova
-  | Padua Calcio [de]
-Modena FC, Modena
-  | Modena
-  | FC Modena
-SS Robur Siena, Siena
-  | Siena | AC Siena | Associazione Calcio Siena
-# note: Robur Siena was re-incorporated in 2014 after the bankruptcy of the previous legal person Associazione Calcio Siena S.p.A..
-#       A.C. Siena's predecessor was founded in 1904.
 
 US Anconitana ASD, Ancona
   | Ancona
+
+AC Ancona,    Ancona
+  | Associazione Calcio Ancona
+  | Ancona Calcio
+
 
 Cosenza Calcio, Cosenza
   | Cosenza
@@ -4320,17 +4508,24 @@ AS Lucchese Libertas,	Lucca
   | Lucchese | AS Lucchese Libertas 1905
 SS Monza, Monza
   | Monza | SS Monza 1912
-Ravenna FC, Ravenna
-  | Ravenna | Ravenna FC 1913
-  | Ravenna Calcio
 AC Reggiana, Reggio Emilia
   | Reggiana | AC Reggiana 1919
   | Reggio Audace | Reggio Audace FC
   | Reggio Audace Football Club
+
 Urbs Reggina, Reggio Calabria
   | Reggina | Urbs Reggina 1914
+
+Reggina 1914,    Reggio Calabria
+  | Reggina Calcio
+
+
 ACD Treviso, Treviso
   | Treviso
+  | Associazione Calcio Dilettanti Treviso
+  | Football Club Treviso | FC Treviso | FBC Treviso
+
+
 ASD Castel di Sangro, Castel di Sangro
   | C. Sangro
 Unione Calcio Albinoleffe, Albino e Leffe
@@ -4338,13 +4533,19 @@ Unione Calcio Albinoleffe, Albino e Leffe
 Calcio Catania, Catania
   | Catania | Catania Calcio
 Como 1907, Como
-  | Como | Como Calcio
+  | Como
+  | Como Calcio | Calcio Como
+
+
 AS Livorno Calcio, 1915,  Livorno
   | Livorno | AS Livorno | Associazione Sportiva Livorno Calcio
+
 ACR Messina SSD, Messina
   | Messina
-US Triestina Calcio, Trieste
-  | Triestina | Triestina Calcio | US Triestina Calcio 1918
+  | ACR Messina
+  | Associazioni Calcio Riunite Messina
+
+
 SS Arezzo, Arezzo
   | Arezzo | Società Sportiva Arezzo
   | AC Arezzo | Associazione Calcio Arezzo
@@ -4371,9 +4572,8 @@ Mantova SSD, Mantova
   | Mantova | Mantova 1911 SSD
 ASD Nocerina, Nocera Inferiore
   | Nocerina | ASD Nocerina 1910
-AC Pisa,        Pisa
-  | Pisa | AC Pisa 1909
-  | SC Pisa [de]
+
+
 US Pistoiese,    Pistoia
   | Pistoiese | US Pistoiese 1921
   | AC Pistoiese
@@ -4422,6 +4622,8 @@ Paganese Calcio, Pagani
   | Paganese | Paganese Calcio 1926
 Vibonese Calcio, Vibo Valentia
   | Vibonese | US Vibonese Calcio | Unione Sportiva Vibonese Calcio
+
+
 
 
 ==========================================
@@ -4904,6 +5106,7 @@ OFK Grbalj
 
 
 == Noord-Holland ==
+## also known as North Holland
 
 Ajax Amsterdam, 1900,    Amsterdam › Noord-Holland
   | Ajax | AFC Ajax | Amsterdamsche Football Club Ajax
@@ -4932,25 +5135,47 @@ HFC Haarlem (1889-2010),  Haarlem
   | Haarlem FC | FC Haarlem
 
 
-== Zuid-Holland ==
+FC Volendam, Volendam
+  | Volendam
 
-Feyenoord Rotterdam, 1908,     Rotterdam › Zuid-Holland
+
+== Zuid-Holland ==
+## also known as South Holland
+
+Feyenoord Rotterdam, 1908,     Rotterdam
   | Feyenoord
 
-Sparta Rotterdam,        Rotterdam › Zuid-Holland
+Sparta Rotterdam,        Rotterdam
   | Sparta | Sparta R'dam
 SBV Excelsior Rotterdam, 1902,   Rotterdam › Zuid-Holland    ## use SBV Excelsior - why? why not?
   | Excelsior | SBV Excelsior | Stichting Betaald Voetbal Excelsior
   | Excel. Rotterdam
 
 
-ADO Den Haag, 1905,    Den Haag › Zuid-Holland
+ADO Den Haag, 1905,    Den Haag
   | Den Haag | Alles Door Oefening Den Haag
   | FC Den Haag
 # The club was for a time known as FC Den Haag
 
-FC Dordrecht,    Dordrecht › Zuid-Holland
+FC Dordrecht,    Dordrecht
   | Dordrecht | Dordrecht '90
+
+SV SVV,  1904,   Schiedam
+  | SVV Schiedam
+  | Sportvereniging Schiedamse Voetbal Verenigingen
+
+
+== Utrecht ==
+
+FC Utrecht, 1970,   Utrecht
+  | Utrecht | Football Club Utrecht
+ii) Jong FC Utrecht
+
+DOS Utrecht, (1901-1970),   Utrecht
+  | VV DOS         #  champs (1): 1958/59
+  | Voetbalvereniging Door Oefening Sterk
+# In 1970 it merged with USV Elinkwijk and Velox to form FC Utrecht.
+
 
 
 == Friesland ==
@@ -4962,14 +5187,24 @@ SC Heerenveen, 1920,   Heerenveen
 
 
 == Noord-Brabant ==
-FC Den Bosch,    's-Hertogenbosch › Noord-Brabant
-  | Den Bosch
+FC Den Bosch,  1965,  's-Hertogenbosch › Noord-Brabant
+  | Den Bosch | Football Club Den Bosch
+  | BVV Den Bosch | FC Den Bosch/BVV
+#  founded 18 August 1965, as FC Den Bosch/BVV
+#  the successor of BVV (1906) and Wilhelmina (1890)
+#
+#  club names:
+#  - FC Den Bosch/BVV (1965–1967)
+#  - FC Den Bosch '67 (1967–1988)
+#  - BVV Den Bosch (1988–1992)
+#  - FC Den Bosch (1992–present)
+
 
 NAC Breda, 1912,  Breda
-  | NOAD ADVENDO Combinatie Breda | NAC
+  | NAC | NOAD ADVENDO Combinatie Breda
 
 PSV Eindhoven, 1913,   Eindhoven
-  | Philips Sport Vereniging | PSV
+  | PSV | Philips Sport Vereniging
 ii) Jong PSV
   | Jong PSV Eindh.
 
@@ -4989,6 +5224,11 @@ FC Oss, 1928,  Oss
 Helmond Sport,  Helmond
 
 
+RBC Roosendaal, Roosendaal
+  | Roosendaal
+
+
+
 == Limburg ==
 Fortuna Sittard, Sittard › Limburg
   | For Sittard | SC Fortuna Sittard
@@ -5000,7 +5240,8 @@ Roda JC Kerkrade, 1962,   Kerkrade
 VVV Venlo, 1903,    Venlo     ## use VVV-Venlo - why? why not?
   | VVV | VVV-Venlo | Venlo | Venlose Voetbal Vereniging Venlo
 
-MVV Maastricht, Maastricht
+MVV Maastricht, 1902,  Maastricht
+  | MVV | Maatschappelijke Voetbal Vereniging Maastricht
 
 
 Rapid JC Heerlen (1954-1962),  Heerlen
@@ -5018,6 +5259,7 @@ Heracles Almelo, 1903,  Almelo
 FC Twente, 1965,   Enschede
   | Twente | Football Club Twente | Twente Enschede
   | FC Twente Enschede
+  | FC Twente '65
 
 PEC Zwolle, 1910,   Zwolle
   | Zwolle | Prins Hendrik Ende Desespereert Nimmer Combinatie Zwolle
@@ -5030,40 +5272,37 @@ Almere City FC,  2001,  Almere
   | Almere City
 
 
-== ??? ==
+== Gelderland ==
+## also known as Guelders
 
-BV De Graafschap, 1954,    Doetinchem  ## Gelderland
-  | Graafschap  | De Graafschap | Vereniging Betaald Voetbal De Graafschap
-
-FC Groningen, 1971,  Groningen  ## Groningen
-  | Groningen | Football Club Groningen
-
-
-NEC Nijmegen, 1900,  Nijmegen    ## Gelderland
-  | Nijmegen | Nijmegen Eendracht Combinatie | NEC
-
-RBC Roosendaal, Roosendaal
-  | Roosendaal
-
-FC Utrecht, 1970,   Utrecht   ## Utrecht
-  | Utrecht | Football Club Utrecht
-ii) Jong FC Utrecht
-
-DOS Utrecht, (1901-1970),   Utrecht
-  | VV DOS         #  champs (1): 1958/59
-  | Voetbalvereniging Door Oefening Sterk
-# In 1970 it merged with USV Elinkwijk and Velox to form FC Utrecht.
-
-
-Vitesse Arnhem, 1892,  Arnhem   ## Gelderland
+Vitesse Arnhem, 1892,  Arnhem
   | Vitesse | SBV Vitesse | Stichting Betaald Voetbal Vitesse
   | Vitesse Arnheim [de]
 
-FC Volendam, Volendam
-  | Volendam
+BV De Graafschap, 1954,    Doetinchem
+  | Graafschap | De Graafschap
+  | VBV De Graafschap | Vereniging Betaald Voetbal De Graafschap
 
-FC Emmen,    Emmen   ## Drenthe
+NEC Nijmegen, 1900,  Nijmegen
+  | NEC | Nijmegen | Nijmegen Eendracht Combinatie
+
+
+== Groningen ==
+
+FC Groningen, 1971,  Groningen
+  | Groningen | Football Club Groningen
+
+
+== Drenthe ==
+
+FC Emmen,    Emmen
   | Emmen | FC Emmen VV
+
+
+
+
+
+
 
 
 =====================================
@@ -5408,7 +5647,9 @@ Odra Wodzisław,  1922,    Wodzisław Śląski
 
 SL Benfica,       Lisboa
   | Benfica | Benfica Lis. | Benfica Lisboa
+  | Sport Lisboa e Benfica
   | Benfica Lissab [de] | Benfica Lissabon [de]
+
 Sporting CP,      Lisboa
   | Sporting
   | Sporting Lisboa | Sporting Clube de Portugal
@@ -5419,6 +5660,7 @@ Sporting CP,      Lisboa
 Os Belenenses,    Lisboa
   | Belenenses | Belenenses L. | Belenenses SAD
   | CF Os Belenenses
+  | Os Belenenses Futebol
 
 Casa Pia,         Lisboa
   | Casa Pia AC | Casa Pia Atlético
@@ -5428,6 +5670,12 @@ UD Vilafranquense,    Vila Franca de Xira   # a municipality in the Lisbon Distr
   | Vilafranquense | União Desportiva Vilafranquense
 CD Mafra,  Mafra                            # a city and a municipality in the district of Lisbon
   | Clube Desportivo Mafra
+
+SC União Torreense, 1917,   Torres Vedras   #  a municipality in the district of Lisbon
+  | União Torreense
+  | SCU Torreense | Sport Clube União Torreense
+  | Sport União Torreense
+
 
 
 FC Porto,     Porto
@@ -5478,8 +5726,11 @@ Portimonense SC, Portimão
   | Portimonense
 Rio Ave FC, Vila do Conde
   | Rio Ave
+
 SC Braga, Braga
   | Braga | Sp Braga | Sporting Braga
+  | Sporting Clube de Braga
+
 CD Tondela, Tondela
   | Tondela
 
@@ -5501,8 +5752,11 @@ Desportivo de Chaves, Chaves
   | Desp. Chaves
 CF Estrela da Amadora, Amadora
   | Est Amadora | Estrela Amadora
-SC Farense, Faro
+
+SC Farense, 1910, Faro
   | Farense
+  | Sporting Farense | Sporting Clube Farense
+
 Gil Vicente FC, Barcelos
   | Gil Vicente
 União de Leiria,   Leiria
@@ -5773,20 +6027,26 @@ Lokomotiv Moskva, 1923,  Moskva       ## Moscow [en]
   | Lokomotiv | FC Lokomotiv | FC Lokomotiv Moskva
   | Loko Moscow [en] | Lokomotiv Moscow [en] | FC Lokomotiv Moscow [en]
   | Lok Moskau [de]
+
 PFC CSKA Moskva, 1911,   Moskva
   | CSKA | PFK CSCA | CSKA Moskva
   | CSKA Moscow [en] | PFC CSKA Moscow [en] | PFK CSKA Moscow [en]
   | ZSKA Moskau [de]
+
 Dynamo Moskva, 1923,     Moskva
   | Dynamo | Dinamo | Dinamo Moskva | FC Dinamo Moskva
   | Dynamo Mosc [en] | Dynamo Moscow [en] | Dinamo Moscow [en] | FC Dynamo Moscow [en]
   | Dinamo Moskau [de]
+
 FC Spartak Moskva, 1922,    Moskva
   | Spartak | FC Spartak | Spartak Moskva
   | Spartak Moscow [en] | FC Spartak Moscow [en]
   | Spartak Moskau [de] | FC Spartak Moskau [de]
 ii) Spartak Moskva II
   | Spartak Moskau II [de]
+  | Spartak Moskva 2
+  | Spartak-2 Moscow
+
 
 FC Moskva,    Moskva
   | Moskva
@@ -5796,9 +6056,12 @@ Torpedo Moskva,    Moskva
   | Torpedo | FC Torpedo Moskva
   | T. Moscow [en] | Torpedo Moscow [en] | FC Torpedo Moscow [en]
   | FC Torpedo Moskau [de]
-FC Chertanovo Moskva,    Moskva
+FC Chertanovo Moskva,  1993,  Moskva
   | Chertanovo Moscow [en] | FC Chertanovo Moscow [en]
   | FC Chertanovo Mosk [de]
+  | FK Chertanovo Moskva
+
+
 
 
 Zenit St. Petersburg, 1925,     St. Petersburg
@@ -5855,6 +6118,9 @@ FC Krasnodar,  Krasnodar
   | Krasnodar | Krasnodar Krasnodar
   | FK Krasnodar
 ii) FC Krasnodar 2
+  | FK Krasnodar 2
+  | Krasnodar-2 | FC Krasnodar-2
+
 
 FC Kuban,    Krasnodar
   | Kuban | Kuban' | Kuban Krasnodar | FC Kuban Krasnodar
@@ -5864,8 +6130,9 @@ FC Baltika, Kaliningrad
   | FK Baltika
 
 Luch Energia Vladivostok,   Vladivostok
-  | Luch | Luch Vladivostok
+  | Luch | Luch-Energia | Luch Vladivostok
   | Luch Wladivostok [de]
+
 
 FC Mordovia,   Saransk
   | Mordovia | Mordovia Saransk | M. Saransk
@@ -5875,6 +6142,16 @@ Spartak Nalchik,   Nalchik
 
 Nizhnii Novgorod,  Nizhny Novgorod
   | Nizhny Novgorod | FC Nizhny Novgorod
+  | FK Nizhny Novgorod
+## The club has been known under different names:
+##   2015–2016: FC Volga-Olimpiyets Nizhny Novgorod
+##   2016–2018: FC Olimpiyets Nizhny Novgorod
+##   2018–present: FC Nizhny Novgorod
+
+Volga Nizhnii Novgorod, Nizhny Novgorod
+  | Volga | Volga N. Novgorod
+  | Volga Nyzhnyi
+
 
 FC Rostov,     Rostov-on-Don
   | Rostov | Rostov Rostov-on-Don | FK Rostov
@@ -5889,10 +6166,13 @@ Shinnik, Yaroslavl
   | Shinnik Yaroslavl
 SKA Khabarovsk, Khabarovsk
   | SKA-Energiia | SKA Energia | Energ. Khabarovsk
+  | SKA-Energia Khabarovsk
   | FC SKA-Khabarovsk
 # note: The club has been known under different names: SKA (1960–99)
 #                                                      SKA-Energia (1999–2016)
 #                                                      SKA-Khabarovsk (2016–)
+
+
 
 Sokol, Saratov
 Terek Grozny, Grozny
@@ -5901,21 +6181,22 @@ Akhmat Grozny, Grozny
   | Akhmat | FC Akhmat Grozny
   | FK Akhmat Grozny
   | FK Achmat Grozny [de]
-Tom Tomsk, Tomsk
+Tom Tomsk, 1957,   Tomsk
   | Tom | Tom' | Tomsk | FC Tom Tomsk
+  | FK Tom Tomsk
+
+
 Tosno,  Tosno
   | FK Tosno
 FC Ufa, Ufa
   | Ufa | Ufa Ufa
+  | FK Ufa
 Ural Yekaterinburg, Yekaterinburg
   | Ural | FC Ural | FC Ural Yekaterinburg
   | FC Ural Sverdlovsk Oblast | Football Club Ural Sverdlovsk Oblast
   | Ural Jekaterinburg [de]
 
 Uralan, Elista
-Volga Nizhnii Novgorod, Nizhny Novgorod
-  | Volga | Volga N. Novgorod
-  | Volga Nyzhnyi
 
 FC Tambov,  2013, Tambov
   | Tambov
@@ -5931,10 +6212,15 @@ Vladikavkaz,   Vladikavkaz
 
 Yenisey, Krasnoyarsk
   | FC Yenisey | Yenisey Krasnoyarsk | FC Yenisey Krasnoyarsk
+  | Enisey Krasnoyarsk
 
 FC Avangard Kursk,  Kursk
+  | Avangard Kursk
+
 FC Tekstilshchik Ivanovo, Ivanovo
   | Tekstilshchik
+  | Tekstilshchik Ivanovo
+
 
 Neftekhimik Nizhnekamsk, Nizhnekamsk
   | FC Neftekhimik | FC Neftekhimik Nizhnekamsk
@@ -5946,8 +6232,10 @@ FC Fakel Voronezh, Voronezh
   | Fakel Voronezh
   | Fakel Worenesch [de]
 
-FC Armavir, Armavir
-  | Torpedo Armavir    # note: on 9 June 2016, the club was renamed from FC Torpedo Armavir to FC Armavir
+FC Armavir,  1959,  Armavir
+  | Torpedo Armavir
+  | FK Torpedo Armavir
+# note: on 9 June 2016, the club was renamed from FC Torpedo Armavir to FC Armavir
 
 FC Tekstilshchik Kamyshin,    1958,    Kamyshin
   | Tekstilshchik
@@ -6476,6 +6764,7 @@ RCD Espanyol, Barcelona
   | Espanyol | Esp. Barcelona | Espan. Barcelona | Espanyol Barc. | Espanyol Barcelona
   | Real CD Espanyol | Real Club Deportivo Espanyol
   | Español | Real Club Deportivo Español
+  | RCD Espanyol de Barcelona
 
 Gimnàstic Tarragona, Tarragona
   | Gimnàstic
@@ -6484,6 +6773,15 @@ Girona FC,           Gerona
 
 CF Reus,  1909,      Reus
   | Reus Deportiu | CF Reus Deportiu | Club de Futbol Reus Deportiu
+
+Lleida Esportiu,   Lleida
+  | Club Lleida Esportiu
+
+UE Lleida (1939-2011),   Lleida
+  | Lleida | Lerida
+  | Unió Esportiva Lleida
+# The soul of the club was reformed as Lleida Esportiu
+
 
 
 == Galicia ==
@@ -6567,11 +6865,16 @@ CD Badajoz,      Badajoz
 CF Extremadura (-2010),  Almendralejo
   | Extremadura
 Extremadura UD,   Almendralejo
-  | Extremadura Unión Deportiva   ## add Extremadura  - why? why not?
+  | Extremadura
+  | Extremadura Unión Deportiva
   | UD Extremadura
 
 CP Mérida,       Mérida
   | Mérida
+
+Mérida AD, 2013,   Mérida     # Successor of CP Mérida, founded in 1912
+  | Mérida Asociación Deportiva
+
 
 
 == Castilla y León ==
@@ -6585,7 +6888,8 @@ CD Mirandés, Miranda de Ebro
 == Región de Murcia ==
 
 Real Murcia CF,      Murcia
-  | Murcia | Real Murcia Club de Fútbol
+  | Murcia | Real Murcia | Real Murcia Club de Fútbol
+
 UCAM Murcia,         Murcia
 CF Ciudad de Murcia, Murcia
   | Ciudad de Murcia
@@ -6641,8 +6945,6 @@ CD Leganés
   | Leganés | Club Deportivo Leganés
 Cultural Leonesa
   | Leonesa
-UE Lleida
-  | Lleida | Lerida
 UE Llagostera
   | Llagostera
 
@@ -6878,6 +7180,9 @@ FC Thun, 1898,                 Thun
 FC Luzern, 1901,                Luzern    ## use Lucerne [fr] - why??
   | Luzern
 
+SC Kriens, 1944,   Kriens             # a western suburb of Lucerne
+  | Kriens | Sport Club Kriens
+
 == St. Gallen ==
 FC St. Gallen, 1879,            St. Gallen
   | St. Gallen | FC St. Gallen 1879
@@ -6918,8 +7223,14 @@ FC La Chaux-de-Fonds, 1894,  La Chaux-de-Fonds    # champs (1): 1964/65
 == Lausanne ==
 FC Lausanne,  1896,           Lausanne
   | Lausanne | FC Lausanne-Sport
-  | Lausanne Sports    #  champs (1): 1965/66
   | Lausanne Sport
+  | Lausanne Sports    #  champs (1): 1965/66
+
+Stade Lausanne-Ouchy,   2001,       Lausanne (Ouchy)
+  | FC Stade Lausanne Ouchy
+  | SLO | FC SLO
+# note: a merger between FC Stade Lausanne and FC Ouchy Olympic in 2001
+
 
 FC Le Mont, 1942,             Le Mont-sur-Lausanne
   | FC Le Mont-sur-Lausanne,
@@ -6943,6 +7254,33 @@ AC Bellinzona, 1904,    Bellinzona
 
 ===================================
 =  Turkey
+
+
+### use 7 regions
+## - Marmara
+## - Aegean
+## - Mediterranean
+## - Black Sea
+## - Central Anatolia
+## - Eastern Anatolia
+## - Southeastern Anatolia
+##  see https://en.wikipedia.org/wiki/Geographical_regions_of_Turkey
+##
+## or 12 NUTS regions
+##   see https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Turkey
+##  - Istanbul
+##  - West Marmara
+##  - Aegean
+##  - East Marmara
+##  - West Anatolia
+##  - Mediterranean
+##  - Central Anatolia
+##  - West Black Sea
+##  - East Black Sea
+##  - Northeast Anatolia
+##  - Central East Anatolia
+##  - Southeast Anatolia
+
 
 
 Fenerbahçe İstanbul SK,  İstanbul
@@ -7051,8 +7389,10 @@ Altay SK,  1914,     İzmir
 
 Karşıyaka SK,  1912,  İzmir (Karşıyaka)
   | Karşıyaka | Karşıyaka Spor Kulübü
-Altınordu, İzmir
+Altınordu,  1923, İzmir
   | Altınordu FK | Altınordu Futbol Kulübü
+  | Altınordu FSG | Altınordu Futbol Sosyal Girişimi
+  | Altınordu Spor Kulübü
 
 Menemenspor,  Menemen    # İzmir
   | Menemen Spor Kulübü
@@ -8103,7 +8443,7 @@ Wellington Phoenix,     Wellington › Wellington › North Island
 
 
 ===========================
-=  Argentina 
+=  Argentina
 
 
 == Buenos Aires ==
@@ -8132,7 +8472,7 @@ Barracas Central, Buenos Aires (Barracas)
   | Club Atlético Barracas Central
 Defensores de Belgranes, Buenos Aires (Nuñez)
   | Club Atlético Defensores de Belgrano
-Deportivo Riestra,  Buenos Aires 
+Deportivo Riestra,  Buenos Aires
   | Deportivo Riestra Asociación de Fomento Barrio Colón
 Estudiantes de Buenos Aires, Buenos Aires     # note: NOT to be confused with Estudiantes LP, La Plata
   | Estudiantes (Buenos Aires)
@@ -8151,10 +8491,14 @@ CA Independiente de Avellaneda, Avellaneda › Buenos Aires  #  Avellaneda sits 
 Racing Club,                    Avellaneda › Buenos Aires  #  Avellaneda sits in the metropolitan area of the Greater Buenos Aires
   | Racing
   | Racing Club de Avellaneda
+Deportivo Español, 1956,  Buenos Aires (Parque Avellaneda)
+  | Club Deportivo Español
+
+
 Quilmes AC,    Quilmes › Buenos Aires       # Quilmes is a city in the province of Buenos Aires
   | Quilmes | Quilmes Atlético Club
 CA Lanús,   Lanús › Buenos Aires         #  Lanús is a city in  Greater Buenos Aires
-  | Lanús | Atlético Lanús | Club Atlético Lanús 
+  | Lanús | Atlético Lanús | Club Atlético Lanús
 
 Arsenal de Sarandí,  Sarandí › Buenos Aires    #  Sarandí es una ciudad de la Zona Sur del Gran Buenos Aires
   | Arsenal | Arsenal Sarandí
@@ -8165,29 +8509,32 @@ Estudiantes LP, La Plata › Buenos Aires
   | Estudiantes de La Plata
   | Estudiantes
   | Estudiantes BA    ## todo/check: remove? - confusion/conflict with Estudiantes Buenos Aires (see above)??
-  
+
 Gimnasia y Esgrima LP,  La Plata › Buenos Aires
-  | GELP | Gimnasia LP | Gimnasia ELP | Gimnasia y Esgrima La Plata 
+  | GELP | Gimnasia LP | Gimnasia ELP | Gimnasia y Esgrima La Plata
   | Club de Gimnasia y Esgrima La Plata
   | Gimnasia La Plata
   | Gimnasia y Esgrima
+  | GyE La Plata
 
 Club Atlético Aldosivi,   Mar del Plata › Buenos Aires
   | Aldosivi
 Alvarado, Mar del Plata
   | Alvarado (Mar del Plata)
   | Club Atlético Alvarado
-  
+
 Club Atlético Banfield,   Banfield › Buenos Aires
   | Banfield | CA Banfield
 Defensa y Justicia,   Gobernador Julio A. Costa › Buenos Aires
   | Defensa y Just | Club Social y Deportivo Defensa y Justicia
 Olimpo Bahía Blanca,  Bahía Blanca  › Buenos Aires
   | Olimpo | Club Olimpo | Olimpo de Bahía Blanca
-Sarmiento Junín,     Junín › Buenos Aires
-  | Sarmiento | Club Atlético Sarmiento | Club Atlético Sarmiento (Junín)
+Sarmiento Junín,   1911,  Junín › Buenos Aires
+  | Sarmiento | Sarmiento de Junín
+  | Club Atlético Sarmiento | Club Atlético Sarmiento (Junín)
 Temperley,           Turdera › Buenos Aires
-  | Club Atlético Temperley
+  | CA Temperley | Club Atlético Temperley
+
 Chacarita Juniors,    Villa Maipú › Buenos Aires
   | Club Atlético Chacarita Juniors
 
@@ -8201,11 +8548,19 @@ Brown,   Adrogué
 Deportivo Morón,  Morón
   | Club Deportivo Morón
 Platense, Florida Este
-  | Club Atlético Platense 
+  | Club Atlético Platense
 Santamarina,  Tandil
   | Club y Biblioteca Ramón Santamarina
 Villa Dálmine,  Campana
   | Dálmine | Club Villa Dálmine
+
+Huracán de Tres Arroyos, 1923,      Tres Arroyos
+  | Club Atlético Huracán
+  | Club Atlético Huracán de Tres Arroyos
+
+CA Los Andes,  1917,  Lomas de Zamora
+  | Los Andes
+  | Club Atlético Los Andes
 
 
 == Provincia Santa Fe ==
@@ -8216,13 +8571,17 @@ Colón Santa Fe,  Santa Fe
 Unión Santa Fe,  Santa Fe
   | Unión | Unión de Santa Fe  | CA Unión | Club Atlético Unión
 
-Newell's Old Boys, Rosario › Santa Fe
+Newell's Old Boys, Rosario
   | Newell's | N.O. Boys | Newell's OB | Newell's Old B. | Newells Old Boys
   | CA Newell's Old Boys | Club Atlético Newell's Old Boys
-Rosario Central,  Rosario  › Santa Fe
+Rosario Central,  Rosario
   | Rosario Cent | CA Rosario Central | Club Atlético Rosario Central
+Tiro Federal, 1905,  Rosario
+  | Tiro Federal de Rosario
+  | CA Tiro Federal Argentino | Club Atlético Tiro Federal Argentino
 
-Atlético Rafaela, Rafaela › Santa Fe
+
+Atlético Rafaela, Rafaela
   | At. de Rafaela | Atl. Rafaela | Atlético de Rafaela
   | Asociación Mutual Social y Deportiva Atlético de Rafaela
 
@@ -8233,7 +8592,7 @@ Talleres de Córdoba,      Córdoba
   | Talleres | Talleres C. | Talleres Cordoba | Club Atlético Talleres
 
 Club Atlético Belgrano, Córdoba     # note: NOT to be confused with Belgrano Athletic Club
-  | Belgrano | Belgrano (Córdoba) | Belgrano de Córdoba 
+  | Belgrano | Belgrano (Córdoba) | Belgrano de Córdoba
 
 Instituto, Córdoba
   | Instituto de Córdoba | Instituto (Córdoba)
@@ -8242,15 +8601,16 @@ Instituto, Córdoba
 Estudiantes de Río Cuarto,   Río Cuarto
   | Asociación Atlética Estudiantes
 
-  
+
 == Provincia Mendoza ==
 
-Godoy Cruz, 	Mendoza       # Godoy Cruy is a city in Greater Mendoza
+Godoy Cruz,  1921,  Mendoza       # Godoy Cruy is a city in Greater Mendoza
+  | CD Godoy Cruz
   | Godoy Cruz Antonio Tomba
   | Club Deportivo Godoy Cruz Antonio Tomba
 
 Gimnasia y Esgrima de Mendoza,   Mendoza
-  | Gimnasia (Mendoza) 
+  | Gimnasia (Mendoza)
   | Gimnasia y Esgrima | Club Gimnasia y Esgrima
 
 Independiente Rivadavia,  Mendoza
@@ -8260,14 +8620,16 @@ Independiente Rivadavia,  Mendoza
 == Provincia San Juan ==
 
 San Martín San Juan,    San Juan
-  | San Martín | San Martín SJ | Club Atlético San Martín
+  | San Martín | San Martín SJ
+  | CA San Martín | Club Atlético San Martín
 
 
-==  Provincia Jujuy == 
+==  Provincia Jujuy ==
 
-Gimnasia y Esgrima de Jujuy,   San Salvador de Jujuy 
+Gimnasia y Esgrima de Jujuy,   San Salvador de Jujuy
   | GEJ | Gimnasia y Esgrima (Jujuy)
   | Club Atlético Gimnasia y Esgrima de Jujuy
+  | GyE Jujuy
 
 
 == Provincia Tucumán ==
@@ -8310,6 +8672,27 @@ Guillermo Brown,  Puerto Madryn
    | Guillermo Brown de Puerto Madryn
    | Brown de Puerto Madryn
 
+
+== Provincia Corrientes ==
+
+Deportivo Mandiyú,  1952, Corrientes
+  | Club Deportivo Mandiyú | Mandiyú
+
+Huracán Corrientes, 1918, Corrientes
+  | Huracán de Corrientes
+  | Club Atlético Huracán Corrientes
+
+
+== Provincia Salta ==
+
+Gimnasia y Tiro, 1902,  Salta
+  | Club de Gimnasia y Tiro
+
+
+== Provincia Chaco ==
+
+Chaco For Ever, 1913,  Resistencia
+  | Club Atlético Chaco For Ever
 
 =========================
 =  Bolivia 
@@ -8370,16 +8753,27 @@ Palmeiras SP,  São Paulo
   | SE Palmeiras São Paulo
   | Sociedade Esportiva Palmeiras
 Santos SP,      Santos
-  | Santos |Santos FC | FC Santos | Santos Futebol Clube
+  | Santos | Santos FC | FC Santos | Santos Futebol Clube
 Ponte Preta,    Campinas
   | AA Ponte Preta | Associação Atlética Ponte Preta
   | AA Ponte Preta SP
-CA Bragantino, Bragança Paulista
+
+CA Bragantino (1928-2019),  Bragança Paulista
   | Bragantino | Clube Atlético Bragantino
-RB Bragantino, Bragança Paulista
+# On 5 April 2019 the team merged with Red Bull Brasil
+#  to form Red Bull Bragantino
+
+RB Bragantino, 2019,        Bragança Paulista
   | Bragantino
-  | Red Bull Bragantino     ## todo/check: Red Bull Brazil merged with CA Prgantino?
+  | Red Bull Bragantino
   | RB Bragantino SP
+  | RB Braga
+# merger of Clube Atlético Bragantino with Red Bull Brasil
+
+RB Brasil, 2007,  Campinas     #  now kind of the b team of RB Bragantino
+  | RBB | Red Bull Brasil
+
+
 Oeste SP,      Itápolis
   | Oeste | Oeste FC | Oeste Futebol Clube
   | Oeste FC SP
@@ -8396,6 +8790,23 @@ São Bento,  Sorocaba
 AD São Caetano, 1989, São Caetano
   | São Caetano | Associação Desportiva São Caetano
 
+União São João, 1981,    Araras
+  | União São João Esporte Clube
+Grêmio Barueri, 1989,     Barueri
+  | Barueri | Grêmio Barueri Futebol
+  | Grêmio Recreativo Barueri
+  | Grêmio Prudente Futebol Ltda
+# was formerly known as Grêmio Recreativo Barueri
+#                   and Grêmio Prudente Futebol Ltda
+
+Santo André,  1967,   Santo André
+  | Esporte Clube Santo André
+  | Santo André EC
+
+São José, 1933,  São José
+  | São José Esporte Clube
+  | São José EC
+
 
 == Rio de Janeiro ==
 Botafogo RJ,     Rio de Janeiro
@@ -8411,11 +8822,16 @@ CR Vasco da Gama,   Rio de Janeiro
   | Vasco da Gama Rio de Janeiro
   | Club de Regatas Vasco da Gama
 
+America RJ, 1904,  Mesquita
+  | America | America Football Club
+  | America Football Club (Rio de Janeiro)
+# see https://en.wikipedia.org/wiki/América_Football_Club for may refer to...
 
 
 == Minas Gerais ==
 Atlético MG,    Belo Horizonte
-  | Atlético Mineiro | C Atlético Mineiro | Clube Atlético Mineiro
+  | Atlético Mineiro
+  | CA Mineiro | C Atlético Mineiro | Clube Atlético Mineiro
   | Atletico-MG | Atlético/MG
 Cruzeiro MG,    Belo Horizonte
   | Cruzeiro | Cruzeiro EC | Cruzeiro EC MG
@@ -8428,25 +8844,43 @@ Tupi MG,   Juiz de Fora
   | Tupi | Tupi FC | Tupi Football Club
 
 
+Ipatinga Futebol Clube, 1998, Ipatinga
+  | Ipatinga
+  | Betim EC | Betim Esporte Clube
+# During the 2013 season club played in Betim (Betim Esporte Clube)
+# shortly after returned to Ipatinga in 2015.
+
+Betim FC, 2006,   Betim
+  | Betim Futebol Clube
+
+
 == Rio Grande do Sul ==
-Grêmio RS,      Porto Alegre
+Grêmio RS,                     Porto Alegre
   | Gremio | Grêmio | Grêmio Porto Alegre | Grêmio FBPA | Grêmio Foot-Ball Porto Alegrense
-Internacional Porto Alegre,  Porto Alegre
+Internacional Porto Alegre,    Porto Alegre
   | Internacional | SC Internacional | Internacional RS | Sport Club Internacional
+
 Brasil RS,  Pelotas
   | Brasil de Pelotas
   | GE Brasil | Grêmio Esportivo Brasil | Grêmio Esportivo Brasil de Pelotas
 Esporte Clube Juventude, 1913, Caxias do Sul
-  | Juventude
+  | Juventude | Juventude RS
+
+== Rio Grande do Norte ==
+América de Natal,  1915,    Natal
+  | América Futebol Clube | América FC
+  | América RN
+  | América Futebol Clube (RN)
 
 
 == Paraná ==
 Atlético PR,   Curitiba
-  | Atl Paranaense | Athl Paranaense | Atlético Paranaense 
-  | C Atlético Paranaense | Clube Atlético Paranaense
+  | Atl Paranaense | Athl Paranaense | Atlético Paranaense
+  | CA Paranaense | C Atlético Paranaense | Clube Atlético Paranaense
   | Athletico-PR [en] | Athletico Paranaense [en] | Club Athletico Paranaense [en]
 Coritiba PR,   Curitiba
   | Coritiba | Coritiba FC | Coritiba Football Club
+  | Coritiba FBC | Coritiba Foot Ball Club
   | Coritiba FC PR
 Londrina EC,      Londrina
   | Londrina | Londrina EC PR | Londrina Esporte Clube
@@ -8461,24 +8895,26 @@ Operário Ferroviário,   Ponta Grossa
 Figueirense,   Florianópolis
   | Figueirense FC | Figueirense SC | Figueirense FC SC | Figueirense Futebol Clube
 Chapecoense,    Chapecó
-  | Chapecoense-SC | Associação Chapecoense de Futebol
+  | Chapecoense AF | Associação Chapecoense de Futebol
+  | Chapecoense-SC
 Criciúma EC,   Criciúma
   | Criciúma | Criciúma Esporte Clube
   | Criciúma SC | Criciúma EC SC
 Avaí FC,       Florianópolis
   | Avaí | Avaí FC SC | Avaí Futebol Clube
-Joinvile EC,     Joinville
-  | Joinvile
-  | Joinville | Joinville Esporte Clube     ## check spelling use ville or vile ?
-
+Joinville EC,     Joinville
+  | JEC | Joinville
+  | Joinville Esporte Clube     ## check spelling use ville or vile ?
 
 == Pernambuco ==
 Sport Recife,    Recife
-  | Sport | Sport PE | Sport Recife PE | Sport Club do Recife
+  | Sport | SC Recife | Sport Club Recife | Sport Club do Recife
+  | Sport PE | Sport Recife PE
 Santa Cruz,      Recife
   | Santa Cruz FC | Santa Cruz Futebol Clube
 Náutico PE,  Recife
-  | Nautico | Náutico | C Náutico Capibaribe | Clube Náutico Capibaribe
+  | Náutico | C Náutico Capibaribe | Clube Náutico Capibaribe
+  | Clube Náutico
 
 == Bahia ==
 EC Vitória,      Salvador
@@ -8491,26 +8927,34 @@ EC Bahia,            Salvador
 Goiás EC,       Goiânia
   | Goiás | Goiás EC GO | Goiás Esporte Clube
 Atlético GO,   Goiânia
-  | Atletico GO | Atlético Goianiense | Atlético Clube Goianiense
+  | Atlético Goianiense
+  | AC Goianiense | Atlético Clube Goianiense
 Vila Nova GO,  Goiânia
   | Vila Nova | Vila Nova de Goias | Vila Nova FC | Vila Nova Futebol Clube
 
 
 == Ceará ==
-Ceára SC,      Fortaleza
-  | Ceará | Ceará CE | Ceará SC CE | Ceará Sporting Club
-Fortaleza,     Fortaleza
-  | Fortaleza EC CE | Fortaleza Esporte Clube
+Ceára SC,         Fortaleza
+  | Ceará | Ceará Sporting Club
+  | Ceará CE | Ceará SC CE
+Fortaleza EC,     Fortaleza
+  | Fortaleza | Fortaleza Esporte Clube
+  | Fortaleza EC CE
+
 
 == Pará ==
 Paysandu SC,   Belém
   | Paysandu | Paysandu Sport Club
 
+Clube do Remo,  1905,  Belém
+  | Remo
+
 == Alagoas ==
 CRB AL,    Maceió
   | CRB | CR Brasil AL | Clube de Regatas Brasil
-CSA,       Maceió
-  | CSA AL | CS Alagoano AL | Centro Sportivo Alagoano
+CS Alagoano,  1913,   Maceió
+  | CSA | CSA AL | CS Alagoano AL | Centro Sportivo Alagoano
+
 
 == Mato Grosso ==
 Luverdense EC, Lucas do Rio Verde
@@ -8521,6 +8965,23 @@ Cuiabá, Cuiabá
 == Maranhão ==
 Sampaio Corrêa FC, São Luís › Maranhão
   | Sampaio Corrêa | Sampaio Corrêa Futebol Clube
+
+== Espírito Santo ==
+
+Desportiva Ferroviária,  1963,   Cariacica
+  | Desportiva | Desportiva-ES
+  | Associação Desportiva Ferroviária Vale do Rio Doce
+  | Desportiva Capixaba
+
+
+== Distrito Federal ==
+
+Sociedade Esportiva do Gama, 1975,   Gama
+  | Gama | SE Gama
+
+Brasiliense FC,  2000,     Taguatinga
+  | Brasiliense | Brasiliense Futebol Clube
+
 
 
 =========================

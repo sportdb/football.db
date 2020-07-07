@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile clubs.wiki.txt bundle
-#    on 2020-06-15 09:15:27 +0200 from 5 datafile(s)
+#    on 2020-07-07 21:39:24 +0200 from 5 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/clubs - updates welcome!
 
@@ -685,7 +685,13 @@ Defensa y Justicia
 Estudiantes de La Plata
 Club de Gimnasia y Esgrima La Plata
 Godoy Cruz Antonio Tomba
-Club Atlético Huracán
+
+# Club Atlético Huracán
+## todo/fix: add city!!!!  e.g.    Club Atlético Huracán,   Tres Arroyos  or  Club Atlético Huracán › Tres Arroyos
+# todo/fix:  ERROR !!! - too many (greater than one) matching clubs found for wiki(pedia) name >Club Atlético Huracán, Argentina (ar)
+#  - Huracán de Tres Arroyos
+#  - Huracán de Buenos Aires
+
 Club Atlético Independiente
 Club Atlético Lanús
 Newell's Old Boys

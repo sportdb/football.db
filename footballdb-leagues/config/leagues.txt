@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile leagues.txt bundle
-#    on 2020-06-15 09:06:38 +0200 from 14 datafile(s)
+#    on 2020-07-07 21:34:34 +0200 from 15 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/leagues - updates welcome!
 
@@ -359,11 +359,20 @@ cup     ÖFB Cup
           | ENG CS
           | English Championship | English League Championship
           | England Championship
+          | Division One    ## fix: note - add old pre 2004/05 season leagues names here (move to its own history "section" soon!!!)
+          | English Division One
+          | England Division One
 3       League One
           | English League One
           | England League One
+          | Division Two    ## fix: note - add old pre 2004/05 season leagues names here (move to its own history "section" soon!!!)
+          | English Division Two
+          | England Division Two
 4       League Two
           | English League Two
+          | Division Three    ## fix: note - add old pre 2004/05 season leagues names here (move to its own history "section" soon!!!)
+          | English Division Three
+          | England Division Three
 5       National League
           | English National League
 
@@ -372,10 +381,13 @@ cup     ÖFB Cup
 
 playoffs.2   Championship - Play-offs
              | English Championship - Play-offs
+             | English Division One - Play-offs     ## fix: note - add old pre 2004/05 season leagues names here (move to its own history "section" soon!!!)
 playoffs.3   League One - Play-offs
              | English League One - Play-offs
+             | English Division Two - Play-offs     ## fix: note - add old pre 2004/05 season leagues names here (move to its own history "section" soon!!!)
 playoffs.4   League Two - Play-offs
              | English League Two - Play-offs
+             | English Division Three - Play-offs      ## fix: note - add old pre 2004/05 season leagues names here (move to its own history "section" soon!!!)
 
 
 
@@ -688,10 +700,11 @@ super   Supercoppa Italiana
 
 = Turkey =
 1        Süper Lig
-           | Turkish Super Lig
+           | Turkish Süper Lig | Turkish Super Lig
            | Turkish Super League
            | Türkei Süper Lig [de]
 2       1. Lig
+           | Turkish 1. Lig
            | Türkei TFF 1. Lig [de]     ## todo/check - is TFF the sponsor?
 
 cup     Türkiye Kupasi
@@ -873,6 +886,7 @@ cup   Cup
         | Swiss Super League
         | Schweiz Super League
 2      Challenge League
+        | Swiss Challenge League
 
 cup    Schweizer Cup
         | SUI P
@@ -1243,77 +1257,18 @@ cup     FFA Cup
          | Australien FFA Cup
 
 
-= Brazil =
-
-1       Campeonato Brasileiro Série A  
-           | Brasileiro Série A
-           | Brazilian Serie A
-           | Brasilien Brasilero Serie A [de]
-           | BR A    ## br.a
-2       Campeonato Brasileiro Série B
-           | Brasileiro Série B
-           | Brazilian Serie B
-           | Brasilien Brasilero Serie B [de]
-           | BR B    ## br.b
-3       Campeonato Brasileiro Série C
-           | Brazilian Serie C
-           | BR C    ## br.c
-4       Campeonato Brasileiro Série D
-           | BR D    ## br.d 
-
-copa     Copa do Brasil
-           | BRA CUP
-           | Copa Do Brazil | Brazil Cup
-           | Brasilien Cup [de]
-
-
-league     Primeira Liga
-            | Liga Sul-Minas-Rio | South-Minas-Rio League
-            | Copa Sul-Minas-Rio | South-Minas-Rio Cup
-## note: also known as Liga Sul-Minas-Rio (South-Minas-Rio League) or Copa Sul-Minas-Rio (South-Minas-Rio Cup), 
-##       is a Brazilian football competition contested between Brazil's South Region, Minas Gerais and Rio de Janeiro state teams.
-
-
-rs         Gauchão 
-            | Campeonato Estadual Gaúcho
-            | Brazilian Campeonato Gaucho
-rs.2       Divisão de Acesso Gaúcha 
-            | Divisão de acesso do Campeonato Estadual Gaúcho
-rs.3       Terceirona 
-            | Segunda divisão do Campeonato Estadual Gaúcho
-
-sp         Paulistão 
-             | Campeonato Estadual Paulista
-             | Brazilian Campeonato Paulista
-rj         Campeonato Estadual Carioca
-             | Brazilian Campeonato Carioca
-mg         Mineirão 
-             | Campeonato Estadual Mineiro
-             | Brazilian Campeonato Mineiro 
-
-
-
-= International =
-
-copa.l  Copa Libertadores
-          | CONMEBOL Copa Libertadores
-copa.s  Copa Sudamericana
-          | CONMEBOL Copa Sudamericana
-
-recopa  Recopa Sudamericana
-
-
 = Argentina =
+
 1        Primera Division
            | Argentine Superliga
            | Argentinien Primera Division [de]
 
-2        Primera B Nacional 
-           | Nacional B 
+2        Primera B Nacional
+           | Nacional B
            | Primera Nacional       ## note: and Primera Nacional since the 2019-20 season
            | Argentine Nacional B
 
-3.metro   Primera B Metropolitana 
+3.metro   Primera B Metropolitana
             | Argentine Primera B
 3.fed     Torneo Federal A
 
@@ -1333,9 +1288,71 @@ copa     Copa Argentina
           | Argentinien Cup [de]
           | ARG CUP
 copa.l   Copa Superliga
-          | ARG LC 
+          | ARG LC
           | Copa de la Superliga
           | Argentinien Ligacup [de]
+
+
+
+= Brazil =
+
+1       Campeonato Brasileiro Série A
+           | Brasileiro Série A
+           | Brazilian Serie A
+           | Brasilien Brasilero Serie A [de]
+           | BR A
+2       Campeonato Brasileiro Série B
+           | Brasileiro Série B
+           | Brazilian Serie B
+           | Brasilien Brasilero Serie B [de]
+           | BR B
+3       Campeonato Brasileiro Série C
+           | Brazilian Serie C
+           | BR C
+4       Campeonato Brasileiro Série D
+           | BR D
+
+copa     Copa do Brasil
+           | BRA CUP
+           | Copa Do Brazil | Brazil Cup
+           | Brasilien Cup [de]
+
+
+league     Primeira Liga
+            | Liga Sul-Minas-Rio | South-Minas-Rio League
+            | Copa Sul-Minas-Rio | South-Minas-Rio Cup
+## note: also known as Liga Sul-Minas-Rio (South-Minas-Rio League) or Copa Sul-Minas-Rio (South-Minas-Rio Cup),
+##       is a Brazilian football competition contested between Brazil's South Region, Minas Gerais and Rio de Janeiro state teams.
+
+
+rs         Gauchão
+            | Campeonato Estadual Gaúcho
+            | Brazilian Campeonato Gaucho
+rs.2       Divisão de Acesso Gaúcha
+            | Divisão de acesso do Campeonato Estadual Gaúcho
+rs.3       Terceirona
+            | Segunda divisão do Campeonato Estadual Gaúcho
+
+sp         Paulistão
+             | Campeonato Estadual Paulista
+             | Brazilian Campeonato Paulista
+rj         Campeonato Estadual Carioca
+             | Brazilian Campeonato Carioca
+mg         Mineirão
+             | Campeonato Estadual Mineiro
+             | Brazilian Campeonato Mineiro
+
+
+
+= International =
+
+copa.l  Copa Libertadores
+          | CONMEBOL Copa Libertadores
+copa.s  Copa Sudamericana
+          | CONMEBOL Copa Sudamericana
+
+recopa  Recopa Sudamericana
+
 
 
 = Paraguay =
@@ -1371,7 +1388,7 @@ copa   Copa Chile
      | Colombian Primera A
      | Kolumbien Primera Liga [de]
 2   Primera B
-     | Colombian Primera B 
+     | Colombian Primera B
 
 copa  Copa Colombia
       | COL P | COL COP
@@ -1383,7 +1400,7 @@ copa  Copa Colombia
      | Uruguay Primera Division
 
 = Ecuador =
-1  Serie A 
+1  Serie A
      | Ecuadoran Primera A
      | Ecuador Serie A
 
@@ -1395,6 +1412,6 @@ copa  Copa Colombia
 
 copa  Copa Venezuela
        | VEN CUP
-     
+
 
 
