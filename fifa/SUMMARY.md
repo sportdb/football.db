@@ -1,4 +1,4 @@
-# Countries A-Z (240)
+# Countries A-Z (241)
 
 | Name   | Code  | Tags | Alt. Names |
 |--------|-------|------|------------|
@@ -9,7 +9,7 @@
 | Andorra | AND | fifa › uefa |  |
 | Angola | ANG | fifa › caf › cosafa |  |
 | Anguilla | AIA | fifa › concacaf › cfu |  |
-| Antigua and Barbuda | ATG | fifa › concacaf › cfu | Antigua/Barb. |
+| Antigua and Barbuda | ATG | fifa › concacaf › cfu | Antigua/Barb. · Antigua & Barbuda |
 | Argentina | ARG | fifa › conmebol |  |
 | Armenia | ARM | fifa › uefa |  |
 | Artsakh | NKR |  |  |
@@ -157,7 +157,7 @@
 | Nigeria | NGA | fifa › caf › wafu |  |
 | Niue | NIU | ofc |  |
 | North Korea | PRK | fifa › afc › eaff | Korea DPR · Democratic People's Republic of Korea |
-| North Macedonia | MKD | fifa › uefa | Macedonia |
+| North Macedonia | MKD | fifa › uefa | Republic of North Macedonia · Macedonia · FYR Macedonia · Macedonia FYR |
 | Northern Cyprus | TRNC |  |  |
 | Northern Ireland | NIR | fifa › uefa | N. Ireland |
 | Northern Mariana Islands | NMI | afc › eaff |  |
@@ -179,16 +179,17 @@
 | Russia | RUS | fifa › uefa |  |
 | Rwanda | RWA | fifa › caf › cecafa |  |
 | Réunion | REU | caf |  |
-| Saint Kitts and Nevis | SKN | fifa › concacaf › cfu | St. Kitts/N. |
+| Saint Kitts and Nevis | SKN | fifa › concacaf › cfu | St. Kitts/N. · St. Kitts & Nevis |
 | Saint Lucia | LCA | fifa › concacaf › cfu |  |
 | Saint Martin | SMN | concacaf › cfu | Saint Martin (French part) |
-| Saint Vincent and the Grenadines | VIN | fifa › concacaf › cfu | St. Vincent/G. |
+| Saint Vincent and the Grenadines | VIN | fifa › concacaf › cfu | St. Vincent/G. · St. Vincent & The Grenadines |
 | Samoa | SAM | fifa › ofc |  |
 | San Marino | SMR | fifa › uefa |  |
 | Saudi Arabia | KSA | fifa › afc › waff |  |
 | Scotland | SCO | fifa › uefa |  |
 | Senegal | SEN | fifa › caf › wafu |  |
 | Serbia | SRB | fifa › uefa |  |
+| Serbia and Montenegro (-2006) | SCG |  | Serbia & Montenegro |
 | Seychelles | SEY | fifa › caf › cosafa |  |
 | Sierra Leone | SLE | fifa › caf › wafu |  |
 | Singapore | SIN | fifa › afc › aff |  |
@@ -217,11 +218,11 @@
 | Timor-Leste | TLS | fifa › afc › aff | East Timor |
 | Togo | TOG | fifa › caf › wafu |  |
 | Tonga | TGA | fifa › ofc |  |
-| Trinidad and Tobago | TRI | fifa › concacaf › cfu | Trinidad/Tob. |
+| Trinidad and Tobago | TRI | fifa › concacaf › cfu | Trinidad/Tob. · Trinidad & Tobago |
 | Tunisia | TUN | fifa › caf › unaf |  |
 | Turkey | TUR | fifa › uefa |  |
 | Turkmenistan | TKM | fifa › afc › cafa |  |
-| Turks and Caicos Islands | TCA | fifa › concacaf › cfu |  |
+| Turks and Caicos Islands | TCA | fifa › concacaf › cfu | Turks & Caicos Islands |
 | Tuvalu | TUV | ofc |  |
 | US Virgin Islands | VIR | fifa › concacaf › cfu | United States Virgin Islands · US Virgin I. |
 | Uganda | UGA | fifa › caf › cecafa |  |

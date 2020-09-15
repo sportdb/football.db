@@ -8,7 +8,7 @@ Hoe.spec 'footballdb-clubs' do
   self.summary = "footballdb-clubs - the world's top football clubs"
   self.description = summary
 
-  self.urls = ['https://github.com/sportdb/football.db']
+  self.urls = { home: 'https://github.com/sportdb/football.db' }
 
   self.author = 'Gerald Bauer'
   self.email = 'opensport@googlegroups.com'
@@ -21,7 +21,7 @@ Hoe.spec 'footballdb-clubs' do
 
   self.extra_deps = [
     ['sportdb-formats', '>= 1.1.2'],
-    ['fifa',            '>= 2020.5.18'],
+    ['fifa',            '>= 2020.9.15'],
   ]
 
   self.spec_extras = {

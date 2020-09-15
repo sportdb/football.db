@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile countries.txt bundle
-#    on 2020-09-13 10:57:25 +0200 from 10 datafile(s)
+#    on 2020-09-15 09:02:08 +0200 from 10 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/national-teams - updates welcome!
 
@@ -173,18 +173,18 @@ ht   Haiti,                HAI,  fifa › concacaf › cfu
 
 
 ag   Antigua and Barbuda,  ATG,  fifa › concacaf › cfu
-      | Antigua/Barb.
+      | Antigua/Barb. | Antigua & Barbuda
 bs   Bahamas,              BAH,  fifa › concacaf › cfu
 bb   Barbados,             BRB,  fifa › concacaf › cfu
 dm   Dominica,             DMA,  fifa › concacaf › cfu
 gd   Grenada,              GRN,  fifa › concacaf › cfu
 kn   Saint Kitts and Nevis,  SKN, fifa › concacaf › cfu
-      | St. Kitts/N.
+      | St. Kitts/N. | St. Kitts & Nevis
 lc   Saint Lucia,          LCA,  fifa › concacaf › cfu
 vc   Saint Vincent and the Grenadines,  VIN, fifa › concacaf › cfu
-      | St. Vincent/G.
+      | St. Vincent/G. | St. Vincent & The Grenadines
 tt   Trinidad and Tobago,  TRI, fifa › concacaf › cfu
-      | Trinidad/Tob.
+      | Trinidad/Tob.  | Trinidad & Tobago
 
 # Territories & Dependencies
 pr   Puerto Rico       › US,  PUR,  fifa › concacaf › cfu
@@ -200,7 +200,9 @@ ky   Cayman Islands › UK,  CAY,    fifa › concacaf › cfu
       | Cayman Isl.
 ms   Montserrat › UK,      MSR,    fifa › concacaf › cfu
 tc   Turks and Caicos Islands › UK,  TCA,    fifa › concacaf › cfu
+      | Turks & Caicos Islands
 vg   British Virgin Islands › UK,  VGB,    fifa › concacaf › cfu
+
 
 
 ## Non-FIFA member codes
@@ -280,8 +282,12 @@ li   Liechtenstein,        LIE,  fifa › uefa
 lt   Lithuania,            LTU,  fifa › uefa
 lu   Luxembourg,           LUX,  fifa › uefa
 
+## note: country renamed to North Macedonia in February 2019
+##         keeps same fifa code - move Macedonia to history - why? why not?
 mk   North Macedonia,      MKD,  fifa › uefa
-      | Macedonia
+      | Republic of North Macedonia
+      | Macedonia | FYR Macedonia | Macedonia FYR
+
 mt   Malta,                MLT,  fifa › uefa
 md   Moldova,              MDA,  fifa › uefa
 me   Montenegro,           MNE,  fifa › uefa
@@ -486,6 +492,7 @@ gf   French Guiana › FR,  GUF,  concacaf › cfu     # note: NOT fifa member
 # the renewed state of Montenegro, with the Serbian national team
 # inheriting the history and records of Serbia and Montenegro's national team.
 -2006   Serbia and Montenegro, SCG  ⇒  Serbia
+         | Serbia & Montenegro
 
 # note:
 #  Federal Republic of Yugoslavia (1992-2003)

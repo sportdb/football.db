@@ -1,6 +1,6 @@
 ##########################################
 # auto-generated all-in-one single datafile leagues.txt bundle
-#    on 2020-07-07 21:34:34 +0200 from 15 datafile(s)
+#    on 2020-09-15 09:09:37 +0200 from 15 datafile(s)
 #  please, do NOT edit here; use the source
 #    see https://github.com/openfootball/leagues - updates welcome!
 
@@ -88,6 +88,7 @@ asia.cup  AFC Cup
 1      J. League
          | Japanese J League
          | Japan J. League
+         | J1 League | Japan J1 League
 2      J. League 2
          | Japan J. League 2
 
@@ -355,6 +356,7 @@ cup     ÖFB Cup
           | ENG PL
           | English Premier League
           | England Premier League
+          | English Football League   ## fix: note - add old pre 1892/3 season leagues names here (move to its own history "section" soon!!!)
 2       Championship
           | ENG CS
           | English Championship | English League Championship
@@ -503,10 +505,17 @@ cup.super   Supercup
 
 = International =
 
-uefa.cl      Champions League          ## note: cl gets used by Chile (cl) - change? why? why not?
-              | UEFA Champions League
-uefa.el      Europa League
-              | UEFA Europa League
+uefa.cl        Champions League          ## note: cl gets used by Chile (cl) -use eu.cl, euro.cl or europe.cl - change? why? why not?
+                | UEFA Champions League
+uefa.cl.quali  Champions League - Quali      
+                | UEFA Champions League - Qualification
+                | UEFA Champions League - Qualifying
+              
+uefa.el        Europa League
+                | UEFA Europa League
+uefa.el.quali  Europa League - Quali
+                | UEFA Europa League - Qualification
+                | UEFA Europa League - Qualifying
 
 
 uefa.super  Super Cup
@@ -616,6 +625,7 @@ super    Supercopa
 
 = Portugal =
 1       Primeira Liga
+          | Portuguese Primeira Liga
           | Portuguese Liga
           | Portuguese First Division
           | Portugal Primeira Liga
@@ -719,6 +729,7 @@ super   Süper Kupa
 1     Super League
        | Greek Super League
        | Griechenland Super League [de]
+       | Super League Greece
 2     Super League 2
        | Greek Super League 2
        | Griechenland Super League 2 [de]
@@ -863,6 +874,7 @@ super  Supercup
 = Hungary =
 1     First League
        | NB I
+       | Hungarian NB I
        | Hungarian First League
 
 cup    Cup
@@ -1023,6 +1035,7 @@ super  Supercup
       | Russland Premier League [de]
 
 2    1. Division
+      | Russian 1. Division
       | Russland 1. Division [de]
 
 cup  Cup
@@ -1226,21 +1239,21 @@ ncaa    United States NCAA Men's Soccer
 
 = Mexico =
 1      México Primera División
-        | México Primera División Apertura
-        | México Primera División Clausura
         | Liga MX
-        | Liga MX Apertura               ## todo: make / turn Apertura / Clausura and Liguilla into stages - why? why not?
-        | Liguilla Apertura
-        | Liga MX Clausura
-        | Liguilla Clausura
         | Mexican Liga $$BBVA$$ MX
+       ## | México Primera División Apertura  ## todo: make / turn Apertura / Clausura and Liguilla into stages - why? why not?
+       ## | México Primera División Clausura
+       ## | Liga MX Apertura               
+       ## | Liguilla Apertura
+       ## | Liga MX Clausura
+       ## | Liguilla Clausura
 
 2     México Segunda División
-       | México Segunda División Apertura
-       | México Segunda División Clausura
        | Liga de Ascenso
        | Ascenso MX
        | Mexican Ascenso MX
+      ## | México Segunda División Apertura
+      ## | México Segunda División Clausura
 
 copa  Copa MX
        | Mexican Copa MX

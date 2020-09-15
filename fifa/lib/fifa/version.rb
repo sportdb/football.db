@@ -6,7 +6,7 @@
 class Fifa
   MAJOR = 2020    ## todo: namespace inside version or something - why? why not??
   MINOR = 9
-  PATCH = 13
+  PATCH = 15
   VERSION = [MAJOR,MINOR,PATCH].join('.')
 
   def self.version
