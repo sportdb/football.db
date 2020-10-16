@@ -7,4 +7,10 @@ Gem Family:
 - [**footballdb-leagues**](footballdb-leagues) - the world's top football leagues & cups
 - [**footballdb-clubs**](footballdb-clubs) - the world's top football clubs
 
+<!-- break -->
+
+- [**football-to-sqlite**](football-to-sqlite) - load football.txt datafiles into a sqlite database
+
+
+
 

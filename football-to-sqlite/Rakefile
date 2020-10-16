@@ -1,0 +1,34 @@
+require 'hoe'
+require './lib/football-to-sqlite/version.rb'
+
+
+Hoe.spec 'football-to-sqlite' do
+
+  self.version = SportDb::Module::FootballToSqlite::VERSION
+
+  self.summary = 'football-to-sqlite - load football.txt datafiles into a sqlite database'
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/sportdb/football.db'}
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'opensport@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  #  -- Note: auto-changed when included in manifest
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['sportdb-readers', '>= 1.1.2'],
+
+    ## ['activerecord'],  # Note: will include activesupport,etc.
+    ['sqlite3']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.2.2'
+  }
+end
