@@ -12,6 +12,6 @@
 #    % chmod a+x bin/football2sqlite
 #
 
-require 'football2sqlite'
+require 'football-to-sqlite'
 
 FootballToSqlite.main
