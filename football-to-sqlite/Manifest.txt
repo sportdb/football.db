@@ -2,6 +2,8 @@ CHANGELOG.md
 Manifest.txt
 README.md
 Rakefile
+bin/football-to-sqlite
+bin/football2sqlite
 lib/football-to-sqlite.rb
 lib/football-to-sqlite/version.rb
 test/helper.rb

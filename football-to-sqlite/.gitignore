@@ -32,3 +32,8 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+####
+# exclude all sqlite databases (.db) for now  (NOT just in tmp)
+*.db
+
