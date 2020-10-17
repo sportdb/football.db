@@ -32,13 +32,15 @@ $ football-to-sqlite england.db 2020-21\1-premierleague.txt \
 Note: If the single-file SQLite database (and its tables, views & indices) do not (yet) exist, they get auto-created on the first run.
 
 
+Note: You can use `football2sqlite` as an alias / alternate name.
+
 
 **Pipes & Standard Input (STDIN)**
 
-You can use any command line tool to download match files and pipe (via stdin) into the this tool like so:
+You can use any command line tool to download match files and pipe (via stdin) into this tool like so:
 
 ```
-$ curl https://raw.githubusercontent.com/openfootball/world-cup/master/2018--russia/cup.txt | worldcup.db
+$ curl https://raw.githubusercontent.com/openfootball/world-cup/master/2018--russia/cup.txt | football-to-sqlite worldcup.db
 ```
 
 That's it for now.
@@ -50,7 +52,7 @@ That's it for now.
 
 Note: For now you CANNOT update match files, that is,
 if you try to add the same match twice (assuming with updated scores or such), the match reader will fail for now.
-The workaround for now is to always re-create/re-build your database from zero / scratch.
+The workaround is to always re-create/re-build your database from zero / scratch for now.
 
 
 
