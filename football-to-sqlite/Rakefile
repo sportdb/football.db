@@ -6,7 +6,7 @@ Hoe.spec 'football-to-sqlite' do
 
   self.version = SportDb::Module::FootballToSqlite::VERSION
 
-  self.summary = 'football-to-sqlite - load football.txt datafiles into a sqlite database'
+  self.summary = 'football-to-sqlite - load / read football.txt datafiles into a sqlite database'
   self.description = summary
 
   self.urls    = { home: 'https://github.com/sportdb/football.db'}

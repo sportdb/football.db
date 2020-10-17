@@ -1,4 +1,4 @@
-# football-to-sqlite - load football.txt datafiles into a sqlite database
+# football-to-sqlite - load / read football.txt datafiles into a sqlite database
 
 
 * home  :: [github.com/sportdb/football.db](https://github.com/sportdb/football.db)
@@ -8,9 +8,70 @@
 * forum :: [opensport](http://groups.google.com/group/opensport)
 
 
+
 ## Usage
 
-to be done
+
+Run this tool against match files in the Football.TXT format like so:
+
+```
+$ football-to-sqlite england.db 2020-21\1-premierleague.txt
+```
+
+or pass in more than one match file:
+
+```
+$ football-to-sqlite england.db 2020-21\1-premierleague.txt \
+                                2020-21\2-championship.txt  \
+                                2020-21\3-league1.txt       \
+                                2020-21\4-league2.txt       \
+                                2020-21\5-nationalleague.txt
+```
+
+
+Note: If the single-file SQLite database (and its tables, views & indices) do not (yet) exist, they get auto-created on the first run.
+
+
+
+**Pipes & Standard Input (STDIN)**
+
+You can use any command line tool to download match files and pipe (via stdin) into the this tool like so:
+
+```
+$ curl https://raw.githubusercontent.com/openfootball/world-cup/master/2018--russia/cup.txt | worldcup.db
+```
+
+That's it for now.
+
+
+
+
+## Limitations
+
+Note: For now you CANNOT update match files, that is,
+if you try to add the same match twice (assuming with updated scores or such), the match reader will fail for now.
+The workaround for now is to always re-create/re-build your database from zero / scratch.
+
+
+
+## Datasets
+
+For some open public domain Football.TXT datasets to get started, see the [open football org](https://github.com/openfootball).
+
+
+Add your datasets here!
+
+
+
+## Installation
+
+Use
+
+    gem install football-to-sqlite
+
+or add the gem to your Gemfile
+
+    gem 'football-to-sqlite'
 
 
 ## License
