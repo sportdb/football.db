@@ -12,7 +12,7 @@
 ## Usage
 
 
-Run this tool against match files in the Football.TXT format like so:
+Run this tool against match files (for clubs or national teams) in the Football.TXT format like so:
 
 ```
 $ football-to-sqlite england.db 2020-21/1-premierleague.txt
