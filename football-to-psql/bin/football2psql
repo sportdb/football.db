@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+###################
+# == DEV TIPS:
+#
+# For local testing run like:
+#
+#    ruby -Ilib bin/football2psql
+#
+# Set the executable bit in Linux. Example:
+#
+#    % chmod a+x bin/football2psql
+#
+
+require 'football-to-psql'
+
+FootballToPsql.main

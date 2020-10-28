@@ -1,0 +1,10 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+bin/football-to-psql
+bin/football2psql
+lib/football-to-psql.rb
+lib/football-to-psql/version.rb
+test/helper.rb
+test/test_version.rb

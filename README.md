@@ -9,7 +9,9 @@ Gem Family:
 
 <!-- break -->
 
-- [**football-to-sqlite**](football-to-sqlite) - load football.txt datafiles into a sqlite database
+- [**football-to-sqlite**](football-to-sqlite) - load football.txt datafiles into a SQLite database
+- [**football-to-psql**](football-to-psql) - load football.txt datafiles into a postgreSQL database
+
 
 
 

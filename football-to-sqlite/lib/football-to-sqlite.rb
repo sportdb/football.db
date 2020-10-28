@@ -40,7 +40,7 @@ end
 
 def run( args )
 
-  opts = {}
+  options = {}
   optparser = OptionParser.new do |parser|
     parser.banner = "Usage: football-to-sqlite [options] DATABASE PATHS..."
   end
