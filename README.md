@@ -12,7 +12,8 @@ Gem Family:
 - [**football-to-sqlite**](football-to-sqlite) - load football.txt datafiles into a SQLite database
 - [**football-to-psql**](football-to-psql) - load football.txt datafiles into a postgreSQL database
 
+<!-- break -->
 
-
+- [**football-cat**](football-cat) - concatenate football.csv datafiles - make out of many, one
 
 
