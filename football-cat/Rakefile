@@ -1,0 +1,31 @@
+require 'hoe'
+require './lib/football-cat/version.rb'
+
+
+Hoe.spec 'football-cat' do
+
+  self.version = SportDb::Module::FootballCat::VERSION
+
+  self.summary = 'football-cat - concatenate football.csv datafiles - make out of many, one'
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/sportdb/football.db'}
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'opensport@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  #  -- Note: auto-changed when included in manifest
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['sportdb-catalogs', '>= 1.0.0'],
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.2.2'
+  }
+end
