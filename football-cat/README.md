@@ -11,7 +11,7 @@
 
 ## Usage
 
-Run this tool to concatenate match files (for football clubs or national teams) in the one-line, one-match & one-file, one-season Football.CSV format
+Run this tool to concatenate match files (for clubs or national teams) in the one-line, one-match & one-file, one-season Football.CSV format
 into one
 PLUS (auto-)adding the missing league and season headers / columns
 inferred from the file's basename (e.g. `es.1.csv` => `ES1`)
