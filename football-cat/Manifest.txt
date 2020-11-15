@@ -4,6 +4,7 @@ README.md
 Rakefile
 bin/football-cat
 lib/football-cat.rb
+lib/football-cat/tool.rb
 lib/football-cat/version.rb
 test/helper.rb
 test/test_version.rb
