@@ -39,6 +39,7 @@ def run( args )
     username:  'postgres',
     password:  'postgres',
     host:      'localhost',
+    port:      5432,
     database:  'sport.db',
     pool:       5,
     timeout:    5000
@@ -62,6 +63,11 @@ def run( args )
                  "database host (default: #{dbconfig[:host]})" ) do |host|
       options[:host] = host
     end
+
+    parser.on( '--port PORT',
+               "database port (default: #{dbconfig[:port]})" ) do |port|
+      options[:port] = port
+    end
   end
   optparser.parse!( args )
 
@@ -83,7 +89,7 @@ def run( args )
   dbconfig[:username] = options[:username]  if options[:username]
   dbconfig[:password] = options[:password]  if options[:password]
   dbconfig[:host]     = options[:host]      if options[:host]
-
+  dbconfig[:port]     = options[:port]      if options[:port]
 
   connect( dbconfig )
 

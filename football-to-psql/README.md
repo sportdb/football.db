@@ -23,9 +23,10 @@ printing:
 
 ```
 Usage: football-to-psql [options] DATABASE PATHS...
-    -u, --username USERNAME     database username (default: postgres)
-    -p, --password PASSWORD     database password (default: postgres)
-    -h, --host HOST             database host     (default: localhost)
+    -u, --user, --username USERNAME  database username (default: postgres)
+    -p, --password PASSWORD          database password (default: postgres)
+    -h, --host HOST                  database host (default: localhost)
+        --port PORT                  database port (default: 5432)
 ```
 
 
