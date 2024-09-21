@@ -1,21 +1,16 @@
-# encoding: utf-8
-
 ###
 #  to run use
-#     ruby -I ./lib -I ./test test/test_orgs.rb
+#     ruby test/test_orgs.rb
 
 
-require 'helper'
+require_relative 'helper'
 
-class TestOrgs < MiniTest::Test
+class TestOrgs < Minitest::Test
 
   def test_orgs
-    orgs = Fifa.orgs
-    pp orgs
-
     ## print counts
-    puts "#{'%3d' % Fifa.countries.size} countries:"
-    orgs.each do |org|
+    puts "#{'%3d' % Fifa.world.size} countries:"
+    Fifa.world.orgs.each do |org|
       countries = Fifa.members( org )
       puts "#{'%3d' % countries.size} #{org}"
     end
@@ -50,7 +45,7 @@ class TestOrgs < MiniTest::Test
 
     ## print countries NOT members of fifa (but of confederation)
     puts "non-fifa member codes:"
-    Fifa.countries.each do |country|
+    Fifa.world.each do |country|
       if country.tags.empty? == false &&
          country.tags.include?( 'fifa' ) == false
         puts "  #{country.name}, #{country.code}, #{country.tags.join(' | ')}"
@@ -59,17 +54,28 @@ class TestOrgs < MiniTest::Test
 
     ## print countries NOT members of fifa or any confederation (irregular codes)
     puts "irregular codes:"
-    Fifa.countries.each do |country|
+    Fifa.world.each do |country|
       puts "  #{country.name}, #{country.code}"    if country.tags.empty?
     end
   end
 
 
+
+    def _norm_org( name )
+      ## todo/fix:  use version from OrgIndex !!!!
+      ## remove space, comma, ampersand (&) and words: and, the
+      name.gsub( /  [ ,&] |
+                   \band\b |
+                   \bthe\b
+                 /x, '' )
+    end
+
+
   def test_alt_names
     ## check normalize org key / name
-    assert_equal 'NorthAmericaCentralAmericaCaribbean', Fifa.normalize_org( 'North America, Central America and the Caribbean' )
-    assert_equal 'NorthCentralAmericaCaribbean', Fifa.normalize_org( 'North and Central America and the Caribbean' )
-    assert_equal 'NorthCentralAmericaCaribbean', Fifa.normalize_org( 'North & Central America & Caribbean' )
+    assert_equal 'NorthAmericaCentralAmericaCaribbean', _norm_org( 'North America, Central America and the Caribbean' )
+    assert_equal 'NorthCentralAmericaCaribbean', _norm_org( 'North and Central America and the Caribbean' )
+    assert_equal 'NorthCentralAmericaCaribbean', _norm_org( 'North & Central America & Caribbean' )
 
 
     assert_equal Fifa.members( 'FIFA' ).size,     Fifa.members( 'World' ).size
@@ -96,5 +102,4 @@ class TestOrgs < MiniTest::Test
     assert_equal Fifa.members( 'OFC' ).size,      Fifa.members( 'Oceania' ).size
     assert_equal Fifa.members( 'OFC' ).size,      Fifa.members( 'Pacific' ).size
   end
-
 end # class TestOrgs

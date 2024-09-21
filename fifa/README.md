@@ -5,17 +5,17 @@
 * bugs  :: [github.com/sportdb/football.db/issues](https://github.com/sportdb/football.db/issues)
 * gem   :: [rubygems.org/gems/fifa](https://rubygems.org/gems/fifa)
 * rdoc  :: [rubydoc.info/gems/fifa](http://rubydoc.info/gems/fifa)
-* forum :: [opensport](http://groups.google.com/group/opensport)
+
 
 
 ## Usage
 
-Get and pretty print (pp) all countries
+Get and pretty print (pp) all countries (incl. historic and non-members)
 
 ``` ruby
 require 'fifa'
 
-pp Fifa.countries
+pp Fifa.world.countries
 ```
 
 resulting in:
@@ -108,6 +108,17 @@ Fifa.members( 'Europe' ).size        #=> 55 members
 ...
 ```
 
+
+Bonus convenience shortcuts include:
+
+``` ruby
+Fifa.countries.size                  #=> 211 members
+Uefa.countries.size                  #=> 55 members
+Conmebol.countries.size              #=> 10 members
+```
+
+
+
 That's it.
 
 
@@ -165,8 +176,8 @@ The `fifa` scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
 
+
 ## Questions? Comments?
 
-Send them along to the
-[Open Sports & Friends Forum/Mailing List](http://groups.google.com/group/opensport).
-Thanks!
+Yes, you can. More than welcome.
+See [Help & Support »](https://github.com/openfootball/help)

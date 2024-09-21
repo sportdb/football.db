@@ -5,8 +5,8 @@ README.md
 Rakefile
 config/countries.txt
 lib/fifa.rb
-lib/fifa/countries.rb
+lib/fifa/country_index.rb
+lib/fifa/country_reader.rb
+lib/fifa/org_index.rb
+lib/fifa/outline_reader.rb
 lib/fifa/version.rb
-test/helper.rb
-test/test_countries.rb
-test/test_orgs.rb

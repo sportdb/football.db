@@ -1,16 +1,14 @@
-# encoding: utf-8
-
 ###
 #  to run use
-#     ruby -I ./lib -I ./test test/test_countries.rb
+#     ruby test/test_countries.rb
 
 
-require 'helper'
+require_relative 'helper'
 
-class TestCountries < MiniTest::Test
+class TestCountries < Minitest::Test
 
   def test_read_countries
-    recs = SportDb::Import::CountryReader.read( "#{Fifa.data_dir}/countries.txt" )
+    recs = Fifa::CountryReader.read( "#{Fifa.data_dir}/countries.txt" )
     ## pp recs
 
     assert_equal [{ key: 'bi', code: 'BDI', name: 'Burundi',   tags: ['fifa','caf','cecafa']},
@@ -20,7 +18,7 @@ class TestCountries < MiniTest::Test
 
 
   def test_countries
-    pp Fifa.countries
+    pp Fifa.world.countries
 
     eng = Fifa['ENG']
     assert_equal eng, Fifa['eng']

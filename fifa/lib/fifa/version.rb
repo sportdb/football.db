@@ -1,12 +1,8 @@
-# encoding: utf-8
 
-
-## note: use class for now - change to module - possible? - why? why not?
-
-class Fifa
-  MAJOR = 2020    ## todo: namespace inside version or something - why? why not??
+module Fifa
+  MAJOR = 2024    ## todo: namespace inside version or something - why? why not??
   MINOR = 9
-  PATCH = 15
+  PATCH = 21
   VERSION = [MAJOR,MINOR,PATCH].join('.')
 
   def self.version
@@ -14,7 +10,7 @@ class Fifa
   end
 
   def self.banner
-    "fifa/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "fifa/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}] in (#{root})"
   end
 
   def self.root
@@ -24,4 +20,4 @@ class Fifa
   def self.data_dir  ## rename to config_dir - why? why not?
     "#{root}/config"
   end
-end   # class Fifa
+end   # module Fifa
