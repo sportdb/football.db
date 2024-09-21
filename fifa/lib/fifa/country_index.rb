@@ -5,6 +5,14 @@ module Fifa
 ## built-in countries for (quick starter) auto-add
 class CountryIndex
 
+  def self.read( path )
+    world = new
+    recs = CountryReader.read( path )
+    world.add( recs )
+    world
+  end
+
+
   def initialize( recs=nil )
     @countries  = []
     @by_code    = {}  ## countries by codes (fifa, internet, etc)
@@ -45,9 +53,6 @@ class CountryIndex
 
 
   def _add( recs )
-    ###########################################
-    ## auto-fill countries
-    ## pp recs
     recs.each do |rec|
       key = rec.code.downcase    ## add codes lookups - key, fifa, ...
       if @by_code[ key ]

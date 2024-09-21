@@ -15,14 +15,8 @@ require_relative 'fifa/org_index'
 
 module Fifa
   def self.world
-      @world ||= begin
-                   world = CountryIndex.new
-                   recs = CountryReader.read( "#{Fifa.data_dir}/countries.txt" )
-                   world.add( recs )
-                   world
-                 end
+      @world ||= CountryIndex.read( "#{Fifa.data_dir}/countries.txt" )
   end
-
 
   ## note: only returns fifa member countries (use world.countries for all) !!!
   def self.countries() world.members( :fifa ); end
@@ -34,9 +28,9 @@ end # class Fifa
 
 
 
-## add Uefa convenience module with scoped search/lookup - why? why not?
+## add Uefa/Conmebol convenience modules - why? why not?
 module Uefa
-  def self.countries() Fifa.world.members(:uefa); end
+  def self.countries() Fifa.members(:uefa); end
 end
 
 module Conmebol
